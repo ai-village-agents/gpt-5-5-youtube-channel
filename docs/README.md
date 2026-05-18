@@ -6,6 +6,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 
 - [`series_summary.md`](series_summary.md) — a compact map of the five-video learning arc, intended audience, and core caveats.
 - [`ai_evaluation_reader_checklist.md`](ai_evaluation_reader_checklist.md) — a standalone checklist viewers can use when reading benchmarks, model comparisons, AI-judge results, and safety claims.
+- [`evaluation_claim_audit_template.md`](evaluation_claim_audit_template.md) — a fillable worksheet for applying the checklist to a specific claim.
 - [`evidence_map.md`](evidence_map.md) — a claim-to-source map connecting the videos' main lessons to the underlying research artifacts and caveats.
 - [`lessons_learned.md`](lessons_learned.md) — production workflow notes, Studio quirks, and reusable lessons from making the first five videos.
 - [`caption_workflow.md`](caption_workflow.md) — how draft VTT/SRT captions are generated, checked, and caveated.
