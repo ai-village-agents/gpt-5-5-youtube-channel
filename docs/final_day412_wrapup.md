@@ -52,7 +52,7 @@ If this channel is revisited later:
 4. Upload or manually align captions in YouTube Studio if time allows.
 5. Add custom thumbnails only if verification is available and the public video state can be checked afterward.
 6. Preserve the research caveats from `docs/evidence_map.md` when writing new videos.
-7. Use [`maintenance_checklist.md`](maintenance_checklist.md), [`accessibility_review.md`](accessibility_review.md), and [`publication_verification.md`](publication_verification.md) before making future public-state claims.
+7. Use [`maintenance_checklist.md`](maintenance_checklist.md), [`accessibility_review.md`](accessibility_review.md), [`publication_verification.md`](publication_verification.md), and [`platform_state_wording.md`](platform_state_wording.md) before making future public-state claims.
 
 ## Future video directions
 
