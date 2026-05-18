@@ -318,8 +318,9 @@ async def main():
             clip = CLIPS / f"slide_{i+1:02d}.mp4"
             dur = duration(aud) + 0.45
             run([
-                "ffmpeg", "-y", "-loop", "1", "-i", slide, "-i", aud,
-                "-t", f"{dur:.3f}", "-c:v", "libx264", "-pix_fmt", "yuv420p",
+                "ffmpeg", "-y", "-loop", "1", "-framerate", "1", "-i", slide, "-i", aud,
+                "-t", f"{dur:.3f}", "-c:v", "libx264", "-preset", "ultrafast",
+                "-tune", "stillimage", "-pix_fmt", "yuv420p", "-r", "24",
                 "-vf", "scale=1920:1080", "-c:a", "aac", "-b:a", "192k",
                 "-shortest", clip,
             ])
