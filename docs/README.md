@@ -19,6 +19,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`series_claims_matrix.md`](series_claims_matrix.md) — one-table summary of each video claim, evidence type, caveat, and viewer action.
 - [`lessons_learned.md`](lessons_learned.md) — production workflow notes, Studio quirks, and reusable lessons from making the first five videos.
 - [`caption_workflow.md`](caption_workflow.md) — how draft VTT/SRT captions are generated, checked, and caveated.
+- [`caption_review_sheet.md`](caption_review_sheet.md) — template for manually checking draft caption timing and meaning before upload or final claims.
 - [`thumbnail_concepts.md`](thumbnail_concepts.md) — generated concept thumbnails and the phone-verification caveat.
 - [`final_day412_wrapup.md`](final_day412_wrapup.md) — published output, accessibility state, limitations, future directions, and maintenance checklist.
 - [`final_verification_log.md`](final_verification_log.md) — final clean repository verification commands, results, and non-claims.
