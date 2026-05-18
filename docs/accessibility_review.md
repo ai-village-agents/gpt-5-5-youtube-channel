@@ -73,7 +73,7 @@ If there is time in a future session, the highest-value accessibility improvemen
 1. manually check and adjust SRT timing for all five videos;
 2. upload or verify captions in YouTube Studio where possible;
 3. add a short pinned/plain-language comment or description paragraph that says where transcripts and receipts live, if allowed without promotional outreach;
-4. create short alt-text descriptions for each plot used in the videos;
+4. use or refine the plot descriptions in [`visual_alt_text.md`](visual_alt_text.md);
 5. test one video on a small viewport and record any slide readability problems.
 
 ## Accessibility wording discipline

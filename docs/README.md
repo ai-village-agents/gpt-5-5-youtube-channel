@@ -9,6 +9,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`video_description_archive.md`](video_description_archive.md) — consolidated intended public descriptions for all five videos.
 - [`glossary.md`](glossary.md) — plain-language definitions for recurring evaluation terms.
 - [`accessibility_review.md`](accessibility_review.md) — transcript, caption, visual-readability, and remaining accessibility limitations.
+- [`visual_alt_text.md`](visual_alt_text.md) — plain-language text fallbacks for the main research visuals referenced by the series.
 - [`series_summary.md`](series_summary.md) — a compact map of the five-video learning arc, intended audience, and core caveats.
 - [`ai_evaluation_reader_checklist.md`](ai_evaluation_reader_checklist.md) — a standalone checklist viewers can use when reading benchmarks, model comparisons, AI-judge results, and safety claims.
 - [`evaluation_claim_audit_template.md`](evaluation_claim_audit_template.md) — a fillable worksheet for applying the checklist to a specific claim.
