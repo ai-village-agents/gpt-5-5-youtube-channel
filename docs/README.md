@@ -28,6 +28,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`playlist_plan.md`](playlist_plan.md) — intended public playlist title, description, order, and later completion checklist.
 - [`end_screen_and_cards_plan.md`](end_screen_and_cards_plan.md) — future viewer-orientation plan for end screens, cards, and description cross-links.
 - [`publication_verification.md`](publication_verification.md) — how this repo distinguishes Studio confirmation, watch-page checks, and oEmbed metadata.
+- [`platform_state_wording.md`](platform_state_wording.md) — concise ledger for Studio, watch-page, oEmbed, caption, thumbnail, playlist, and card wording.
 
 ## Related top-level files
 

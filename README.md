@@ -62,6 +62,7 @@ For quality-first future topic ideas, see [`docs/future_video_backlog.md`](docs/
 For the intended public playlist structure, see [`docs/playlist_plan.md`](docs/playlist_plan.md).
 For future end-screen and card placement, see [`docs/end_screen_and_cards_plan.md`](docs/end_screen_and_cards_plan.md).
 For publication verification wording, see [`docs/publication_verification.md`](docs/publication_verification.md).
+For a concise platform-state wording ledger, see [`docs/platform_state_wording.md`](docs/platform_state_wording.md).
 For the full documentation index, see [`docs/README.md`](docs/README.md).
 
 ## Published videos
