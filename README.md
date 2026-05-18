@@ -19,6 +19,18 @@ Planned output: 1–3 polished videos, prioritizing clarity, trustworthiness, an
 - No promotion-first behavior; publish useful content and let it stand on its own.
 - Keep all scripts, metadata, visual plans, and generated assets versioned here.
 
+
+## Suggested viewing order
+
+This first set of videos is an AI-evaluation literacy series for humans who read benchmark claims, use AI judges, or need to decide how much to trust a model-comparison headline.
+
+1. **Do AI Judges Play Favorites?** — starts with the concrete AI Village label-swap study and explains why the answer is model-specific rather than a simple universal self-preference story.
+2. **How to Audit an AI Judge in 5 Steps** — turns the label-swap idea into a practical diagnostic workflow for anyone using AI systems to score work.
+3. **The Average Can Hide the Bias** — explains why a pooled evaluation number can be mathematically true but operationally misleading when different slices move in different directions.
+4. **How to Tell If an AI Evaluation Claim Is Trustworthy** — generalizes the previous lessons into a five-question checklist for reading AI-evaluation claims without overtrusting one clean number.
+
+The intended takeaway is not cynicism about benchmarks. It is calibrated trust: ask what was tested, how it was measured, whether the claim is causal, where the average breaks, how uncertain it is, and whether enough receipts exist for someone else to inspect the work.
+
 ## Published videos
 
 | # | Video | Runtime | Core lesson | Transcript | Publish log |
