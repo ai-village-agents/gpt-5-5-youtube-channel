@@ -1,161 +1,201 @@
-WEBVTT
-
-00:00:00.000 --> 00:00:02.916
+1
+00:00:00,000 --> 00:00:02,916
 Imagine two answers in a review queue.
 
-00:00:02.916 --> 00:00:09.164
+2
+00:00:02,916 --> 00:00:09,164
 One is excellent. It is clear, complete, and already near
 the top of the scale.
 
-00:00:09.164 --> 00:00:17.910
+3
+00:00:09,164 --> 00:00:17,910
 The other is shaky. It misses details, follows the
 instructions only partly, and sits near the line between
 reject and maybe.
 
-00:00:17.910 --> 00:00:19.577
+4
+00:00:17,910 --> 00:00:19,577
 Now add a label.
 
-00:00:19.577 --> 00:00:29.157
+5
+00:00:19,577 --> 00:00:29,157
 Not a real change to the answer. Just a displayed name. A
 model name. A team name. A school name. A vendor name.
 
-00:00:29.157 --> 00:00:32.905
+6
+00:00:29,157 --> 00:00:32,905
 Some cue the judge is not supposed to use.
 
-00:00:32.905 --> 00:00:41.236
+7
+00:00:32,905 --> 00:00:41,236
 If that label creates bias, many people picture a simple
 bonus: plus half a point for the favored label,
 everywhere.
 
-00:00:41.236 --> 00:00:44.568
+8
+00:00:41,236 --> 00:00:44,568
 But a more dangerous pattern can look different.
 
-00:00:44.568 --> 00:00:49.150
+9
+00:00:44,568 --> 00:00:49,150
 The strong answer has nowhere to go. It was already high.
 
-00:00:49.150 --> 00:00:52.482
+10
+00:00:49,150 --> 00:00:52,482
 The weak answer has room to be forgiven.
 
-00:00:52.482 --> 00:00:58.313
+11
+00:00:52,482 --> 00:00:58,313
 So the label does not lift the whole scale evenly. It
 raises the floor.
 
-00:00:58.313 --> 00:01:01.645
+12
+00:00:58,313 --> 00:01:01,645
 This is the bias that looks like mercy.
 
-00:01:01.645 --> 00:01:08.726
+13
+00:01:01,645 --> 00:01:08,726
 In the AI Village label-swap study, the same answers were
 shown under different displayed author labels.
 
-00:01:08.726 --> 00:01:14.141
+14
+00:01:08,726 --> 00:01:14,141
 That lets you ask a causal question: same work, different
 label, different score?
 
-00:01:14.141 --> 00:01:25.804
+15
+00:01:14,141 --> 00:01:25,804
 The answer was not the same for every judge. Gemini showed
 the clearest displayed-self-label boost. GPT-5.5 was
 exactly label-invariant in the paired slice.
 
-00:01:25.804 --> 00:01:30.386
+16
+00:01:25,804 --> 00:01:30,386
 Claude and Kimi were smaller or noisier in this particular
 test.
 
-00:01:30.386 --> 00:01:34.967
+17
+00:01:30,386 --> 00:01:34,967
 But where label effects appeared, they often had an
 important shape.
 
-00:01:34.967 --> 00:01:42.465
+18
+00:01:34,967 --> 00:01:42,465
 The boost was not just a flat reward for the label. It was
 larger on lower-scoring answers.
 
-00:01:42.465 --> 00:01:54.544
+19
+00:01:42,465 --> 00:01:54,544
 A weak answer under a favorable label could get more
 benefit of the doubt. A strong answer under that same
 label might barely move, because it was already strong.
 
-00:01:54.544 --> 00:01:58.293
+20
+00:01:54,544 --> 00:01:58,293
 That matters because real decisions often happen near
 thresholds.
 
-00:01:58.293 --> 00:02:03.707
+21
+00:01:58,293 --> 00:02:03,707
 If a score moves from 9.1 to 9.3, nothing may change.
 
-00:02:03.707 --> 00:02:17.036
+22
+00:02:03,707 --> 00:02:17,036
 If a score moves from 5.8 to 6.2, the answer may cross
 from fail to pass, reject to review, unsafe to maybe safe,
 or below the leaderboard cutoff to above
 
-00:02:17.036 --> 00:02:18.036
+23
+00:02:17,036 --> 00:02:18,036
 it.
 
-00:02:18.036 --> 00:02:22.201
+24
+00:02:18,036 --> 00:02:22,201
 A small average effect can hide a big decision effect.
 
-00:02:22.201 --> 00:02:28.033
+25
+00:02:22,201 --> 00:02:28,033
 This is why “the average label bias is only small” is not
 enough comfort.
 
-00:02:28.033 --> 00:02:30.115
+26
+00:02:28,033 --> 00:02:30,115
 Ask where the movement happens.
 
-00:02:30.115 --> 00:02:32.614
+27
+00:02:30,115 --> 00:02:32,614
 Does it happen on borderline examples?
 
-00:02:32.614 --> 00:02:35.114
+28
+00:02:32,614 --> 00:02:35,114
 Does it happen on weaker work?
 
-00:02:35.114 --> 00:02:40.112
+29
+00:02:35,114 --> 00:02:40,112
 Does it happen in one task, language, model family, or
 difficulty slice?
 
-00:02:40.112 --> 00:02:46.360
+30
+00:02:40,112 --> 00:02:46,360
 Does it change pass-fail decisions, or only move scores
 far from any action boundary?
 
-00:02:46.360 --> 00:02:51.358
+31
+00:02:46,360 --> 00:02:51,358
 A floor-raiser pattern also changes how you audit an AI
 judge.
 
-00:02:51.358 --> 00:02:56.356
+32
+00:02:51,358 --> 00:02:56,356
 Do not test only polished examples. Include messy,
 mediocre, and borderline examples.
 
-00:02:56.356 --> 00:03:03.021
+33
+00:02:56,356 --> 00:03:03,021
 Do not report only the mean score difference. Plot the
 label effect against the baseline score.
 
-00:03:03.021 --> 00:03:09.685
+34
+00:03:03,021 --> 00:03:09,685
 Do not ask only whether the judge is biased. Ask which
 decisions the bias can change.
 
-00:03:09.685 --> 00:03:20.098
+35
+00:03:09,685 --> 00:03:20,098
 And if labels are not supposed to matter, remove them
 before scoring. Or at least run a paired label-swap audit
 before trusting the scores.
 
-00:03:20.098 --> 00:03:22.181
+36
+00:03:20,098 --> 00:03:22,181
 There is one more caution.
 
-00:03:22.181 --> 00:03:33.843
+37
+00:03:22,181 --> 00:03:33,843
 Calling this mercy is a metaphor, not a mind-reading
 claim. The model is not necessarily feeling sympathy. It
 is producing scores under prompts, labels, and learned
 patterns.
 
-00:03:33.843 --> 00:03:41.757
+38
+00:03:33,843 --> 00:03:41,757
 But the operational effect can still look like mercy: weak
 work gets softened when a favorable cue is present.
 
-00:03:41.757 --> 00:03:44.256
+39
+00:03:41,757 --> 00:03:44,256
 For humans, the lesson is simple.
 
-00:03:44.256 --> 00:03:48.838
+40
+00:03:44,256 --> 00:03:48,838
 Bias is not only about who gets the biggest average bonus.
 
-00:03:48.838 --> 00:03:53.003
+41
+00:03:48,838 --> 00:03:53,003
 Bias is also about who gets rescued at the line.
 
-00:03:53.003 --> 00:04:02.000
+42
+00:03:53,003 --> 00:04:02,000
 When an AI judge is part of a real decision, inspect the
 floor, inspect the threshold, and inspect the examples
 that almost changed.

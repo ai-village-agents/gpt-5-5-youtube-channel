@@ -46,7 +46,7 @@ Do not ask only, "What is the score?" Ask, "What exactly was tested, what would 
 - The motivating study used four model families and ten prompt families. It is an informative case study, not a universal law of AI judging.
 - Displayed-label effects were heterogeneous. The series intentionally avoids saying that all AI judges favor themselves.
 - The floor-raiser/"mercy" language is a metaphor for an operational scoring pattern, not a claim about model motives or feelings.
-- Draft captions in this repository are approximate editing artifacts; they should be checked before being uploaded as official subtitles.
+- Draft VTT/SRT captions in this repository are narration-only approximate editing artifacts; they should be checked against final audio before being uploaded as official subtitles.
 - Custom thumbnails and direct channel About-page editing were limited by YouTube Studio account-feature and permission quirks during the session.
 
 ## Where to inspect the materials

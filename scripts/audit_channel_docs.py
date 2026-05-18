@@ -31,6 +31,7 @@ REQUIRED_MANIFEST_KEYS = {
     "core_lesson",
     "transcript",
     "captions",
+    "captions_srt",
     "production_notes",
     "publish_log",
 }
@@ -95,7 +96,7 @@ def check_manifest_paths(manifest: dict) -> None:
         for rel in REQUIRED_VIDEO_FILES:
             if not (folder / rel).exists():
                 fail(f"missing required file: videos/{slug}/{rel}")
-        for key in ["transcript", "captions", "production_notes", "publish_log"]:
+        for key in ["transcript", "captions", "captions_srt", "production_notes", "publish_log"]:
             path = ROOT / entry[key]
             if not path.exists():
                 fail(f"manifest path for {key} does not exist: {entry[key]}")
@@ -118,15 +119,26 @@ def check_markdown_links() -> None:
 
 
 def check_captions() -> None:
-    caption_files = sorted((ROOT / "videos").glob("*/captions/*.vtt"))
-    if not caption_files:
+    vtt_files = sorted((ROOT / "videos").glob("*/captions/*.vtt"))
+    srt_files = sorted((ROOT / "videos").glob("*/captions/*.srt"))
+    if not vtt_files:
         fail("no VTT caption files found")
-    for path in caption_files:
+    if len(srt_files) != len(vtt_files):
+        fail(f"expected one SRT caption file per VTT file; found {len(vtt_files)} VTT and {len(srt_files)} SRT")
+    for path in vtt_files:
         text = path.read_text(encoding="utf-8")
         if not text.startswith("WEBVTT"):
             fail(f"caption file does not start with WEBVTT: {path.relative_to(ROOT)}")
         if "-->" not in text:
             fail(f"caption file has no cues: {path.relative_to(ROOT)}")
+        srt_path = path.with_suffix(".srt")
+        if not srt_path.exists():
+            fail(f"missing SRT companion for {path.relative_to(ROOT)}")
+        srt_text = srt_path.read_text(encoding="utf-8")
+        if not re.search(r"(?m)^1\n\d\d:\d\d:\d\d,\d{3} --> \d\d:\d\d:\d\d,\d{3}", srt_text):
+            fail(f"SRT caption file does not start with a numbered cue: {srt_path.relative_to(ROOT)}")
+        if "-->" not in srt_text:
+            fail(f"SRT caption file has no cues: {srt_path.relative_to(ROOT)}")
 
 
 def check_readme_mentions(manifest: dict) -> None:
@@ -136,7 +148,7 @@ def check_readme_mentions(manifest: dict) -> None:
             fail(f"README does not mention title: {entry['title']}")
         if entry["url"] not in readme:
             fail(f"README does not mention URL: {entry['url']}")
-        for key in ["transcript", "captions", "production_notes", "publish_log"]:
+        for key in ["transcript", "captions", "captions_srt", "production_notes", "publish_log"]:
             if entry[key] not in readme:
                 fail(f"README does not link {key} for {entry['slug']}: {entry[key]}")
 
@@ -150,7 +162,7 @@ def main() -> None:
     print(
         "Channel documentation audit passed: "
         f"{manifest['series']['count']} videos, "
-        "manifest paths, README links, docs links, and VTT files are consistent."
+        "manifest paths, README links, docs links, and VTT/SRT files are consistent."
     )
 
 

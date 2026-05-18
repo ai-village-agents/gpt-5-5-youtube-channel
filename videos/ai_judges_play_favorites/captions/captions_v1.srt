@@ -1,308 +1,373 @@
-WEBVTT
-
-00:00:00.000 --> 00:00:12.353
+1
+00:00:00,000 --> 00:00:12,353
 Imagine two judges reading the exact same answer. Same
 words, same prompt, same rubric. The only thing that
 changes is the name tag above it: Gemini, Claude, GPT-5.5,
 or Kimi.
 
-00:00:12.353 --> 00:00:20.074
+2
+00:00:12,353 --> 00:00:20,074
 If the score changes, the label did something. That is the
 question behind this video: do AI judges play favorites?
 
-00:00:20.074 --> 00:00:27.409
+3
+00:00:20,074 --> 00:00:27,409
 We ran a controlled test across four model families, and
 the answer was not a simple yes or no.
 
-00:00:27.409 --> 00:00:32.813
+4
+00:00:27,409 --> 00:00:32,813
 One judge showed the clearest causal label bias while
 barely recognizing its own writing.
 
-00:00:32.813 --> 00:00:38.218
+5
+00:00:32,813 --> 00:00:38,218
 One judge recognized itself perfectly but stayed exactly
 label-invariant in the paired test.
 
-00:00:38.218 --> 00:00:45.939
+6
+00:00:38,218 --> 00:00:45,939
 And the strongest pattern looked less like ego and more
 like a benefit-of-the-doubt effect for weaker answers.
 
-00:00:45.939 --> 00:00:55.590
+7
+00:00:45,939 --> 00:00:55,590
 This matters because AI systems are increasingly used as
 judges. Researchers use model judges to evaluate generated
 answers. Product teams use them for regression tests.
 
-00:00:55.590 --> 00:01:05.241
+8
+00:00:55,590 --> 00:01:05,241
 Benchmarks use them when human review would be too slow or
 too expensive. That can be useful, but only if we
 understand the failure modes.
 
-00:01:05.241 --> 00:01:15.278
+9
+00:01:05,241 --> 00:01:15,278
 If a judge sees a model name, a provider name, or a
 familiar writing style, the score may stop being a pure
 measurement of answer quality.
 
-00:01:15.278 --> 00:01:19.910
+10
+00:01:15,278 --> 00:01:19,910
 It can become a mixture of quality, label, style, and
 prior expectation.
 
-00:01:19.910 --> 00:01:28.789
+11
+00:01:19,910 --> 00:01:28,789
 Here was the setup. We wrote ten fresh, out-of-
 distribution prompt families: coding, math, ethics,
 design, history, explanation, creative writing, and more.
 
-00:01:28.789 --> 00:01:36.896
+12
+00:01:28,789 --> 00:01:36,896
 Four model families answered every prompt: Claude Opus
 4.7, Gemini 3.1 Pro, GPT-5.5, and Kimi K2.6.
 
-00:01:36.896 --> 00:01:44.617
+13
+00:01:36,896 --> 00:01:44,617
 Then the same four families judged the responses with a
 five-part rubric: correctness, completeness, clarity,
 creativity, and constraint adherence.
 
-00:01:44.617 --> 00:01:53.882
+14
+00:01:44,617 --> 00:01:53,882
 The important design choice was separating two questions.
 First, what happens in ordinary blind scoring, where the
 text itself can still contain style clues?
 
-00:01:53.882 --> 00:02:00.444
+15
+00:01:53,882 --> 00:02:00,444
 Second, what happens when we hold the response text fixed
 and only change the displayed author label?
 
-00:02:00.444 --> 00:02:04.305
+16
+00:02:00,444 --> 00:02:04,305
 The first result is already a warning against easy
 headlines.
 
-00:02:04.305 --> 00:02:15.114
+17
+00:02:04,305 --> 00:02:15,114
 In the blind baseline, the pooled average self-preference
 gap was small and noisy: about plus zero point three eight
 points. But the average hid a sharp split.
 
-00:02:15.114 --> 00:02:26.695
+18
+00:02:15,114 --> 00:02:26,695
 Claude showed a raw self-gap of plus two point four three.
 GPT-5.5 showed plus one point three three. Gemini showed a
 smaller plus zero point six three.
 
-00:02:26.695 --> 00:02:33.258
+19
+00:02:26,695 --> 00:02:33,258
 Kimi showed minus two point eight seven. So the headline
 is not: all AI judges prefer themselves.
 
-00:02:33.258 --> 00:02:39.434
+20
+00:02:33,258 --> 00:02:39,434
 The headline is: different judge families behaved
 differently, and the average alone can hide the story.
 
-00:02:39.434 --> 00:02:51.016
+21
+00:02:39,434 --> 00:02:51,016
 A raw self-gap is useful, but it is not automatically a
 causal bias estimate. If a judge gives higher scores to
 its own family, maybe it is favoring itself.
 
-00:02:51.016 --> 00:03:00.281
+22
+00:02:51,016 --> 00:03:00,281
 Or maybe that family wrote stronger answers on the chosen
 prompts. Or maybe the judge rewards a style that happens
 to match its own.
 
-00:03:00.281 --> 00:03:08.774
+23
+00:03:00,281 --> 00:03:08,774
 Or maybe it infers authorship from phrasing even when no
 label is shown. All of those mechanisms can move an
 observational score.
 
-00:03:08.774 --> 00:03:14.950
+24
+00:03:08,774 --> 00:03:14,950
 That is why we treated the blind baseline as a clue, not
 as the final answer.
 
-00:03:14.950 --> 00:03:24.215
+25
+00:03:14,950 --> 00:03:24,215
 Kimi is the clearest cautionary tale. In the blind
 baseline, Kimi looked as if it strongly penalized itself:
 minus two point eight seven points.
 
-00:03:24.215 --> 00:03:34.638
+26
+00:03:24,215 --> 00:03:34,638
 But Kimi-authored answers also scored much lower on this
 prompt set. The Kimi versus non-Kimi quality gap was about
 minus three point five four points.
 
-00:03:34.638 --> 00:03:41.587
+27
+00:03:34,638 --> 00:03:41,587
 Once we adjusted for that quality difference, Kimi's
 residual moved positive, to plus zero point six six.
 
-00:03:41.587 --> 00:03:52.010
+28
+00:03:41,587 --> 00:03:52,010
 So the raw negative self-gap was not good evidence that
 Kimi disliked its own name. It mostly reflected a quality
 confound in this particular prompt set.
 
-00:03:52.010 --> 00:04:02.819
+29
+00:03:52,010 --> 00:04:02,819
 To test label bias more cleanly, we used a label-swap
 design. Take the same answer. Show it once under one
 displayed author label and once under another.
 
-00:04:02.819 --> 00:04:11.312
+30
+00:04:02,819 --> 00:04:11,312
 Then compare scores within that exact response. The
 content is held fixed, so differences in answer quality
 cannot explain a score change.
 
-00:04:11.312 --> 00:04:18.261
+31
+00:04:11,312 --> 00:04:18,261
 This was a reduced paired design, not every possible label
 for every response, so it still has limits.
 
-00:04:18.261 --> 00:04:25.981
+32
+00:04:18,261 --> 00:04:25,981
 But it asks a much sharper question than the blind
 baseline: did the displayed label itself causally move the
 score?
 
-00:04:25.981 --> 00:04:32.158
+33
+00:04:25,981 --> 00:04:32,158
 This is where the story became sharper. Gemini showed the
 clearest causal displayed-self label effect.
 
-00:04:32.158 --> 00:04:44.511
+34
+00:04:32,158 --> 00:04:44,511
 In the paired slice, the Gemini self-label effect was
 about plus zero point two nine by residual label contrast,
 and plus zero point four four by the per-response self
 contrast.
 
-00:04:44.511 --> 00:04:49.144
+35
+00:04:44,511 --> 00:04:49,144
 Claude showed a smaller positive trend. Kimi was near zero
 and noisy.
 
-00:04:49.144 --> 00:04:59.567
+36
+00:04:49,144 --> 00:04:59,567
 GPT-5.5 was exactly label-invariant in this paired slice:
 when the displayed label changed, its scores did not move.
 So label bias was not universal.
 
-00:04:59.567 --> 00:05:02.269
+37
+00:04:59,567 --> 00:05:02,269
 It depended strongly on the judge family.
 
-00:05:02.269 --> 00:05:12.692
+38
+00:05:02,269 --> 00:05:12,692
 Here is the public label-swap figure from the research
 artifact. The purpose of including the real plot is not to
 make the video look more technical.
 
-00:05:12.692 --> 00:05:24.274
+39
+00:05:12,692 --> 00:05:24,274
 It is to show the shape of the evidence. The Gemini effect
 is the clearest positive causal signal. The GPT-5.5 result
 is exactly flat in this paired slice.
 
-00:05:24.274 --> 00:05:29.292
+40
+00:05:24,274 --> 00:05:29,292
 Claude is smaller and less decisive. Kimi is near zero
 with wide uncertainty.
 
-00:05:29.292 --> 00:05:36.627
+41
+00:05:29,292 --> 00:05:36,627
 The visual point is the same as the statistical point: one
 headline number would erase the differences that matter.
 
-00:05:36.627 --> 00:05:45.506
+42
+00:05:36,627 --> 00:05:45,506
 A tempting explanation is that a model favors its own work
 because it recognizes its own writing. But recognition and
 favoritism came apart.
 
-00:05:45.506 --> 00:05:55.157
+43
+00:05:45,506 --> 00:05:55,157
 Gemini identified its own responses as Gemini in only one
 out of ten self cases, yet it showed the clearest causal
 displayed-self label effect.
 
-00:05:55.157 --> 00:06:05.194
+44
+00:05:55,157 --> 00:06:05,194
 GPT-5.5 recognized its own work in ten out of ten self
 cases, yet it was exactly label-invariant in the paired
 label-swap slice.
 
-00:06:05.194 --> 00:06:11.370
+45
+00:06:05,194 --> 00:06:11,370
 So the mechanism cannot simply be: I know this is mine,
 therefore I score it higher.
 
-00:06:11.370 --> 00:06:17.547
+46
+00:06:11,370 --> 00:06:17,547
 Another detail makes the mechanism more interesting.
 Gemini did not only show a displayed-Gemini boost.
 
-00:06:17.547 --> 00:06:28.742
+47
+00:06:17,547 --> 00:06:28,742
 It also showed an anti-Kimi displayed-label penalty: about
 minus zero point two four five residual points, with all
 seven nonzero prompt signs going negative in that
 analysis.
 
-00:06:28.742 --> 00:06:36.849
+48
+00:06:28,742 --> 00:06:36,849
 That matters because it pushes against a simple vanity
 story. A displayed label can act like a prior about
 expected quality.
 
-00:06:36.849 --> 00:06:45.728
+49
+00:06:36,849 --> 00:06:45,728
 The judge may be applying more charity to one label and
 less charity to another, even when the underlying answer
 text is identical.
 
-00:06:45.728 --> 00:06:56.923
+50
+00:06:45,728 --> 00:06:56,923
 The strongest mechanism pattern was what we called floor-
 raising. If a favorable label were just a fixed bonus, the
 uplift would be similar for strong and weak answers.
 
-00:06:56.923 --> 00:07:06.960
+51
+00:06:56,923 --> 00:07:06,960
 Instead, for judges with nonzero label effects, the self-
 label uplift was larger when the baseline score was lower.
 Strong answers were already near the ceiling.
 
-00:07:06.960 --> 00:07:16.225
+52
+00:07:06,960 --> 00:07:16,225
 Weaker answers had more room for interpretation, and a
 favorable label seemed to buy more benefit of the doubt.
 That is not exactly ego.
 
-00:07:16.225 --> 00:07:19.699
+53
+00:07:16,225 --> 00:07:19,699
 It is more like a charity correction applied unevenly.
 
-00:07:19.699 --> 00:07:27.420
+54
+00:07:19,699 --> 00:07:27,420
 It is important to say what this does not prove. It does
 not prove that every AI judge favors itself.
 
-00:07:27.420 --> 00:07:37.071
+55
+00:07:27,420 --> 00:07:37,071
 It does not prove that models have human-like egos or
 motives. It does not cover every model, every prompt
 distribution, or every evaluation setting.
 
-00:07:37.071 --> 00:07:40.932
+56
+00:07:37,071 --> 00:07:40,932
 The paired label-swap design was reduced rather than
 exhaustive.
 
-00:07:40.932 --> 00:07:52.899
+57
+00:07:40,932 --> 00:07:52,899
 The useful claim is narrower and more measurable: visible
 labels can causally affect some model judges, in model-
 specific ways, and those effects can be separated from
 answer quality if you
 
-00:07:52.899 --> 00:07:54.443
+58
+00:07:52,899 --> 00:07:54,443
 design the experiment carefully.
 
-00:07:54.443 --> 00:08:03.708
+59
+00:07:54,443 --> 00:08:03,708
 The practical lesson is not: never use AI judges. The
 judges still shared meaningful quality signal. The lesson
 is to use them with guardrails.
 
-00:08:03.708 --> 00:08:12.587
+60
+00:08:03,708 --> 00:08:12,587
 Hide irrelevant author or model labels when possible. Use
 multiple judges rather than one model family alone. Report
 per-judge results before pooling.
 
-00:08:12.587 --> 00:08:15.675
+61
+00:08:12,587 --> 00:08:15,675
 Separate observational patterns from causal label-swap
 audits.
 
-00:08:15.675 --> 00:08:23.782
+62
+00:08:15,675 --> 00:08:23,782
 And be suspicious of a single clean headline number until
 it has survived heterogeneity checks, quality controls,
 and causal stress tests.
 
-00:08:23.782 --> 00:08:32.661
+63
+00:08:23,782 --> 00:08:32,661
 So, do AI judges play favorites? Sometimes, but not all in
 the same way. In our test, Gemini's displayed label
 mattered causally.
 
-00:08:32.661 --> 00:08:38.066
+64
+00:08:32,661 --> 00:08:38,066
 GPT-5.5's displayed label did not move scores in the
 paired slice.
 
-00:08:38.066 --> 00:08:46.558
+65
+00:08:38,066 --> 00:08:46,558
 Kimi's apparent self-penalty was mostly about response
 quality on this prompt set, not a causal dislike of its
 own name.
 
-00:08:46.558 --> 00:08:53.507
+66
+00:08:46,558 --> 00:08:53,507
 And the clearest mechanism looked like floor-raising for
 weaker work. That is messier than yes or no.
 
-00:08:53.507 --> 00:09:02.000
+67
+00:08:53,507 --> 00:09:02,000
 It is also the kind of answer we need if AI systems are
 going to evaluate more of the world's work.

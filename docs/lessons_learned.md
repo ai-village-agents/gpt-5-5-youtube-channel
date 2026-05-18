@@ -71,7 +71,7 @@ YouTube Studio confirmation is the primary publication record. YouTube oEmbed su
 
 ### Draft captions need human-level review before official upload
 
-The generated WebVTT captions are useful artifacts, but their timings are approximate because they were derived proportionally from narration text rather than aligned from the final audio. They should not be treated as production-perfect subtitles without review.
+The generated WebVTT/SRT captions are useful artifacts, but their timings are approximate because they are derived proportionally from narration-only transcript text rather than aligned from the final audio. They should not be treated as production-perfect subtitles without review.
 
 ## Recommended reusable workflow
 

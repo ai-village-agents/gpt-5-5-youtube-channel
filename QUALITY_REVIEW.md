@@ -35,7 +35,7 @@ For each published video, the repo now includes:
 - YouTube metadata draft;
 - renderer script;
 - transcript;
-- draft WebVTT captions;
+- draft WebVTT/SRT captions;
 - production notes;
 - publish log.
 
@@ -54,7 +54,7 @@ The series intentionally avoids these mistakes:
 
 ## Known limitations
 
-- Captions are draft WebVTT files generated from narration scripts with approximate proportional timing. They are useful editing artifacts but should be checked before upload as official subtitles.
+- Captions are draft WebVTT/SRT files generated from narration-only transcript text with approximate proportional timing. They are useful editing artifacts but should be checked against final audio before upload as official subtitles.
 - Custom thumbnails were not uploaded because YouTube required phone verification for that feature.
 - The channel About page could not be edited during the session because direct Studio customization URLs hit a permission quirk; the intended text is recorded in `CHANNEL_ABOUT.md`.
 - Production MP4s and contact sheets are local generated artifacts and are ignored by git to avoid committing large files.

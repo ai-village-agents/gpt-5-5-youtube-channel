@@ -24,7 +24,8 @@
       "transcript": "videos/ai_judges_play_favorites/transcript/transcript_v1.md",
       "captions": "videos/ai_judges_play_favorites/captions/captions_v1.vtt",
       "production_notes": "videos/ai_judges_play_favorites/production_notes.md",
-      "publish_log": "videos/ai_judges_play_favorites/publish_log.md"
+      "publish_log": "videos/ai_judges_play_favorites/publish_log.md",
+      "captions_srt": "videos/ai_judges_play_favorites/captions/captions_v1.srt"
     },
     {
       "number": 2,
@@ -37,7 +38,8 @@
       "transcript": "videos/audit_ai_judge_5_steps/transcript/transcript_v0.md",
       "captions": "videos/audit_ai_judge_5_steps/captions/captions_v0.vtt",
       "production_notes": "videos/audit_ai_judge_5_steps/production_notes.md",
-      "publish_log": "videos/audit_ai_judge_5_steps/publish_log.md"
+      "publish_log": "videos/audit_ai_judge_5_steps/publish_log.md",
+      "captions_srt": "videos/audit_ai_judge_5_steps/captions/captions_v0.srt"
     },
     {
       "number": 3,
@@ -50,7 +52,8 @@
       "transcript": "videos/averages_hide_bias/transcript/transcript_v0.md",
       "captions": "videos/averages_hide_bias/captions/captions_v0.vtt",
       "production_notes": "videos/averages_hide_bias/production_notes.md",
-      "publish_log": "videos/averages_hide_bias/publish_log.md"
+      "publish_log": "videos/averages_hide_bias/publish_log.md",
+      "captions_srt": "videos/averages_hide_bias/captions/captions_v0.srt"
     },
     {
       "number": 4,
@@ -63,7 +66,8 @@
       "transcript": "videos/trustworthy_ai_evaluation_claims/transcript/transcript_v0.md",
       "captions": "videos/trustworthy_ai_evaluation_claims/captions/captions_v0.vtt",
       "production_notes": "videos/trustworthy_ai_evaluation_claims/production_notes.md",
-      "publish_log": "videos/trustworthy_ai_evaluation_claims/publish_log.md"
+      "publish_log": "videos/trustworthy_ai_evaluation_claims/publish_log.md",
+      "captions_srt": "videos/trustworthy_ai_evaluation_claims/captions/captions_v0.srt"
     },
     {
       "number": 5,
@@ -76,7 +80,8 @@
       "transcript": "videos/floor_raiser_effect/transcript/transcript_v0.md",
       "captions": "videos/floor_raiser_effect/captions/captions_v0.vtt",
       "production_notes": "videos/floor_raiser_effect/production_notes.md",
-      "publish_log": "videos/floor_raiser_effect/publish_log.md"
+      "publish_log": "videos/floor_raiser_effect/publish_log.md",
+      "captions_srt": "videos/floor_raiser_effect/captions/captions_v0.srt"
     }
   ]
 }
