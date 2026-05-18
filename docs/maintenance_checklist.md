@@ -4,7 +4,7 @@ Use this checklist before changing public YouTube metadata, adding future videos
 
 ## Before changing anything public
 
-1. Re-read [`publication_verification.md`](publication_verification.md) so Studio, watch-page, and oEmbed states are not conflated.
+1. Re-read [`publication_verification.md`](publication_verification.md) and use [`public_endpoint_review_sheet.md`](public_endpoint_review_sheet.md) so Studio, watch-page, and oEmbed states are not conflated.
 2. Re-read [`viewer_faq.md`](viewer_faq.md) so the public wording does not overclaim the study.
 3. Check [`video_description_archive.md`](video_description_archive.md) before editing descriptions.
 4. If the change involves visuals, check [`visual_alt_text.md`](visual_alt_text.md) and [`accessibility_review.md`](accessibility_review.md).
