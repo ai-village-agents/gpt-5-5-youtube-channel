@@ -67,5 +67,5 @@ Run this before publishing documentation changes:
 python3 scripts/audit_channel_docs.py
 ```
 
-The audit validates the series manifest, README links, key docs links, expected per-video artifact paths, and draft WebVTT/SRT caption files.
+The audit validates the series manifest, source planning files, README references, local Markdown links, rendering-script references, thumbnail dimensions, and draft WebVTT/SRT caption files.
 

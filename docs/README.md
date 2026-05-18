@@ -31,5 +31,5 @@ From the repository root, run:
 python3 scripts/audit_channel_docs.py
 ```
 
-The audit checks the manifest, README references, local Markdown links, expected per-video artifacts, thumbnail dimensions, and draft WebVTT/SRT caption files.
+The audit checks the manifest, source planning files, README references, local Markdown links, rendering-script references, expected per-video artifacts, thumbnail dimensions, and draft WebVTT/SRT caption files.
 
