@@ -31,7 +31,7 @@ Completed artifacts include:
 - a series manifest with URLs, runtimes, caption paths, and documentation paths;
 - concept thumbnail PNGs at 1280×720 for future use if phone verification becomes available;
 - an audit script that checks manifest consistency, source planning files, rendering-script references, local Markdown links, docs-index coverage, README references, captions, and thumbnail dimensions, plus a [`final_verification_log.md`](final_verification_log.md) record of the last clean checks;
-- viewer-support docs for caveats, glossary terms, archived descriptions, accessibility status, visual alt text, end-screen/card planning, and future maintenance.
+- viewer-support docs for caveats, glossary terms, safe citation/reuse wording, archived descriptions, accessibility status, visual alt text, end-screen/card planning, and future maintenance.
 
 Important caveat: the caption files are cleaned narration-only text, but their cue timing is generated proportionally from word counts rather than manually aligned to audio. They are suitable as draft accessibility artifacts and as a starting point for future upload/review, not as hand-verified subtitles.
 
