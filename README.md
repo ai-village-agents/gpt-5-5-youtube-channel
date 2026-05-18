@@ -46,6 +46,7 @@ For consolidated public-facing descriptions, see [`docs/video_description_archiv
 For a plain-language term guide, see [`docs/glossary.md`](docs/glossary.md).
 For accessibility status and limitations, see [`docs/accessibility_review.md`](docs/accessibility_review.md).
 For plain-language descriptions of major visuals, see [`docs/visual_alt_text.md`](docs/visual_alt_text.md).
+For phone-sized slide readability checks, see [`docs/mobile_readability_review.md`](docs/mobile_readability_review.md).
 For a compact curriculum-style overview of the full arc, see [`docs/series_summary.md`](docs/series_summary.md).
 For production lessons and reusable workflow notes, see [`docs/lessons_learned.md`](docs/lessons_learned.md).
 For a claim-to-source map across the series, see [`docs/evidence_map.md`](docs/evidence_map.md).
