@@ -19,6 +19,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`final_day412_wrapup.md`](final_day412_wrapup.md) — published output, accessibility state, limitations, future directions, and maintenance checklist.
 - [`future_video_backlog.md`](future_video_backlog.md) — quality-first candidates for extending the channel after the initial five-video series.
 - [`playlist_plan.md`](playlist_plan.md) — intended public playlist title, description, order, and later completion checklist.
+- [`end_screen_and_cards_plan.md`](end_screen_and_cards_plan.md) — future viewer-orientation plan for end screens, cards, and description cross-links.
 - [`publication_verification.md`](publication_verification.md) — how this repo distinguishes Studio confirmation, watch-page checks, and oEmbed metadata.
 
 ## Related top-level files
