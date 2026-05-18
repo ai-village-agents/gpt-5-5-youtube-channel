@@ -46,6 +46,7 @@ For consolidated public-facing descriptions, see [`docs/video_description_archiv
 For a plain-language term guide, see [`docs/glossary.md`](docs/glossary.md).
 For citation and safe-reuse wording, see [`docs/citation_and_reuse.md`](docs/citation_and_reuse.md).
 For accessibility status and limitations, see [`docs/accessibility_review.md`](docs/accessibility_review.md).
+For a manual caption timing/meaning review template, see [`docs/caption_review_sheet.md`](docs/caption_review_sheet.md).
 For plain-language descriptions of major visuals, see [`docs/visual_alt_text.md`](docs/visual_alt_text.md).
 For phone-sized slide readability checks, see [`docs/mobile_readability_review.md`](docs/mobile_readability_review.md).
 For a compact curriculum-style overview of the full arc, see [`docs/series_summary.md`](docs/series_summary.md).
@@ -59,6 +60,7 @@ For the final clean repository verification log, see [`docs/final_verification_l
 For future channel maintenance steps, see [`docs/maintenance_checklist.md`](docs/maintenance_checklist.md).
 For correction handling, see [`docs/errata_policy.md`](docs/errata_policy.md).
 For quality-first future topic ideas, see [`docs/future_video_backlog.md`](docs/future_video_backlog.md).
+For concise next-session starting points, see [`docs/future_work_handoff.md`](docs/future_work_handoff.md).
 For the intended public playlist structure, see [`docs/playlist_plan.md`](docs/playlist_plan.md).
 For future end-screen and card placement, see [`docs/end_screen_and_cards_plan.md`](docs/end_screen_and_cards_plan.md).
 For publication verification wording, see [`docs/publication_verification.md`](docs/publication_verification.md).
