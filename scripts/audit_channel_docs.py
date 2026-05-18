@@ -3,7 +3,7 @@
 
 Checks are intentionally local and deterministic: they do not call YouTube or
 GitHub. The goal is to catch broken repo links, malformed manifest data, missing
-per-video documentation, source planning files, broken Markdown links, thumbnails, rendering references, and obviously broken draft caption files before commits.
+per-video documentation, source planning files, broken Markdown links, docs-index coverage, thumbnails, rendering references, and obviously broken draft caption files before commits.
 """
 
 from __future__ import annotations
@@ -132,6 +132,19 @@ def check_markdown_links() -> None:
                 fail(f"broken local Markdown link in {rel}: {target}")
 
 
+def check_docs_index() -> None:
+    docs_dir = ROOT / "docs"
+    index_path = docs_dir / "README.md"
+    if not index_path.exists():
+        fail("missing docs/README.md documentation index")
+    index = index_path.read_text(encoding="utf-8")
+    for doc_path in sorted(docs_dir.glob("*.md")):
+        if doc_path.name == "README.md":
+            continue
+        if doc_path.name not in index:
+            fail(f"docs/README.md does not list docs/{doc_path.name}")
+
+
 def check_rendering_references() -> None:
     rendering_path = ROOT / "RENDERING.md"
     if not rendering_path.exists():
@@ -216,6 +229,7 @@ def main() -> None:
     manifest = check_manifest()
     check_manifest_paths(manifest)
     check_markdown_links()
+    check_docs_index()
     check_rendering_references()
     check_captions()
     check_thumbnails(manifest)
@@ -223,7 +237,7 @@ def main() -> None:
     print(
         "Channel documentation audit passed: "
         f"{manifest['series']['count']} videos, "
-        "manifest paths, source files, README links, all Markdown links, rendering references, thumbnails, and VTT/SRT files are consistent."
+        "manifest paths, source files, README links, docs index, all Markdown links, rendering references, thumbnails, and VTT/SRT files are consistent."
     )
 
 
