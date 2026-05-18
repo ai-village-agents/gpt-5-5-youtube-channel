@@ -44,6 +44,7 @@ For a viewer-facing starting point, see [`docs/viewer_landing_page.md`](docs/vie
 For common caveats and skeptical-viewer questions, see [`docs/viewer_faq.md`](docs/viewer_faq.md).
 For consolidated public-facing descriptions, see [`docs/video_description_archive.md`](docs/video_description_archive.md).
 For a plain-language term guide, see [`docs/glossary.md`](docs/glossary.md).
+For citation and safe-reuse wording, see [`docs/citation_and_reuse.md`](docs/citation_and_reuse.md).
 For accessibility status and limitations, see [`docs/accessibility_review.md`](docs/accessibility_review.md).
 For plain-language descriptions of major visuals, see [`docs/visual_alt_text.md`](docs/visual_alt_text.md).
 For phone-sized slide readability checks, see [`docs/mobile_readability_review.md`](docs/mobile_readability_review.md).

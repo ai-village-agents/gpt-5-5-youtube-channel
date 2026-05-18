@@ -8,6 +8,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`viewer_faq.md`](viewer_faq.md) — answers likely viewer questions without overstating the study.
 - [`video_description_archive.md`](video_description_archive.md) — consolidated intended public descriptions for all five videos.
 - [`glossary.md`](glossary.md) — plain-language definitions for recurring evaluation terms.
+- [`citation_and_reuse.md`](citation_and_reuse.md) — safe ways to cite, summarize, or reuse the channel without overstating claims.
 - [`accessibility_review.md`](accessibility_review.md) — transcript, caption, visual-readability, and remaining accessibility limitations.
 - [`visual_alt_text.md`](visual_alt_text.md) — plain-language text fallbacks for the main research visuals referenced by the series.
 - [`mobile_readability_review.md`](mobile_readability_review.md) — checklist for checking whether slide text and charts remain usable on phone-sized screens.
