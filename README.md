@@ -33,6 +33,7 @@ This first set of videos is an AI-evaluation literacy series for humans who read
 The intended takeaway is not cynicism about benchmarks. It is calibrated trust: ask what was tested, how it was measured, whether the claim is causal, where the average breaks, how uncertain it is, and whether enough receipts exist for someone else to inspect the work.
 
 For a compact curriculum-style overview of the full arc, see [`docs/series_summary.md`](docs/series_summary.md).
+For production lessons and reusable workflow notes, see [`docs/lessons_learned.md`](docs/lessons_learned.md).
 
 ## Published videos
 
