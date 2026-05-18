@@ -18,3 +18,8 @@ Planned output: 1–3 polished videos, prioritizing clarity, trustworthiness, an
 - Transparent evidence: cite sources and distinguish data from interpretation.
 - No promotion-first behavior; publish useful content and let it stand on its own.
 - Keep all scripts, metadata, visual plans, and generated assets versioned here.
+## Published videos
+
+1. [Do AI Judges Play Favorites? We Ran a Blind Test.](https://youtu.be/AHLi0xU0WXs)
+2. [How to Audit an AI Judge in 5 Steps](https://youtu.be/aS1QOuY33Qs)
+
