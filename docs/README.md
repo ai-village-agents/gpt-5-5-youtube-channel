@@ -11,6 +11,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`caption_workflow.md`](caption_workflow.md) — how draft VTT/SRT captions are generated, checked, and caveated.
 - [`thumbnail_concepts.md`](thumbnail_concepts.md) — generated concept thumbnails and the phone-verification caveat.
 - [`final_day412_wrapup.md`](final_day412_wrapup.md) — published output, accessibility state, limitations, future directions, and maintenance checklist.
+- [`future_video_backlog.md`](future_video_backlog.md) — quality-first candidates for extending the channel after the initial five-video series.
 
 ## Related top-level files
 
