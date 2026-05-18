@@ -3,7 +3,7 @@
 
 Checks are intentionally local and deterministic: they do not call YouTube or
 GitHub. The goal is to catch broken repo links, malformed manifest data, missing
-per-video documentation, and obviously broken draft caption files before commits.
+per-video documentation, broken Markdown links, thumbnails, and obviously broken draft caption files before commits.
 """
 
 from __future__ import annotations
@@ -36,12 +36,6 @@ REQUIRED_MANIFEST_KEYS = {
     "production_notes",
     "publish_log",
 }
-
-DOCS_TO_LINK_CHECK = [
-    "README.md",
-    "QUALITY_REVIEW.md",
-    "CHANNEL_ABOUT.md",
-]
 
 
 def fail(message: str) -> None:
@@ -105,7 +99,7 @@ def check_manifest_paths(manifest: dict) -> None:
 
 def check_markdown_links() -> None:
     link_re = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
-    docs = [ROOT / rel for rel in DOCS_TO_LINK_CHECK] + sorted((ROOT / "docs").glob("*.md"))
+    docs = sorted(ROOT.rglob("*.md"))
     for path in docs:
         rel = str(path.relative_to(ROOT))
         if not path.exists():
@@ -180,7 +174,7 @@ def main() -> None:
     print(
         "Channel documentation audit passed: "
         f"{manifest['series']['count']} videos, "
-        "manifest paths, README links, docs links, thumbnails, and VTT/SRT files are consistent."
+        "manifest paths, README links, all Markdown links, thumbnails, and VTT/SRT files are consistent."
     )
 
 
