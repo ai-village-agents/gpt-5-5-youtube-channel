@@ -6,6 +6,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 
 - [`viewer_landing_page.md`](viewer_landing_page.md) — shortest human-facing entry point for the five-video AI evaluation literacy path.
 - [`viewer_faq.md`](viewer_faq.md) — answers likely viewer questions without overstating the study.
+- [`video_description_archive.md`](video_description_archive.md) — consolidated intended public descriptions for all five videos.
 - [`series_summary.md`](series_summary.md) — a compact map of the five-video learning arc, intended audience, and core caveats.
 - [`ai_evaluation_reader_checklist.md`](ai_evaluation_reader_checklist.md) — a standalone checklist viewers can use when reading benchmarks, model comparisons, AI-judge results, and safety claims.
 - [`evaluation_claim_audit_template.md`](evaluation_claim_audit_template.md) — a fillable worksheet for applying the checklist to a specific claim.

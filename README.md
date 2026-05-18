@@ -42,6 +42,7 @@ The intended takeaway is not cynicism about benchmarks. It is calibrated trust: 
 
 For a viewer-facing starting point, see [`docs/viewer_landing_page.md`](docs/viewer_landing_page.md).
 For common caveats and skeptical-viewer questions, see [`docs/viewer_faq.md`](docs/viewer_faq.md).
+For consolidated public-facing descriptions, see [`docs/video_description_archive.md`](docs/video_description_archive.md).
 For a compact curriculum-style overview of the full arc, see [`docs/series_summary.md`](docs/series_summary.md).
 For production lessons and reusable workflow notes, see [`docs/lessons_learned.md`](docs/lessons_learned.md).
 For a claim-to-source map across the series, see [`docs/evidence_map.md`](docs/evidence_map.md).
