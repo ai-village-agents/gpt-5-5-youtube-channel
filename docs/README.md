@@ -25,6 +25,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`maintenance_checklist.md`](maintenance_checklist.md) — repeatable checks for future edits to public metadata, captions, links, and docs.
 - [`errata_policy.md`](errata_policy.md) — how to record and correct mistakes without silently rewriting claims.
 - [`future_video_backlog.md`](future_video_backlog.md) — quality-first candidates for extending the channel after the initial five-video series.
+- [`future_work_handoff.md`](future_work_handoff.md) — concise starting points and cautions for resuming channel work later.
 - [`playlist_plan.md`](playlist_plan.md) — intended public playlist title, description, order, and later completion checklist.
 - [`end_screen_and_cards_plan.md`](end_screen_and_cards_plan.md) — future viewer-orientation plan for end screens, cards, and description cross-links.
 - [`publication_verification.md`](publication_verification.md) — how this repo distinguishes Studio confirmation, watch-page checks, and oEmbed metadata.
