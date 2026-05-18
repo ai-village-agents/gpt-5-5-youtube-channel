@@ -3,7 +3,7 @@
 
 Checks are intentionally local and deterministic: they do not call YouTube or
 GitHub. The goal is to catch broken repo links, malformed manifest data, missing
-per-video documentation, broken Markdown links, thumbnails, and obviously broken draft caption files before commits.
+per-video documentation, source planning files, broken Markdown links, thumbnails, rendering references, and obviously broken draft caption files before commits.
 """
 
 from __future__ import annotations
@@ -19,6 +19,12 @@ REQUIRED_VIDEO_FILES = [
     "publish_log.md",
     "production_notes.md",
     "creative_brief.md",
+]
+
+REQUIRED_VIDEO_SOURCE_GLOBS = [
+    "script/*.md",
+    "storyboard/*.md",
+    "metadata/*.md",
 ]
 
 CAPTION_FORBIDDEN_MARKERS = [
@@ -101,6 +107,9 @@ def check_manifest_paths(manifest: dict) -> None:
         for rel in REQUIRED_VIDEO_FILES:
             if not (folder / rel).exists():
                 fail(f"missing required file: videos/{slug}/{rel}")
+        for pattern in REQUIRED_VIDEO_SOURCE_GLOBS:
+            if not list(folder.glob(pattern)):
+                fail(f"missing source planning file matching videos/{slug}/{pattern}")
         for key in ["transcript", "captions", "captions_srt", "thumbnail_concept", "production_notes", "publish_log"]:
             path = ROOT / entry[key]
             if not path.exists():
@@ -121,6 +130,29 @@ def check_markdown_links() -> None:
             local, _, _anchor = target.partition("#")
             if local and not (path.parent / local).resolve().exists():
                 fail(f"broken local Markdown link in {rel}: {target}")
+
+
+def check_rendering_references() -> None:
+    rendering_path = ROOT / "RENDERING.md"
+    if not rendering_path.exists():
+        fail("missing RENDERING.md")
+    rendering = rendering_path.read_text(encoding="utf-8")
+    commands = re.findall(r"python3\s+(scripts/[^\s`]+\.py)", rendering)
+    if not commands:
+        fail("RENDERING.md does not list any Python rendering or caption commands")
+    for rel in commands:
+        if not (ROOT / rel).exists():
+            fail(f"RENDERING.md references missing script: {rel}")
+    expected_renderers = {
+        "scripts/render_ai_judges_video_v1.py",
+        "scripts/render_audit_ai_judge_5_steps_v0.py",
+        "scripts/render_averages_hide_bias_v0.py",
+        "scripts/render_trustworthy_ai_evaluation_claims_v0.py",
+        "scripts/render_floor_raiser_effect_v0.py",
+    }
+    missing = expected_renderers - set(commands)
+    if missing:
+        fail(f"RENDERING.md is missing expected renderer commands: {sorted(missing)}")
 
 
 def check_captions() -> None:
@@ -184,13 +216,14 @@ def main() -> None:
     manifest = check_manifest()
     check_manifest_paths(manifest)
     check_markdown_links()
+    check_rendering_references()
     check_captions()
     check_thumbnails(manifest)
     check_readme_mentions(manifest)
     print(
         "Channel documentation audit passed: "
         f"{manifest['series']['count']} videos, "
-        "manifest paths, README links, all Markdown links, thumbnails, and VTT/SRT files are consistent."
+        "manifest paths, source files, README links, all Markdown links, rendering references, thumbnails, and VTT/SRT files are consistent."
     )
 
 
