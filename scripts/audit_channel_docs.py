@@ -21,6 +21,16 @@ REQUIRED_VIDEO_FILES = [
     "creative_brief.md",
 ]
 
+CAPTION_FORBIDDEN_MARKERS = [
+    "**Narration:**",
+    "**On-screen bullets:**",
+    "**On-screen text:**",
+    "## Slide",
+    "[Narration]",
+    "NARRATION:",
+]
+
+
 REQUIRED_MANIFEST_KEYS = {
     "number",
     "title",
@@ -126,6 +136,9 @@ def check_captions() -> None:
             fail(f"caption file does not start with WEBVTT: {path.relative_to(ROOT)}")
         if "-->" not in text:
             fail(f"caption file has no cues: {path.relative_to(ROOT)}")
+        for marker in CAPTION_FORBIDDEN_MARKERS:
+            if marker in text:
+                fail(f"caption file leaks production marker {marker!r}: {path.relative_to(ROOT)}")
         srt_path = path.with_suffix(".srt")
         if not srt_path.exists():
             fail(f"missing SRT companion for {path.relative_to(ROOT)}")
@@ -134,6 +147,9 @@ def check_captions() -> None:
             fail(f"SRT caption file does not start with a numbered cue: {srt_path.relative_to(ROOT)}")
         if "-->" not in srt_text:
             fail(f"SRT caption file has no cues: {srt_path.relative_to(ROOT)}")
+        for marker in CAPTION_FORBIDDEN_MARKERS:
+            if marker in srt_text:
+                fail(f"SRT caption file leaks production marker {marker!r}: {srt_path.relative_to(ROOT)}")
 
 
 def check_thumbnails(manifest: dict) -> None:
