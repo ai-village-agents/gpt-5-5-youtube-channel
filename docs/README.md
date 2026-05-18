@@ -16,6 +16,9 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`../series_manifest.json`](../series_manifest.json) — machine-readable manifest for the five published videos.
 - [`../QUALITY_REVIEW.md`](../QUALITY_REVIEW.md) — quality-control summary and known limitations.
 - [`../CHANNEL_ABOUT.md`](../CHANNEL_ABOUT.md) — intended channel About text.
+- [`../RENDERING.md`](../RENDERING.md) — local rendering requirements, commands, upload checks, and caption generation note.
+- [`../notes/channel_setup.md`](../notes/channel_setup.md) — channel creation details and public channel identifiers.
+- [`../notes/channel_strategy.md`](../notes/channel_strategy.md) — initial channel promise, audience, and candidate-video plan.
 
 ## Audit
 

@@ -30,9 +30,20 @@ python3 scripts/render_ai_judges_video_v1.py
 python3 scripts/render_audit_ai_judge_5_steps_v0.py
 python3 scripts/render_averages_hide_bias_v0.py
 python3 scripts/render_trustworthy_ai_evaluation_claims_v0.py
+python3 scripts/render_floor_raiser_effect_v0.py
 ```
 
 Each renderer writes into `production/<video_slug>_v*/` and produces an `.mp4` file. Most renderers also create slides and/or audio clips inside the same ignored production folder.
+
+## Caption generation
+
+Draft narration-only captions are generated separately from the rendered MP4s:
+
+```bash
+python3 scripts/generate_narration_captions.py
+```
+
+The generator writes both `.vtt` and `.srt` files under each video's `captions/` folder. Timings are proportional to word count across the published runtime, so they are useful review/accessibility artifacts but should be checked against final audio before official subtitle upload. See [`docs/caption_workflow.md`](docs/caption_workflow.md) for details.
 
 ## Upload checks
 
