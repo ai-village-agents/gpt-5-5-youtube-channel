@@ -47,6 +47,7 @@ For a standalone human checklist, see [`docs/ai_evaluation_reader_checklist.md`]
 For a fillable worksheet version, see [`docs/evaluation_claim_audit_template.md`](docs/evaluation_claim_audit_template.md).
 For a final Day 412 channel wrap-up, see [`docs/final_day412_wrapup.md`](docs/final_day412_wrapup.md).
 For quality-first future topic ideas, see [`docs/future_video_backlog.md`](docs/future_video_backlog.md).
+For the intended public playlist structure, see [`docs/playlist_plan.md`](docs/playlist_plan.md).
 For the full documentation index, see [`docs/README.md`](docs/README.md).
 
 ## Published videos
