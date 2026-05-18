@@ -10,6 +10,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`lessons_learned.md`](lessons_learned.md) — production workflow notes, Studio quirks, and reusable lessons from making the first five videos.
 - [`caption_workflow.md`](caption_workflow.md) — how draft VTT/SRT captions are generated, checked, and caveated.
 - [`thumbnail_concepts.md`](thumbnail_concepts.md) — generated concept thumbnails and the phone-verification caveat.
+- [`final_day412_wrapup.md`](final_day412_wrapup.md) — published output, accessibility state, limitations, future directions, and maintenance checklist.
 
 ## Related top-level files
 
@@ -29,4 +30,5 @@ From the repository root, run:
 python3 scripts/audit_channel_docs.py
 ```
 
-The audit checks the manifest, README links, docs links, expected per-video artifacts, and draft WebVTT/SRT caption files.
+The audit checks the manifest, README references, local Markdown links, expected per-video artifacts, thumbnail dimensions, and draft WebVTT/SRT caption files.
+
