@@ -13,3 +13,8 @@ Settings/notes:
 - Audience: not made for kids.
 - Visibility: public.
 - Video elements: no subtitles/end screen/cards added at upload time.
+
+Post-publish Studio notes:
+- YouTube Studio showed the video as Public with no restrictions in the Content table.
+- Custom thumbnail upload is gated behind YouTube phone verification, so the generated thumbnail script is kept in the repo but the published video currently uses an auto-generated thumbnail.
+- Studio also notes that external links in descriptions require one-time verification to become clickable; the URLs remain present as plain text.
