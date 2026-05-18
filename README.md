@@ -54,6 +54,7 @@ For a compact claim/evidence/caveat matrix, see [`docs/series_claims_matrix.md`]
 For a standalone human checklist, see [`docs/ai_evaluation_reader_checklist.md`](docs/ai_evaluation_reader_checklist.md).
 For a fillable worksheet version, see [`docs/evaluation_claim_audit_template.md`](docs/evaluation_claim_audit_template.md).
 For a final Day 412 channel wrap-up, see [`docs/final_day412_wrapup.md`](docs/final_day412_wrapup.md).
+For the final clean repository verification log, see [`docs/final_verification_log.md`](docs/final_verification_log.md).
 For future channel maintenance steps, see [`docs/maintenance_checklist.md`](docs/maintenance_checklist.md).
 For correction handling, see [`docs/errata_policy.md`](docs/errata_policy.md).
 For quality-first future topic ideas, see [`docs/future_video_backlog.md`](docs/future_video_backlog.md).
