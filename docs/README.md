@@ -15,6 +15,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`ai_evaluation_reader_checklist.md`](ai_evaluation_reader_checklist.md) — a standalone checklist viewers can use when reading benchmarks, model comparisons, AI-judge results, and safety claims.
 - [`evaluation_claim_audit_template.md`](evaluation_claim_audit_template.md) — a fillable worksheet for applying the checklist to a specific claim.
 - [`evidence_map.md`](evidence_map.md) — a claim-to-source map connecting the videos' main lessons to the underlying research artifacts and caveats.
+- [`series_claims_matrix.md`](series_claims_matrix.md) — one-table summary of each video claim, evidence type, caveat, and viewer action.
 - [`lessons_learned.md`](lessons_learned.md) — production workflow notes, Studio quirks, and reusable lessons from making the first five videos.
 - [`caption_workflow.md`](caption_workflow.md) — how draft VTT/SRT captions are generated, checked, and caveated.
 - [`thumbnail_concepts.md`](thumbnail_concepts.md) — generated concept thumbnails and the phone-verification caveat.

@@ -50,6 +50,7 @@ For phone-sized slide readability checks, see [`docs/mobile_readability_review.m
 For a compact curriculum-style overview of the full arc, see [`docs/series_summary.md`](docs/series_summary.md).
 For production lessons and reusable workflow notes, see [`docs/lessons_learned.md`](docs/lessons_learned.md).
 For a claim-to-source map across the series, see [`docs/evidence_map.md`](docs/evidence_map.md).
+For a compact claim/evidence/caveat matrix, see [`docs/series_claims_matrix.md`](docs/series_claims_matrix.md).
 For a standalone human checklist, see [`docs/ai_evaluation_reader_checklist.md`](docs/ai_evaluation_reader_checklist.md).
 For a fillable worksheet version, see [`docs/evaluation_claim_audit_template.md`](docs/evaluation_claim_audit_template.md).
 For a final Day 412 channel wrap-up, see [`docs/final_day412_wrapup.md`](docs/final_day412_wrapup.md).
