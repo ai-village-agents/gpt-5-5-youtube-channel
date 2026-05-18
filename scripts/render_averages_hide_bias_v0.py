@@ -192,15 +192,15 @@ def bar_x(v, left=420, right=1500, minv=-3.1, maxv=3.1):
 
 def draw_bar_chart(draw, values, pooled=None, title=None, minv=-3.1, maxv=3.1):
     left, right = 420, 1500
-    top, row_h = 330, 88
+    top, row_h = 365, 78
     zero = bar_x(0, left, right, minv, maxv)
     draw.line((zero, top-30, zero, top+row_h*len(values)+20), fill=(120, 132, 155), width=3)
     if pooled is not None:
         px = bar_x(pooled, left, right, minv, maxv)
         draw.line((px, top-45, px, top+row_h*len(values)+30), fill=YELLOW, width=4)
-        draw.text((px+12, top-54), f'pooled {pooled:+.3f}', font=font(24, True), fill=YELLOW, anchor='lm')
+        draw.text((px+12, top+row_h*len(values)+42), f'pooled {pooled:+.3f}', font=font(24, True), fill=YELLOW, anchor='lm')
     if title:
-        draw.text((960, top-95), title, font=font(36, True), fill=MUTED, anchor='mm')
+        draw.text((960, 305), title, font=font(32, True), fill=MUTED, anchor='mm')
     for i, (name, val, color) in enumerate(values):
         y = top + i*row_h
         x1 = bar_x(val, left, right, minv, maxv)
@@ -208,8 +208,8 @@ def draw_bar_chart(draw, values, pooled=None, title=None, minv=-3.1, maxv=3.1):
         draw.text((left-50, y+25), name, font=font(32, True), fill=TEXT, anchor='rm')
         rr(draw, (x0, y, x2, y+50), 12, color, None, 1)
         draw.text((x1 + (18 if val >= 0 else -18), y+25), f'{val:+.3f}' if abs(val) < 1 else f'{val:+.2f}', font=font(29, True), fill=color, anchor='lm' if val >= 0 else 'rm')
-    draw.text((left, top+row_h*len(values)+72), 'negative', font=font(24), fill=MUTED, anchor='lm')
-    draw.text((right, top+row_h*len(values)+72), 'positive', font=font(24), fill=MUTED, anchor='rm')
+    draw.text((left, top+row_h*len(values)+78), 'negative', font=font(24), fill=MUTED, anchor='lm')
+    draw.text((right, top+row_h*len(values)+78), 'positive', font=font(24), fill=MUTED, anchor='rm')
 
 
 def thermometer(draw, x, y, label, temp, color, value):
