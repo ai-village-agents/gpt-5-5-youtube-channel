@@ -45,6 +45,14 @@ OVERCLAIM_GUARD_PHRASES = [
     "models are vain",
     "fully accessible",
     "all endpoints verified",
+    "captions are published",
+    "captions are final",
+    "custom thumbnails are live",
+    "thumbnails are live",
+    "playlist is public",
+    "end screens are live",
+    "cards are live",
+    "channel about is live",
 ]
 
 OVERCLAIM_ALLOWED_CONTEXTS = [
