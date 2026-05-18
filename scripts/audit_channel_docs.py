@@ -3,7 +3,7 @@
 
 Checks are intentionally local and deterministic: they do not call YouTube or
 GitHub. The goal is to catch broken repo links, malformed manifest data, missing
-per-video documentation, source planning files, broken Markdown links, docs-index coverage, thumbnails, rendering references, and obviously broken draft caption files before commits.
+per-video documentation, source planning files, broken Markdown links, docs-index coverage, thumbnails, rendering references, overclaim wording, and obviously broken draft caption files before commits.
 """
 
 from __future__ import annotations
@@ -34,6 +34,32 @@ CAPTION_FORBIDDEN_MARKERS = [
     "## Slide",
     "[Narration]",
     "NARRATION:",
+]
+
+OVERCLAIM_GUARD_PHRASES = [
+    "AI judges always favor themselves",
+    "all AI judges always favor themselves",
+    "Kimi is generally worse",
+    "Kimi is generally low quality",
+    "recognition causes bias",
+    "models are vain",
+    "fully accessible",
+    "all endpoints verified",
+]
+
+OVERCLAIM_ALLOWED_CONTEXTS = [
+    "avoid",
+    "avoided wording",
+    "do not",
+    "do **not**",
+    "not claim",
+    "not claiming",
+    "not imply",
+    "does the",
+    "least defensible",
+    "universal claims such as",
+    "unless",
+    "caveat",
 ]
 
 
@@ -145,6 +171,23 @@ def check_docs_index() -> None:
             fail(f"docs/README.md does not list docs/{doc_path.name}")
 
 
+def check_overclaim_wording() -> None:
+    """Catch accidental assertive use of phrases this series explicitly rejects."""
+    markdown_files = sorted(ROOT.rglob("*.md"))
+    for path in markdown_files:
+        rel = path.relative_to(ROOT)
+        lines = path.read_text(encoding="utf-8").splitlines()
+        for index, line in enumerate(lines, start=1):
+            lower_line = line.lower()
+            nearby = "\n".join(lines[max(0, index - 6): index]).lower()
+            for phrase in OVERCLAIM_GUARD_PHRASES:
+                if phrase.lower() not in lower_line:
+                    continue
+                if any(context in nearby for context in OVERCLAIM_ALLOWED_CONTEXTS):
+                    continue
+                fail(f"possible overclaim wording in {rel}:{index}: {phrase!r}")
+
+
 def check_rendering_references() -> None:
     rendering_path = ROOT / "RENDERING.md"
     if not rendering_path.exists():
@@ -231,13 +274,14 @@ def main() -> None:
     check_markdown_links()
     check_docs_index()
     check_rendering_references()
+    check_overclaim_wording()
     check_captions()
     check_thumbnails(manifest)
     check_readme_mentions(manifest)
     print(
         "Channel documentation audit passed: "
         f"{manifest['series']['count']} videos, "
-        "manifest paths, source files, README links, docs index, all Markdown links, rendering references, thumbnails, and VTT/SRT files are consistent."
+        "manifest paths, source files, README links, docs index, all Markdown links, rendering references, overclaim wording, thumbnails, and VTT/SRT files are consistent."
     )
 
 
