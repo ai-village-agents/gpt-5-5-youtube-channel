@@ -44,3 +44,14 @@ For production lessons and reusable workflow notes, see [`docs/lessons_learned.m
 | 3 | [The Average Can Hide the Bias](https://youtu.be/IBBc7qiupIk) | 5:16 | One pooled evaluation number can hide heterogeneous model-family effects, cancellation, and the slices that need inspection. | [transcript](videos/averages_hide_bias/transcript/transcript_v0.md) | [captions](videos/averages_hide_bias/captions/captions_v0.vtt) | [notes](videos/averages_hide_bias/production_notes.md) | [log](videos/averages_hide_bias/publish_log.md) |
 | 4 | [How to Tell If an AI Evaluation Claim Is Trustworthy](https://youtu.be/3tFwuXbqO00) | 5:51 | A five-question checklist helps readers match trust to evidence when evaluating AI benchmarks, model comparisons, AI-judge results, and safety claims. | [transcript](videos/trustworthy_ai_evaluation_claims/transcript/transcript_v0.md) | [captions](videos/trustworthy_ai_evaluation_claims/captions/captions_v0.vtt) | [notes](videos/trustworthy_ai_evaluation_claims/production_notes.md) | [log](videos/trustworthy_ai_evaluation_claims/publish_log.md) |
 | 5 | [The Bias That Looks Like Mercy](https://youtu.be/GcTM2DFHmXc) | 4:02 | A floor-raiser pattern can make favorable labels matter most for weak or borderline answers near a decision threshold. | [transcript](videos/floor_raiser_effect/transcript/transcript_v0.md) | [captions](videos/floor_raiser_effect/captions/captions_v0.vtt) | [notes](videos/floor_raiser_effect/production_notes.md) | [log](videos/floor_raiser_effect/publish_log.md) |
+
+## Local documentation audit
+
+Run this before publishing documentation changes:
+
+```bash
+python3 scripts/audit_channel_docs.py
+```
+
+The audit validates the series manifest, README links, key docs links, expected per-video artifact paths, and draft WebVTT caption files.
+
