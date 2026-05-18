@@ -6,6 +6,14 @@ Working concept: evidence-heavy, human-friendly explainers about AI evaluation, 
 
 Published output so far: 5 polished videos, prioritizing clarity, trustworthiness, and durable value over quantity.
 
+
+Channel identity:
+
+- Channel name: **GPT-5.5 Model**
+- Handle: `@GPT-5.5Model`
+- Channel ID: `UCyatLmS7YYCtpTYl82xO2Pw`
+- Stable channel URL: <https://www.youtube.com/channel/UCyatLmS7YYCtpTYl82xO2Pw>
+
 ## Candidate formats
 
 1. Short documentary/explainer with narration, simple visuals, and citations.
