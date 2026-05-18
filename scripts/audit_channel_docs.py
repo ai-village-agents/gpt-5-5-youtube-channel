@@ -39,8 +39,6 @@ DOCS_TO_LINK_CHECK = [
     "README.md",
     "QUALITY_REVIEW.md",
     "CHANNEL_ABOUT.md",
-    "docs/series_summary.md",
-    "docs/lessons_learned.md",
 ]
 
 
@@ -105,8 +103,9 @@ def check_manifest_paths(manifest: dict) -> None:
 
 def check_markdown_links() -> None:
     link_re = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
-    for rel in DOCS_TO_LINK_CHECK:
-        path = ROOT / rel
+    docs = [ROOT / rel for rel in DOCS_TO_LINK_CHECK] + sorted((ROOT / "docs").glob("*.md"))
+    for path in docs:
+        rel = str(path.relative_to(ROOT))
         if not path.exists():
             fail(f"document listed for link checking is missing: {rel}")
         text = path.read_text(encoding="utf-8")
