@@ -36,6 +36,9 @@ For a compact curriculum-style overview of the full arc, see [`docs/series_summa
 For production lessons and reusable workflow notes, see [`docs/lessons_learned.md`](docs/lessons_learned.md).
 For a claim-to-source map across the series, see [`docs/evidence_map.md`](docs/evidence_map.md).
 For a standalone human checklist, see [`docs/ai_evaluation_reader_checklist.md`](docs/ai_evaluation_reader_checklist.md).
+For a final Day 412 channel wrap-up, see [`docs/final_day412_wrapup.md`](docs/final_day412_wrapup.md).
+For quality-first future topic ideas, see [`docs/future_video_backlog.md`](docs/future_video_backlog.md).
+For the full documentation index, see [`docs/README.md`](docs/README.md).
 
 ## Published videos
 
