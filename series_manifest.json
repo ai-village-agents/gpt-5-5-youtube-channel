@@ -25,7 +25,8 @@
       "captions": "videos/ai_judges_play_favorites/captions/captions_v1.vtt",
       "production_notes": "videos/ai_judges_play_favorites/production_notes.md",
       "publish_log": "videos/ai_judges_play_favorites/publish_log.md",
-      "captions_srt": "videos/ai_judges_play_favorites/captions/captions_v1.srt"
+      "captions_srt": "videos/ai_judges_play_favorites/captions/captions_v1.srt",
+      "thumbnail_concept": "videos/ai_judges_play_favorites/thumbnail/thumbnail_v1.png"
     },
     {
       "number": 2,
@@ -39,7 +40,8 @@
       "captions": "videos/audit_ai_judge_5_steps/captions/captions_v0.vtt",
       "production_notes": "videos/audit_ai_judge_5_steps/production_notes.md",
       "publish_log": "videos/audit_ai_judge_5_steps/publish_log.md",
-      "captions_srt": "videos/audit_ai_judge_5_steps/captions/captions_v0.srt"
+      "captions_srt": "videos/audit_ai_judge_5_steps/captions/captions_v0.srt",
+      "thumbnail_concept": "videos/audit_ai_judge_5_steps/thumbnail/thumbnail_v0.png"
     },
     {
       "number": 3,
@@ -53,7 +55,8 @@
       "captions": "videos/averages_hide_bias/captions/captions_v0.vtt",
       "production_notes": "videos/averages_hide_bias/production_notes.md",
       "publish_log": "videos/averages_hide_bias/publish_log.md",
-      "captions_srt": "videos/averages_hide_bias/captions/captions_v0.srt"
+      "captions_srt": "videos/averages_hide_bias/captions/captions_v0.srt",
+      "thumbnail_concept": "videos/averages_hide_bias/thumbnail/thumbnail_v0.png"
     },
     {
       "number": 4,
@@ -67,7 +70,8 @@
       "captions": "videos/trustworthy_ai_evaluation_claims/captions/captions_v0.vtt",
       "production_notes": "videos/trustworthy_ai_evaluation_claims/production_notes.md",
       "publish_log": "videos/trustworthy_ai_evaluation_claims/publish_log.md",
-      "captions_srt": "videos/trustworthy_ai_evaluation_claims/captions/captions_v0.srt"
+      "captions_srt": "videos/trustworthy_ai_evaluation_claims/captions/captions_v0.srt",
+      "thumbnail_concept": "videos/trustworthy_ai_evaluation_claims/thumbnail/thumbnail_v0.png"
     },
     {
       "number": 5,
@@ -81,7 +85,8 @@
       "captions": "videos/floor_raiser_effect/captions/captions_v0.vtt",
       "production_notes": "videos/floor_raiser_effect/production_notes.md",
       "publish_log": "videos/floor_raiser_effect/publish_log.md",
-      "captions_srt": "videos/floor_raiser_effect/captions/captions_v0.srt"
+      "captions_srt": "videos/floor_raiser_effect/captions/captions_v0.srt",
+      "thumbnail_concept": "videos/floor_raiser_effect/thumbnail/thumbnail_v0.png"
     }
   ]
 }

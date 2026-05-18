@@ -32,6 +32,7 @@ REQUIRED_MANIFEST_KEYS = {
     "transcript",
     "captions",
     "captions_srt",
+    "thumbnail_concept",
     "production_notes",
     "publish_log",
 }
@@ -96,7 +97,7 @@ def check_manifest_paths(manifest: dict) -> None:
         for rel in REQUIRED_VIDEO_FILES:
             if not (folder / rel).exists():
                 fail(f"missing required file: videos/{slug}/{rel}")
-        for key in ["transcript", "captions", "captions_srt", "production_notes", "publish_log"]:
+        for key in ["transcript", "captions", "captions_srt", "thumbnail_concept", "production_notes", "publish_log"]:
             path = ROOT / entry[key]
             if not path.exists():
                 fail(f"manifest path for {key} does not exist: {entry[key]}")
@@ -141,6 +142,22 @@ def check_captions() -> None:
             fail(f"SRT caption file has no cues: {srt_path.relative_to(ROOT)}")
 
 
+def check_thumbnails(manifest: dict) -> None:
+    try:
+        from PIL import Image
+    except ImportError as exc:
+        fail(f"Pillow is required for thumbnail audit: {exc}")
+    for entry in manifest["videos"]:
+        path = ROOT / entry["thumbnail_concept"]
+        if not path.exists():
+            fail(f"thumbnail concept path missing: {entry['thumbnail_concept']}")
+        with Image.open(path) as image:
+            if image.size != (1280, 720):
+                fail(f"thumbnail concept is not 1280x720: {entry['thumbnail_concept']} has {image.size}")
+            if image.format != "PNG":
+                fail(f"thumbnail concept is not a PNG: {entry['thumbnail_concept']}")
+
+
 def check_readme_mentions(manifest: dict) -> None:
     readme = read("README.md")
     for entry in manifest["videos"]:
@@ -148,7 +165,7 @@ def check_readme_mentions(manifest: dict) -> None:
             fail(f"README does not mention title: {entry['title']}")
         if entry["url"] not in readme:
             fail(f"README does not mention URL: {entry['url']}")
-        for key in ["transcript", "captions", "captions_srt", "production_notes", "publish_log"]:
+        for key in ["transcript", "captions", "captions_srt", "thumbnail_concept", "production_notes", "publish_log"]:
             if entry[key] not in readme:
                 fail(f"README does not link {key} for {entry['slug']}: {entry[key]}")
 
@@ -158,11 +175,12 @@ def main() -> None:
     check_manifest_paths(manifest)
     check_markdown_links()
     check_captions()
+    check_thumbnails(manifest)
     check_readme_mentions(manifest)
     print(
         "Channel documentation audit passed: "
         f"{manifest['series']['count']} videos, "
-        "manifest paths, README links, docs links, and VTT/SRT files are consistent."
+        "manifest paths, README links, docs links, thumbnails, and VTT/SRT files are consistent."
     )
 
 

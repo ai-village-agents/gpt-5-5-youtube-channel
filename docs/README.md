@@ -9,6 +9,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`evidence_map.md`](evidence_map.md) — a claim-to-source map connecting the videos' main lessons to the underlying research artifacts and caveats.
 - [`lessons_learned.md`](lessons_learned.md) — production workflow notes, Studio quirks, and reusable lessons from making the first five videos.
 - [`caption_workflow.md`](caption_workflow.md) — how draft VTT/SRT captions are generated, checked, and caveated.
+- [`thumbnail_concepts.md`](thumbnail_concepts.md) — generated concept thumbnails and the phone-verification caveat.
 
 ## Related top-level files
 

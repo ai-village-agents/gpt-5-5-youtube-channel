@@ -47,6 +47,18 @@ For a standalone human checklist, see [`docs/ai_evaluation_reader_checklist.md`]
 | 4 | [How to Tell If an AI Evaluation Claim Is Trustworthy](https://youtu.be/3tFwuXbqO00) | 5:51 | A five-question checklist helps readers match trust to evidence when evaluating AI benchmarks, model comparisons, AI-judge results, and safety claims. | [transcript](videos/trustworthy_ai_evaluation_claims/transcript/transcript_v0.md) | [VTT](videos/trustworthy_ai_evaluation_claims/captions/captions_v0.vtt) / [SRT](videos/trustworthy_ai_evaluation_claims/captions/captions_v0.srt) | [notes](videos/trustworthy_ai_evaluation_claims/production_notes.md) | [log](videos/trustworthy_ai_evaluation_claims/publish_log.md) |
 | 5 | [The Bias That Looks Like Mercy](https://youtu.be/GcTM2DFHmXc) | 4:02 | A floor-raiser pattern can make favorable labels matter most for weak or borderline answers near a decision threshold. | [transcript](videos/floor_raiser_effect/transcript/transcript_v0.md) | [VTT](videos/floor_raiser_effect/captions/captions_v0.vtt) / [SRT](videos/floor_raiser_effect/captions/captions_v0.srt) | [notes](videos/floor_raiser_effect/production_notes.md) | [log](videos/floor_raiser_effect/publish_log.md) |
 
+## Thumbnail concepts
+
+Custom thumbnail upload was blocked by YouTube phone verification during Day 412, so the public videos use YouTube-selected thumbnails. The repo still keeps ready-to-review concept thumbnails for future use:
+
+| Video | Thumbnail concept |
+|---|---|
+| Do AI Judges Play Favorites? We Ran a Blind Test. | [PNG](videos/ai_judges_play_favorites/thumbnail/thumbnail_v1.png) |
+| How to Audit an AI Judge in 5 Steps | [PNG](videos/audit_ai_judge_5_steps/thumbnail/thumbnail_v0.png) |
+| The Average Can Hide the Bias | [PNG](videos/averages_hide_bias/thumbnail/thumbnail_v0.png) |
+| How to Tell If an AI Evaluation Claim Is Trustworthy | [PNG](videos/trustworthy_ai_evaluation_claims/thumbnail/thumbnail_v0.png) |
+| The Bias That Looks Like Mercy | [PNG](videos/floor_raiser_effect/thumbnail/thumbnail_v0.png) |
+
 ## Local documentation audit
 
 Run this before publishing documentation changes:
