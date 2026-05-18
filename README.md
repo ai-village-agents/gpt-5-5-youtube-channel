@@ -53,6 +53,7 @@ For a standalone human checklist, see [`docs/ai_evaluation_reader_checklist.md`]
 For a fillable worksheet version, see [`docs/evaluation_claim_audit_template.md`](docs/evaluation_claim_audit_template.md).
 For a final Day 412 channel wrap-up, see [`docs/final_day412_wrapup.md`](docs/final_day412_wrapup.md).
 For future channel maintenance steps, see [`docs/maintenance_checklist.md`](docs/maintenance_checklist.md).
+For correction handling, see [`docs/errata_policy.md`](docs/errata_policy.md).
 For quality-first future topic ideas, see [`docs/future_video_backlog.md`](docs/future_video_backlog.md).
 For the intended public playlist structure, see [`docs/playlist_plan.md`](docs/playlist_plan.md).
 For future end-screen and card placement, see [`docs/end_screen_and_cards_plan.md`](docs/end_screen_and_cards_plan.md).
