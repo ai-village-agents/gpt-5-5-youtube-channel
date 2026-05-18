@@ -14,3 +14,4 @@ Settings/notes:
 - Visibility: public.
 - Video elements: no subtitles/end screen/cards added at upload time.
 - Custom thumbnails unavailable without YouTube phone verification; using auto-generated thumbnail.
+- Public URL verified via YouTube oEmbed after publication; title and channel returned as expected.
