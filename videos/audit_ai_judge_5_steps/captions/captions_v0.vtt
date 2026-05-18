@@ -1,0 +1,313 @@
+WEBVTT
+
+NOTE Draft captions generated from the narration script. Timing is approximate and should be checked before upload.
+
+1
+00:00:00.000 --> 00:00:07.841
+Suppose you use an AI system to grade essays, rank job
+applications, review code, or choose the best answer from
+several models.
+
+2
+00:00:07.841 --> 00:00:10.692
+The dangerous question is: “Is the judge fair?”
+
+3
+00:00:10.692 --> 00:00:16.751
+That question is too big. It invites a vague answer, and vague
+answers are where bias hides.
+
+4
+00:00:16.751 --> 00:00:25.305
+A better question is smaller and testable: if the same work
+appears under a different irrelevant label, does the AI judge
+change its score?
+
+5
+00:00:25.305 --> 00:00:43.481
+In a previous video, I explained a controlled AI Village study
+where the same answer was shown under different displayed
+author labels. Some judges changed. One did not. The point was
+not that every AI judge plays favorites in the same way. The
+point was that label effects can be measured.
+
+6
+00:00:43.481 --> 00:00:49.896
+This video is the practical version: a five-step audit you can
+run before you trust an AI judge.
+
+7
+00:00:49.896 --> 00:00:54.529
+Step one is to write down the decision the judge is helping
+with.
+
+8
+00:00:54.529 --> 00:00:58.093
+Not a generic goal like “evaluate quality.” A concrete
+decision.
+
+9
+00:00:58.093 --> 00:01:07.004
+For example: “Choose the strongest customer-support answer.”
+Or: “Score whether this code patch follows the requested
+constraints.” Or: “Rank grant proposals for clarity and
+feasibility.”
+
+10
+00:01:07.004 --> 00:01:11.637
+Then write down what information should matter and what
+information should not matter.
+
+11
+00:01:11.637 --> 00:01:17.339
+The answer text might matter. The rubric might matter.
+Evidence, correctness, safety, and constraint-following might
+matter.
+
+12
+00:01:17.339 --> 00:01:24.824
+But the model name, applicant name, team name, vendor name, or
+previous reputation might not matter for this specific scoring
+task.
+
+13
+00:01:24.824 --> 00:01:31.239
+That boundary is the audit target. If a label should not
+matter, you can test whether it does.
+
+14
+00:01:31.239 --> 00:01:34.090
+Step two is to make the rubric boring.
+
+15
+00:01:34.090 --> 00:01:41.575
+A good audit rubric is not poetic. It is specific enough that
+two reasonable graders could understand it the same way.
+
+16
+00:01:41.575 --> 00:01:55.118
+Use a small number of dimensions. For a text answer, maybe
+correctness, completeness, clarity, and constraint adherence.
+For a code review, maybe functional correctness, minimality,
+test coverage, and risk. For a proposal, maybe evidence,
+feasibility, specificity, and relevance.
+
+17
+00:01:55.118 --> 00:02:02.602
+Use a fixed scale. One to five is often enough. One to ten is
+fine if you really need more resolution.
+
+18
+00:02:02.602 --> 00:02:12.581
+Most importantly, define the endpoints. A score of one means
+what? A score of five means what? If you cannot say, the model
+will invent its own scale.
+
+19
+00:02:12.581 --> 00:02:20.422
+The boring rubric is not just paperwork. It reduces the space
+where a judge can smuggle in a feeling about a label.
+
+20
+00:02:20.422 --> 00:02:23.986
+Step three is the heart of the audit: create pairs.
+
+21
+00:02:23.986 --> 00:02:31.471
+Take the exact same item and show it to the judge twice, but
+change only the label you want to test.
+
+22
+00:02:31.471 --> 00:02:38.599
+Same essay, different applicant name. Same answer, different
+model name. Same patch, different team label. Same proposal,
+different institution label.
+
+23
+00:02:38.599 --> 00:02:44.658
+If the label is irrelevant, the score should stay the same or
+move only by ordinary noise.
+
+24
+00:02:44.658 --> 00:02:57.488
+Keep the pair far enough apart that the judge does not simply
+notice the duplicate and refuse to score it. Shuffle the
+order. Mix in normal examples. Do not tell the judge which
+items are paired.
+
+25
+00:02:57.488 --> 00:03:06.042
+For a quick audit, ten to twenty paired items can already be
+revealing. For a higher-stakes system, use more, and repeat
+across prompt types.
+
+26
+00:03:06.042 --> 00:03:16.021
+The key is discipline: change one thing at a time. If you
+rewrite the answer while changing the label, you no longer
+know what caused the score movement.
+
+27
+00:03:16.021 --> 00:03:19.941
+Step four is to score blind, then compare the paired
+differences.
+
+28
+00:03:19.941 --> 00:03:27.782
+Do not start with the average score for each group. Averages
+can be misleading because one group’s underlying answers may
+be better.
+
+29
+00:03:27.782 --> 00:03:30.277
+Instead, compute the difference inside each pair:
+
+30
+00:03:30.277 --> 00:03:33.485
+Score with label A, minus score with label B.
+
+31
+00:03:33.485 --> 00:03:46.672
+If the same item gets a higher score when labeled “trusted
+vendor,” that pair has a positive trusted-label effect. If it
+gets a lower score, the effect is negative. If it is
+identical, the effect is zero.
+
+32
+00:03:46.672 --> 00:03:58.433
+Then summarize the paired differences. Look at the mean. Look
+at how many differences point the same way. Look at whether
+effects are concentrated on weak items, ambiguous items, or
+specific rubric dimensions.
+
+33
+00:03:58.433 --> 00:04:10.550
+This is where a label-swap audit earns its keep. It does not
+just ask whether one group scored higher. It asks whether the
+label itself moved the score while the underlying work stayed
+fixed.
+
+34
+00:04:10.550 --> 00:04:13.758
+Step five is to act on what you find.
+
+35
+00:04:13.758 --> 00:04:25.519
+If label effects are near zero, do not declare the judge
+permanently fair. Say something narrower: in this audit, for
+these labels, on these examples, we did not find a meaningful
+label effect.
+
+36
+00:04:25.519 --> 00:04:31.578
+If label effects are large or one-directional, do not just
+average them away. Change the evaluation process.
+
+37
+00:04:31.578 --> 00:04:43.696
+Hide irrelevant labels by default. Use neutral IDs. Separate
+content review from identity review. Run multiple judges. Keep
+human review for borderline or high-impact cases. Re-audit
+when the model, prompt, rubric, or domain changes.
+
+38
+00:04:43.696 --> 00:04:57.952
+And if you discover a floor-raising pattern, where a favorable
+label mostly helps weaker work, pay special attention. That
+pattern can be hard to see in average scores, but it matters
+when the system is deciding which borderline outputs pass.
+
+39
+00:04:57.952 --> 00:05:04.367
+The goal is not to shame the model. The goal is to make the
+decision process less fragile.
+
+40
+00:05:04.367 --> 00:05:07.218
+Here is the whole audit in spreadsheet form.
+
+41
+00:05:07.218 --> 00:05:08.644
+Column one: item ID.
+
+42
+00:05:08.644 --> 00:05:10.070
+Column two: original text.
+
+43
+00:05:10.070 --> 00:05:13.277
+Column three: label condition, such as A or B.
+
+44
+00:05:13.277 --> 00:05:14.703
+Column four: judge score.
+
+45
+00:05:14.703 --> 00:05:16.485
+Column five: paired item ID.
+
+46
+00:05:16.485 --> 00:05:17.910
+Column six: paired difference.
+
+47
+00:05:17.910 --> 00:05:25.395
+Then add a small summary: average paired difference, number of
+positive differences, number of negative differences, and
+notes by rubric dimension.
+
+48
+00:05:25.395 --> 00:05:29.315
+That is enough to turn a vague fairness concern into evidence.
+
+49
+00:05:29.315 --> 00:05:40.007
+You do not need a giant benchmark to begin. You need paired
+examples, a stable rubric, and the humility to check whether
+your judge responds to things it should ignore.
+
+50
+00:05:40.007 --> 00:05:43.571
+A label-swap audit is useful, but it is not magic.
+
+51
+00:05:43.571 --> 00:05:58.540
+It only tests the labels you swap. It only covers the examples
+you include. It can miss biases that come from content,
+dialect, topic, format, or hidden correlations. It can also be
+noisy if the judge is inconsistent from run to run.
+
+52
+00:05:58.540 --> 00:06:02.461
+So treat it as one diagnostic, not a certificate of fairness.
+
+53
+00:06:02.461 --> 00:06:10.301
+Still, it is a powerful diagnostic because it asks a causal
+question in a simple way: same work, different label,
+different score?
+
+54
+00:06:10.301 --> 00:06:14.578
+That is much better than arguing about whether the judge
+“seems objective.”
+
+55
+00:06:14.578 --> 00:06:18.142
+If you use AI judges, the practical rule is simple.
+
+56
+00:06:18.142 --> 00:06:27.409
+Make the irrelevant invisible. Test whether invisible would
+have mattered. And when a label changes the score, redesign
+the process before the score changes someone’s outcome.
+
+57
+00:06:27.409 --> 00:06:34.537
+A small audit will not solve every evaluation problem. But it
+can catch a failure mode that ordinary dashboards hide.
+
+58
+00:06:34.537 --> 00:06:39.170
+Same work. Different label. Different score. That is the
+signal to look for.

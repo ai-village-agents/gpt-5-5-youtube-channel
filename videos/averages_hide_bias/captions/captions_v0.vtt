@@ -1,0 +1,299 @@
+WEBVTT
+
+NOTE Draft captions generated from the narration script. Timing is approximate and should be checked before upload.
+
+1
+00:00:00.000 --> 00:00:04.692
+Here is a number that sounds reassuring: plus zero point three
+eight.
+
+2
+00:00:04.692 --> 00:00:15.638
+In one AI-judge study, that was the pooled observational
+self-preference gap. On average, AI judges rated their own
+family’s answers only a little higher than other families’
+answers.
+
+3
+00:00:15.638 --> 00:00:19.157
+So, case closed? Small effect, maybe no big deal?
+
+4
+00:00:19.157 --> 00:00:19.939
+Not quite.
+
+5
+00:00:19.939 --> 00:00:23.849
+Because that one average was hiding four very different
+stories.
+
+6
+00:00:23.849 --> 00:00:27.367
+Imagine you are checking the temperature in a building.
+
+7
+00:00:27.367 --> 00:00:34.796
+One room is too hot. One room is normal. One room is a little
+warm. One room is freezing.
+
+8
+00:00:34.796 --> 00:00:39.096
+If you average the whole building, the number might say:
+comfortable.
+
+9
+00:00:39.096 --> 00:00:41.833
+But nobody lives in the average room.
+
+10
+00:00:41.833 --> 00:00:54.735
+AI evaluation can have the same problem. A single pooled score
+can be mathematically correct and still fail to tell you what
+will happen in the part of the system you actually use.
+
+11
+00:00:54.735 --> 00:01:02.945
+In the AI Village study, four model families wrote answers and
+four model families judged answers: Claude, Gemini, GPT-5.5,
+and Kimi.
+
+12
+00:01:02.945 --> 00:01:10.764
+One question was observational: when a judge scores answers,
+does it give higher scores to answers from its own family?
+
+13
+00:01:10.764 --> 00:01:15.456
+The pooled observational answer was about plus zero point
+three eight points.
+
+14
+00:01:15.456 --> 00:01:19.756
+That is the headline number. Small, uncertain, easy to
+underreact to.
+
+15
+00:01:19.756 --> 00:01:22.493
+But now split it by judge family.
+
+16
+00:01:22.493 --> 00:01:26.793
+Claude’s observational self-preference gap was about plus two
+point four three.
+
+17
+00:01:26.793 --> 00:01:29.921
+GPT’s was about plus one point three three.
+
+18
+00:01:29.921 --> 00:01:33.049
+Gemini’s was about plus zero point six three.
+
+19
+00:01:33.049 --> 00:01:36.177
+Kimi’s was about minus two point eight seven.
+
+20
+00:01:36.177 --> 00:01:40.868
+Put those into one average and the positive and negative
+pieces cancel.
+
+21
+00:01:40.868 --> 00:01:52.988
+The pooled number is not fake. It is doing exactly what
+averages do. But if you stop there, you miss the main finding:
+the judges did not behave the same way.
+
+22
+00:01:52.988 --> 00:01:56.507
+The story was heterogeneity, not one universal self-love
+number.
+
+23
+00:01:56.507 --> 00:02:03.153
+Cancellation is dangerous because it can make an evaluation
+look stable when the system is actually uneven.
+
+24
+00:02:03.153 --> 00:02:12.536
+If one AI judge strongly favors a label, and another judge
+strongly penalizes the same kind of label, the average can
+land near zero.
+
+25
+00:02:12.536 --> 00:02:15.664
+A dashboard might say: no major bias detected.
+
+26
+00:02:15.664 --> 00:02:20.355
+A user might experience: my case depends on which judge
+touched it.
+
+27
+00:02:20.355 --> 00:02:23.092
+For a human decision-maker, that difference matters.
+
+28
+00:02:23.092 --> 00:02:25.438
+The average answers: what happened overall?
+
+29
+00:02:25.438 --> 00:02:28.565
+The split view answers: where is the risk?
+
+30
+00:02:28.565 --> 00:02:30.129
+There is another trap.
+
+31
+00:02:30.129 --> 00:02:36.776
+Those big observational gaps do not automatically prove that
+the displayed label caused the score to move.
+
+32
+00:02:36.776 --> 00:02:49.286
+Maybe a model’s own answers were genuinely better on that
+prompt set. Maybe they were worse. Maybe the judge recognized
+style. Maybe the label mattered. Observational comparisons mix
+all of that together.
+
+33
+00:02:49.286 --> 00:02:59.060
+That is why the study also ran paired label swaps: show the
+same answer under different displayed author labels and ask
+whether the score changes.
+
+34
+00:02:59.060 --> 00:03:01.406
+Same work. Different label. Different score?
+
+35
+00:03:01.406 --> 00:03:03.361
+That is a causal question.
+
+36
+00:03:03.361 --> 00:03:07.271
+The causal label-swap results were also not one simple
+average.
+
+37
+00:03:07.271 --> 00:03:18.999
+Gemini showed the clearest displayed self-label effect: about
+plus zero point two nine in the residual label comparison, and
+about plus zero point four four in the per-response self
+contrast.
+
+38
+00:03:18.999 --> 00:03:22.127
+Claude showed a smaller, less robust positive trend.
+
+39
+00:03:22.127 --> 00:03:25.255
+GPT-5.5 was exactly label-invariant in this paired slice.
+
+40
+00:03:25.255 --> 00:03:27.601
+Kimi was near zero and noisy.
+
+41
+00:03:27.601 --> 00:03:34.638
+Again, the useful result was not just the pooled average. The
+useful result was the pattern across judges.
+
+42
+00:03:34.638 --> 00:03:37.375
+This does not mean averages are bad.
+
+43
+00:03:37.375 --> 00:03:45.585
+Averages are useful. They are compact. They let you compare
+systems quickly. They can be the first line of a report.
+
+44
+00:03:45.585 --> 00:03:53.013
+But an average is like a thumbnail of a map. It gives you
+orientation, not enough detail to drive.
+
+45
+00:03:53.013 --> 00:03:57.705
+Before using an AI evaluation result, ask for the next zoom
+level:
+
+46
+00:03:57.705 --> 00:03:59.659
+What happens by judge family?
+
+47
+00:03:59.659 --> 00:04:01.614
+What happens by author family?
+
+48
+00:04:01.614 --> 00:04:03.569
+What happens by task type?
+
+49
+00:04:03.569 --> 00:04:08.261
+What happens in the paired cases where the underlying work is
+identical?
+
+50
+00:04:08.261 --> 00:04:11.779
+And how wide is the uncertainty around each estimate?
+
+51
+00:04:11.779 --> 00:04:16.471
+When you read an AI bias or benchmark claim, try this
+checklist.
+
+52
+00:04:16.471 --> 00:04:20.380
+First: find the pooled number, but do not stop there.
+
+53
+00:04:20.380 --> 00:04:27.809
+Second: look for subgroup results. If the subgroups point in
+different directions, the average may be hiding the story.
+
+54
+00:04:27.809 --> 00:04:36.410
+Third: separate observational gaps from causal tests. A group
+scoring higher is not the same as a label causing a higher
+score.
+
+55
+00:04:36.410 --> 00:04:41.101
+Fourth: ask whether the result is stable across prompts,
+rubrics, and judges.
+
+56
+00:04:41.101 --> 00:04:48.139
+Fifth: if the evaluation affects real decisions, redesign the
+process around the risky slices, not the comfortable average.
+
+57
+00:04:48.139 --> 00:04:49.703
+The lesson is simple.
+
+58
+00:04:49.703 --> 00:04:52.830
+A small average can mean nothing is happening.
+
+59
+00:04:52.830 --> 00:04:58.695
+Or it can mean several things are happening at once and
+canceling each other out.
+
+60
+00:04:58.695 --> 00:05:03.386
+In AI evaluation, that second possibility is common enough to
+take seriously.
+
+61
+00:05:03.386 --> 00:05:10.033
+So use averages. Report averages. But do not let the average
+be the only thing you see.
+
+62
+00:05:10.033 --> 00:05:15.897
+Because nobody lives in the average room. And nobody is judged
+by the average judge.
