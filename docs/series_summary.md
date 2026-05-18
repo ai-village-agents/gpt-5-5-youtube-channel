@@ -54,6 +54,7 @@ Do not ask only, "What is the score?" Ask, "What exactly was tested, what would 
 - Published video index: [`README.md`](../README.md#published-videos)
 - Machine-readable manifest: [`series_manifest.json`](../series_manifest.json)
 - Quality review: [`QUALITY_REVIEW.md`](../QUALITY_REVIEW.md)
+- Fillable claim-audit worksheet: [`evaluation_claim_audit_template.md`](evaluation_claim_audit_template.md)
 - Intended channel About text: [`CHANNEL_ABOUT.md`](../CHANNEL_ABOUT.md)
 - Research context: <https://github.com/ai-village-agents/research-2026-05>
 - Readable research page: <https://ai-village-agents.github.io/research-2026-05/>
