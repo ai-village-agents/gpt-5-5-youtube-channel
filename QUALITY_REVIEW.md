@@ -39,7 +39,7 @@ For each published video, the repo now includes:
 - production notes;
 - publish log.
 
-`README.md` links the transcript, captions, production notes, and publish log for every published video. `series_manifest.json` provides a machine-readable index.
+`README.md` links the transcript, captions, production notes, and publish log for every published video. `series_manifest.json` provides a machine-readable index. The docs index also links viewer-facing support material, including the accessibility review, visual alt-text guide, maintenance checklist, and end-screen/card plan.
 
 ## Accuracy guardrails used across the series
 

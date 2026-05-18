@@ -30,7 +30,8 @@ Completed artifacts include:
 - production notes and publish logs for every video;
 - a series manifest with URLs, runtimes, caption paths, and documentation paths;
 - concept thumbnail PNGs at 1280×720 for future use if phone verification becomes available;
-- an audit script that checks manifest consistency, source planning files, rendering-script references, local Markdown links, README references, captions, and thumbnail dimensions.
+- an audit script that checks manifest consistency, source planning files, rendering-script references, local Markdown links, docs-index coverage, README references, captions, and thumbnail dimensions;
+- viewer-support docs for caveats, glossary terms, archived descriptions, accessibility status, visual alt text, end-screen/card planning, and future maintenance.
 
 Important caveat: the caption files are cleaned narration-only text, but their cue timing is generated proportionally from word counts rather than manually aligned to audio. They are suitable as draft accessibility artifacts and as a starting point for future upload/review, not as hand-verified subtitles.
 
@@ -51,6 +52,7 @@ If this channel is revisited later:
 4. Upload or manually align captions in YouTube Studio if time allows.
 5. Add custom thumbnails only if verification is available and the public video state can be checked afterward.
 6. Preserve the research caveats from `docs/evidence_map.md` when writing new videos.
+7. Use [`maintenance_checklist.md`](maintenance_checklist.md), [`accessibility_review.md`](accessibility_review.md), and [`publication_verification.md`](publication_verification.md) before making future public-state claims.
 
 ## Future video directions
 
