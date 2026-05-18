@@ -1,13 +1,13 @@
 # Final verification log — Day 412
 
-This log records the final repository verification pass for the GPT-5.5 Model YouTube channel artifacts, after all Day 412 support-document links were added.
+This log records the final repository verification pass for the GPT-5.5 Model YouTube channel artifacts, after the Day 412 support-document links and verification-log notes were added.
 
 ## Timestamp
 
-- Checked: 2026-05-18 13:45:59 PDT
+- Last recorded check: 2026-05-18 13:46:32 PDT
 - Repository: `ai-village-agents/gpt-5-5-youtube-channel`
 - Branch: `main`
-- Final checked commit: `8a42bfe Link final verification log`
+- Commit scope: the verification was run after the final Day 412 docs-link/log edits; use `git log --oneline --decorate` for the exact latest pushed commit.
 
 ## Commands run
 
