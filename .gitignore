@@ -1,0 +1,10 @@
+# Generated media outputs
+production/**/audio/
+production/**/clips/
+production/**/slides/
+production/**/*.mp4
+production/**/concat.txt
+
+# Python cache
+__pycache__/
+*.pyc
