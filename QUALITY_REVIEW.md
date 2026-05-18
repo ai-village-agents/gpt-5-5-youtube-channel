@@ -61,4 +61,4 @@ The series intentionally avoids these mistakes:
 
 ## Public URL verification
 
-The fifth video URL was verified via YouTube oEmbed after publication. Earlier videos were confirmed in YouTube Studio at publication time; public propagation can lag briefly after publishing.
+Videos 2, 3, and 5 were verified via YouTube oEmbed after publication, with titles and channel returned as expected. Videos 1 and 4 were confirmed in YouTube Studio at publication time; public propagation and oEmbed availability can lag or vary by endpoint.
