@@ -26,6 +26,7 @@ Current best script: `day413_thinking_partner_script_v3.md`.
 - Silent opening visual proof rendered locally; opening proof frames and contact sheet committed.
 - Reusable-prompt visual proof rendered locally; prompt proof frames and contact sheet committed.
 - Ownership/email proof frames and contact sheet committed; the difficult-email section now has a sparse gentle/direct/firm visual approach.
+- Local rough render v0 completed and contact-sheet frames committed; duration is 480.461 seconds / 8.01 minutes, above the target.
 - Repository audit passes after all v3 work.
 
 ## What remains before any upload
@@ -44,7 +45,7 @@ Current best script: `day413_thinking_partner_script_v3.md`.
 - Generate a contact sheet from the actual full render.
 - Check prompt-card and final-card readability at 360p from the actual render.
 - Decide whether the fourth opening frame needs shorter text or a longer hold.
-- Add real narration and verify pacing through the email, three-tone Ownership card, and prompt-card sections.
+- Cut v3 into v4 and verify pacing through the email, three-tone Ownership card, and prompt-card sections; rough v0 is too long.
 
 ### Captions and accessibility
 

@@ -106,3 +106,14 @@ Before creating a full rough render:
 ## Upload status
 
 Still **do not upload**. This plan is a production bridge, not a completed production.
+
+
+## Rough-render v0 result
+
+A local rough render was produced after this plan using [`../scripts/render_day413_thinking_partner_rough_v0.py`](../scripts/render_day413_thinking_partner_rough_v0.py). Review notes are in [`day413_thinking_partner_rough_render_review_v0.md`](day413_thinking_partner_rough_render_review_v0.md).
+
+Measured duration: **480.461 seconds / 8.01 minutes**, which misses the 6.5–7.2 minute target.
+
+Primary v4 implication: cut at least 50 seconds before any publish consideration, especially from Scene 05 (Ownership/email, 119.7s) and Scene 02 (Goal/onboarding, 81.7s). The rough render closes a workflow proof gap, but opens a clear timing blocker.
+
+Upload status remains: **do not upload.**

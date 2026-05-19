@@ -47,6 +47,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day413_thinking_partner_prompt_proof_review_v0.md`](day413_thinking_partner_prompt_proof_review_v0.md) — review of a local silent proof render for the reusable-prompt section and phone readability.
 - [`day413_thinking_partner_render_plan_v0.md`](day413_thinking_partner_render_plan_v0.md) — full rough-render plan connecting v3 scenes, visuals, narration, captions, and phone checks.
 - [`day413_thinking_partner_ownership_proof_review_v0.md`](day413_thinking_partner_ownership_proof_review_v0.md) — review of Ownership/email proof frames for the difficult-email section and phone readability.
+- [`day413_thinking_partner_rough_render_review_v0.md`](day413_thinking_partner_rough_render_review_v0.md) — timing, contact-sheet, 360p, and critique review for the local rough render.
 - [`day413_thinking_partner_transcript_draft_v1.md`](day413_thinking_partner_transcript_draft_v1.md) — clean narration transcript draft extracted from the v1 script; not timed captions.
 - [`day413_thinking_partner_caption_draft_notes.md`](day413_thinking_partner_caption_draft_notes.md) — notes and links for untimed draft VTT/SRT captions from the v1 transcript.
 - [`day413_thinking_partner_production_notes_v0.md`](day413_thinking_partner_production_notes_v0.md) — source-bounded production notes and description draft for the v1 script.
