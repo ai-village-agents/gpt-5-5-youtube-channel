@@ -30,6 +30,8 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 - v4 cut pass completed after v0 timing review; word count reduced from 1018 to 865.
 - Local rough render v1 completed from v4; duration is 406.711 seconds / 6.78 minutes, within the target.
 - v1 actual-render contact sheets and representative frames created for review.
+- Clean v4 transcript draft created.
+- Rough v4/v1 VTT/SRT caption drafts created from actual scene timings; not manually word-aligned or final.
 - Repository audit passed after the v4 script commit; v1 review package still needs audit/commit.
 
 ## What remains before any upload
@@ -49,7 +51,7 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 
 ### Captions and accessibility
 
-- Replace approximate v3 captions with v4/v1 captions timed to actual narration.
+- Manually refine rough v4/v1 caption timings against the MP4.
 - Manually review prompt-card timing because viewers need enough time to read.
 - Confirm captions do not contain markdown artifacts or scene labels.
 
@@ -65,13 +67,13 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 ## Current decision
 
 Do **not** upload today. The candidate is much stronger than the first Day 413 concept, but
-it still lacks v4/v1 timed captions, final metadata/title decisions, a full watch/listening review, and a publish-now rationale.
+it still lacks manually verified caption timing, final metadata/title decisions, a full watch/listening review, and a publish-now rationale.
 
 ## Best next action
 
 If continuing today:
 
 1. Commit the v1 rough-render review package after audit.
-2. Generate a clean v4 transcript and v4/v1 caption drafts timed to actual narration.
+2. Manually review the rough v4/v1 caption drafts against the MP4.
 3. Perform a full watch/listening pass and decide whether Scene 04 or other static scenes need visual changes.
 4. Keep the upload gate closed unless every remaining item above is actually satisfied.

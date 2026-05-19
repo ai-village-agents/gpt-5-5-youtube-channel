@@ -85,8 +85,8 @@ Concerns:
   watch/listen pass of the MP4.
 - The Scene 04 appropriate-reliance line is clear but visually plain. Gemini's gauge idea may
   improve the moment if it remains a modest warning visual, not a claim of validated protection.
-- The v4 script has no actual narration-timed caption files yet; the existing v3 caption drafts
-  are outdated.
+- Rough v4/v1 caption drafts now exist, but they are scene-timed and not manually word-aligned
+  against the MP4 yet.
 
 ## Upload-gate interpretation
 
@@ -101,14 +101,14 @@ What it proves:
 What it does **not** prove:
 
 1. That the final viewing experience is engaging enough despite static scenes.
-2. That captions are synced to the actual narration.
+2. That captions are manually synced to the actual narration.
 3. That the final metadata, title, description, and source caveats are ready.
 4. That the Scene 04 visual choice is final.
 5. That publishing today is better than improving the piece one more day.
 
 ## Remaining blockers before any upload
 
-- Generate a clean v4 transcript and captions timed to the actual v1 narration/audio.
+- Manually refine the rough v4/v1 caption timings against the MP4.
 - Manually inspect the prompt section in those caption files.
 - Decide whether to keep the current title or test the steering-wheel title without breaking
   the worktable metaphor.

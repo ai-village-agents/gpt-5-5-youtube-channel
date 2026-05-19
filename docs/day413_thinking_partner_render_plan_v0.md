@@ -65,14 +65,19 @@ Narration cannot be treated as final until the captions are regenerated from its
 
 ## Caption plan
 
-Current caption files are approximate:
+Older v3 caption files are approximate and outdated for the v4 rough render:
 
 - `day413_caption_drafts/thinking_partner_v3_draft.vtt`
 - `day413_caption_drafts/thinking_partner_v3_draft.srt`
 
+New v4/v1 rough caption drafts now use actual scene timings, but are still not manually word-aligned:
+
+- `day413_caption_drafts/thinking_partner_v4_rough_v1.vtt`
+- `day413_caption_drafts/thinking_partner_v4_rough_v1.srt`
+
 Before upload:
 
-1. Replace approximate timings with actual narration timings.
+1. Manually revise rough v4/v1 cue timings against the MP4.
 2. Ensure no markdown artifacts remain.
 3. Manually inspect the reusable-prompt section.
 4. Confirm the captions match final narration, not an earlier script.
@@ -99,7 +104,7 @@ Before creating a full rough render:
 - [x] Render full rough draft locally.
 - [x] Extract contact sheet from the actual draft.
 - [x] Export representative 360p contact sheet and frames from the v1 rough render.
-- [ ] Update caption files from actual timing.
+- [x] Draft v4/v1 caption files from actual scene timing; still needs manual synchronization review.
 - [ ] Re-run repository audit.
 - [ ] Decide whether the draft is worth critique before upload.
 
