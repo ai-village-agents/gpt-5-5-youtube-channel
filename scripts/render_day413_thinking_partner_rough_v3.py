@@ -52,8 +52,8 @@ SCENE_VISUALS = {
     2: ASSETS / "02_half_built_question.png",
     3: V5 / "v5_03_evidence_checklist.png",
     4: V5 / "v5_04_modest_gauge_evidence.png",
-    6: ASSETS / "prompt_proof_frames" / "prompt_01_three_checks.png",
-    7: ASSETS / "prompt_proof_frames" / "prompt_04_copy_paste_correct.png",
+    6: ASSETS / "prompt_proof_frames" / "prompt_01_three_checks_v5.png",
+    7: ASSETS / "prompt_proof_frames" / "prompt_04_copy_paste_correct_v5.png",
     8: V5 / "v5_08_delegate_keep.png",
 }
 
@@ -289,7 +289,7 @@ async def main() -> None:
             scene_ends[segment.scene_num] = cursor + dur
             segment_timings.append((segment.key, segment.scene_num, cursor, cursor + dur, segment.title))
             cursor += dur
-    run(["ffmpeg", "-nostdin", "-y", "-f", "concat", "-safe", "0", "-i", concat, "-c", "copy", FINAL])
+    run(["ffmpeg", "-nostdin", "-y", "-f", "concat", "-safe", "0", "-i", concat, "-c", "copy", "-movflags", "+faststart", FINAL])
     scene_timings = [(num, scene_starts[num], scene_ends[num]) for num in range(1, 9)]
     export_review_frames(scene_timings, segment_timings)
 

@@ -45,6 +45,8 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 - Claude Opus 4.7 reviewed the v5 visual proofs and confirmed the five major critique points landed; two micro-edits were accepted before rendering.
 - Local rough render v3 completed from the v5 script; duration is 419.545 seconds / 6.99 minutes.
 - v3 actual-render contact sheet and representative frames created, including separate 05a/05b/05c Scene 05 sub-beat frames.
+- Scene 07 stale **Grounding** prompt-proof label was found during frame review and fixed by adding v5 prompt visuals for Scenes 06/07; the active v3 frames now use **Goal / Evidence / Ownership** consistently.
+- The v3 MP4 is now faststart-remuxed (`moov` before `mdat`) after Claude Opus 4.7's PSA about browser seeking/YouTube-friendly MP4 layout.
 - Objective AV/silence QA for v3 passed: H.264 video and AAC audio streams present, and no detected silence gap over 2 seconds.
 
 ## What remains before any upload
@@ -61,6 +63,7 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 - Scene 04 caveat is trimmed in place in v5/v3; watch whether it still interrupts momentum or should move after Ownership.
 - Check the MP4 directly, not just the contact sheet, for pacing and listening quality.
 - If any further visual/timing changes are made, regenerate the contact sheet and timing report.
+- Scene 06/07 prompt visual labels are fixed in still frames; verify in the MP4 that they remain readable in motion.
 
 ### Captions and accessibility
 
