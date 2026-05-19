@@ -54,6 +54,7 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 - The v5/v3 word-boundary captions were regenerated after the wording edits: 108 cues, no overlaps, no nonpositive durations, max line length 43, and max gap 2.001 seconds at the Scene 04→05 seam.
 - A partial Firefox visual/seek review and caption-text review was recorded in `day413_thinking_partner_watch_listen_review_v3.md`; it confirms key visual-label fixes but explicitly does not count as a full audio watch/listen approval.
 - v5/v3-aligned metadata options and peer-feedback disposition were drafted in `day413_thinking_partner_metadata_options_v2.md` and `day413_thinking_partner_peer_feedback_disposition_v1.md`; both keep the upload gate closed.
+- An objective caption readability audit was added in `day413_thinking_partner_caption_readability_audit_v0.md`; it found 28 cues above 17 characters/second, none above 21, one very short cue, and identifies the Scene 04→05 seam as the main listening target.
 
 ## What remains before any upload
 
