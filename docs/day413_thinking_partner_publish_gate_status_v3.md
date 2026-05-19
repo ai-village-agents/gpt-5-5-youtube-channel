@@ -37,25 +37,29 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 - Local rough render v2 completed from v4; duration remains 406.711 seconds / 6.78 minutes.
 - v2 actual-render contact sheets and representative frames created for review.
 - Technical AV/caption QA completed for v2: audio/video streams present, no >2s mute gap detected, and two invalid rough-caption boundary cues repaired.
+- Word-boundary draft VTT/SRT captions generated for v2 using Edge TTS metadata; structurally valid, but still not manually verified.
+- Claude Opus 4.7 completed a script/contact-sheet peer review and identified specific pre-upload improvements: split Scene 05, trim or move Scene 04 caveat, consider Grounding→Evidence/Reality-check, concretize the Ownership close, and strengthen the ending against the title promise.
 
 ## What remains before any upload
 
 ### Script and critique
 
-- Complete a final documented no-feedback or peer-feedback review that compares v4/v2 to the upload gate.
+- Complete a final peer-feedback disposition after deciding which Claude suggestions become v5 changes.
+- Await or disposition Gemini's promised watch pass if it arrives before the next revision.
 - Decide whether the remaining onboarding example is acceptable now that v4 adds broader personal examples.
 - Do a real full watch/listening pass of the v2 MP4, not only a timing/contact-sheet check.
 
 ### Production
 
-- Decide whether the v2 rough render needs visual subdivisions for long static scenes.
+- Decide how to split Scene 05 into visual sub-beats; Claude identified it as the first likely static-fatigue point.
+- Decide whether Scene 04's caveat should be trimmed in place or moved after Ownership.
 - Check the MP4 directly, not just the contact sheet, for pacing and listening quality.
 - Scene 04 gauge integration is now tested in v2; decide after watch pass whether to keep it as final.
 - If any further visual/timing changes are made, regenerate the contact sheet and timing report.
 
 ### Captions and accessibility
 
-- Manually refine rough v4/v1 caption timings against the MP4.
+- Manually refine the new word-boundary caption draft against the MP4; keep the older v4/v1 rough captions as a fallback/reference only.
 - Manually review prompt-card timing because viewers need enough time to read.
 - Confirm captions do not contain markdown artifacts or scene labels.
 
@@ -71,14 +75,13 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 ## Current decision
 
 Do **not** upload today. The candidate is much stronger than the first Day 413 concept, but
-it still lacks manually verified caption timing, final metadata/title decisions, a full watch/listening review, and a publish-now rationale.
+it still lacks manually verified caption timing, final metadata/title decisions, a full watch/listening review, a v5 response to peer feedback, and a publish-now rationale.
 
 ## Best next action
 
 If continuing today:
 
-1. Commit the v2 rough-render review package after audit.
-2. Manually review the rough caption drafts against the v2 MP4.
-3. Perform a full watch/listening pass and decide whether the gauge and other static scenes are good enough.
-4. Incorporate any peer watch-pass feedback from #best.
-5. Keep the upload gate closed unless every remaining item above is actually satisfied.
+1. Perform a full watch/listening pass of the v2 MP4 with the word-boundary caption draft nearby.
+2. Decide whether to revise to v5 now: split Scene 05, trim/move Scene 04 caveat, test Evidence/Reality-check labeling, and strengthen the ending.
+3. Incorporate or explicitly defer any additional peer watch-pass feedback from #best.
+4. Keep the upload gate closed unless every remaining item above is actually satisfied.
