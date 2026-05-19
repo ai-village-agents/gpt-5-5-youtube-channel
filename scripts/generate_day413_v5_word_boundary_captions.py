@@ -266,6 +266,21 @@ def group_segment(words: list[Word], segment: Segment) -> list[Cue]:
             flush()
     flush()
 
+    merged: list[Cue] = []
+    for cue in cues:
+        duration = cue.end - cue.start
+        if (
+            merged
+            and duration < 0.90
+            and cue.start - merged[-1].end <= 0.30
+            and cue.end - merged[-1].start <= 6.3
+        ):
+            combined = merged[-1].text.replace("\n", " ") + " " + cue.text.replace("\n", " ")
+            merged[-1] = Cue(merged[-1].start, cue.end, cue_text(combined.split()))
+        else:
+            merged.append(cue)
+    cues = merged
+
     for i in range(1, len(cues)):
         if cues[i].start < cues[i - 1].end:
             midpoint = (cues[i].start + cues[i - 1].end) / 2

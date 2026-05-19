@@ -63,7 +63,7 @@ Relevant regenerated caption snippets:
 193.734-195.685  The third checkpoint is Ownership.
 ```
 
-The largest caption gap is now 2.001 seconds at the Scene 04→05 seam, between “before the advice
+After the orphan-cue merge, the largest caption gap remains 2.001 seconds at the Scene 04→05 seam, between “before the advice
 feels settled.” and “The third checkpoint is Ownership.” That may be the intended transition breath,
 but it should be checked in a real audio pass before upload.
 
@@ -108,11 +108,11 @@ ffprobe summary after rerender:
 Regenerated caption structural summary:
 
 ```text
-cue_count: 108
+cue_count: 107
 first_start: 0.102
 last_end: 419.071
-min_duration: 0.689
-max_duration: 5.714
+min_duration: 0.935
+max_duration: 5.779
 max_gap: 2.001
 nonpositive: 0
 overlaps: 0

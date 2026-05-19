@@ -290,204 +290,200 @@ date. The model can show these options
 side by side.
 
 64
-00:04:14,348 --> 00:04:19,398
+00:04:14,348 --> 00:04:20,127
 But you choose the posture, the risk, and
-the line you are willing to stand
+the line you are willing to stand behind.
 
 65
-00:04:19,438 --> 00:04:20,127
-behind.
-
-66
 00:04:21,402 --> 00:04:26,832
 A better request is: Before drafting, list
 the possible goals of this message
 
-67
+66
 00:04:26,872 --> 00:04:28,673
 and the relationship risks of each.
 
-68
+67
 00:04:29,399 --> 00:04:34,188
 Then give three versions: gentle, direct,
 and firm.
 
-69
+68
 00:04:34,933 --> 00:04:37,665
 Separate tone choices from factual claims.
 
-70
+69
 00:04:38,396 --> 00:04:40,920
 Now the model is doing work on the table.
 
-71
+70
 00:04:41,652 --> 00:04:43,082
 Options are useful.
 
-72
+71
 00:04:43,800 --> 00:04:45,608
 Ownership is not optional.
 
-73
+72
 00:04:46,326 --> 00:04:48,863
 You are still responsible for the
 decision.
 
-74
+73
 00:04:50,172 --> 00:04:55,576
 Here is the whole habit as one prompt:
 Before answering, help me keep ownership
 
-75
+74
 00:04:55,616 --> 00:04:56,591
 of this decision.
 
-76
+75
 00:04:57,336 --> 00:05:00,211
 1. Restate the goal you think I am
 pursuing.
 
-77
+76
 00:05:00,955 --> 00:05:04,339
 2. List the facts or evidence that would
 change your answer.
 
-78
+77
 00:05:05,083 --> 00:05:10,302
 3. Identify which parts depend on my
 values, context, or risk tolerance.
 
-79
+78
 00:05:11,034 --> 00:05:14,807
 Then give advice, separating assumptions
 from recommendations.
 
-80
+79
 00:05:15,539 --> 00:05:17,724
 That does not make the model correct.
 
-81
+80
 00:05:18,455 --> 00:05:20,979
 But it gives you three places to
 intervene.
 
-82
+81
 00:05:21,724 --> 00:05:24,031
 If the goal is wrong, correct it.
 
-83
+82
 00:05:24,588 --> 00:05:28,328
 If the evidence is missing, lower your
 confidence or go find it.
 
-84
+83
 00:05:28,885 --> 00:05:33,648
 If the answer depends on values, stop
 pretending it is only a technical question.
 
-85
+84
 00:05:34,038 --> 00:05:37,148
 Try it on the next AI request that
 actually matters.
 
-86
+85
 00:05:37,881 --> 00:05:40,080
 Paste the prompt before your question.
 
-87
+86
 00:05:40,824 --> 00:05:46,538
 Let the model fill in the goal, the
 evidence, and the value-dependent parts.
 
-88
+87
 00:05:47,256 --> 00:05:50,939
 Then edit those three answers before you
 accept the recommendation.
 
-89
+88
 00:05:51,683 --> 00:05:52,723
 Wrong goal?
 
-90
+89
 00:05:53,454 --> 00:05:56,317
 Fix it. Missing evidence?
 
-91
+90
 00:05:57,048 --> 00:05:59,402
 Look for it or lower your confidence.
 
-92
+91
 00:06:00,121 --> 00:06:01,473
 Value tradeoff?
 
-93
+92
 00:06:02,204 --> 00:06:06,127
 Pause. Smooth prose cannot choose that for
 you.
 
-94
+93
 00:06:06,709 --> 00:06:10,542
 That is the difference between using AI to
 think with you and letting it quietly
 
-95
+94
 00:06:10,582 --> 00:06:13,314
 finish the thinking for you.
 
-96
+95
 00:06:14,592 --> 00:06:16,517
 The point is not to think alone.
 
-97
+96
 00:06:17,250 --> 00:06:21,637
 A good model can widen the table: more
 options, clearer tradeoffs, sharper
 
-98
+97
 00:06:21,677 --> 00:06:25,386
 questions, and a second pass on your
 reasoning.
 
-99
+98
 00:06:26,131 --> 00:06:30,009
 Use it for that. Delegate the spread of
 options.
 
-100
+99
 00:06:30,727 --> 00:06:32,522
 Delegate the first draft.
 
-101
+100
 00:06:33,253 --> 00:06:37,404
 Delegate the list of assumptions you might
 have missed.
 
-102
+101
 00:06:38,123 --> 00:06:42,518
 But keep the purpose, the evidence
 standard, the risk tolerance, and the final
 
-103
+102
 00:06:42,558 --> 00:06:43,634
 judgment with you.
 
-104
+103
 00:06:44,204 --> 00:06:48,524
 Before you accept the answer, ask: What is
 the goal?
 
-105
+104
 00:06:49,256 --> 00:06:51,050
 What evidence would change this?
 
-106
+105
 00:06:51,782 --> 00:06:53,654
 What belongs to me to choose?
 
-107
+106
 00:06:54,399 --> 00:06:56,506
 Let the model widen the table.
 
-108
+107
 00:06:57,237 --> 00:06:59,071
 Keep your hands on the question.

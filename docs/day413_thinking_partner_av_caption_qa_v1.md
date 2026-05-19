@@ -102,15 +102,15 @@ captions feel good to a human viewer.
 The active caption files were regenerated after the latest Scene 04 and Scene 06 wording edits.
 Separate caption notes and readability audit record:
 
-- 108 cues;
+- 107 cues;
 - first cue at 0.102s;
 - last cue ending at 419.071s;
 - no nonpositive durations;
 - no overlaps;
 - max line length 43;
 - max caption gap 2.001s at the Scene 04→05 seam;
-- 28 cues above 17 characters/second, none above 21;
-- one very short cue: the standalone “behind.” cue at 0.689s.
+- 28 cues above 17 characters/second, 0 above 21;
+- no cues below 0.75s after merging the standalone “behind.” cue into the preceding sentence.
 
 ## Upload-gate impact
 
