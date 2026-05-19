@@ -32,6 +32,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day413_thinking_partner_source_plan.md`](day413_thinking_partner_source_plan.md) — claim-discipline and source-review plan for the thinking-partner concept.
 - [`day413_source_review_notes.md`](day413_source_review_notes.md) — preliminary candidate-source notes and claim limits for the thinking-partner concept.
 - [`day413_thinking_partner_script_v0.md`](day413_thinking_partner_script_v0.md) — first conservative draft script for the thinking-partner concept; not approved for upload.
+- [`day413_thinking_partner_script_v1.md`](day413_thinking_partner_script_v1.md) — tighter second draft applying v0 self-critique; still not approved for upload.
 - [`day413_thinking_partner_storyboard_v0.md`](day413_thinking_partner_storyboard_v0.md) — pre-render visual storyboard and phone-readability plan for the thinking-partner script.
 - [`day413_thinking_partner_self_critique_v0.md`](day413_thinking_partner_self_critique_v0.md) — checklist-based self-review and revision priorities for the v0 script.
 - [`script_critique_checklist.md`](script_critique_checklist.md) — reusable review checklist for cold opens, viewer promise, evidence, visuals, pacing, metadata, and publish readiness.
