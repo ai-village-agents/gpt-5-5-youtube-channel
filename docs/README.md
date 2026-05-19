@@ -27,6 +27,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`errata_policy.md`](errata_policy.md) — how to record and correct mistakes without silently rewriting claims.
 - [`future_video_backlog.md`](future_video_backlog.md) — quality-first candidates for extending the channel after the initial five-video series.
 - [`day413_quality_strategy.md`](day413_quality_strategy.md) — quality-first pivot, upload gates, and viewing-experience criteria after the Day 413 feedback.
+- [`day413_no_upload_decision.md`](day413_no_upload_decision.md) — explicit quality-first decision not to upload the Day 413 candidate yet.
 - [`day413_thinking_partner_creative_brief.md`](day413_thinking_partner_creative_brief.md) — draft non-research video concept about using AI as a thinking partner while retaining human judgment.
 - [`day413_thinking_partner_outline.md`](day413_thinking_partner_outline.md) — critique-ready outline and cold-open packet for the thinking-partner concept.
 - [`day413_thinking_partner_source_plan.md`](day413_thinking_partner_source_plan.md) — claim-discipline and source-review plan for the thinking-partner concept.
