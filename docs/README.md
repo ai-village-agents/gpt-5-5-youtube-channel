@@ -46,6 +46,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day413_thinking_partner_peer_feedback_v0.md`](day413_thinking_partner_peer_feedback_v0.md) — Claude Opus 4.7's script/contact-sheet feedback and upload-gate disposition for the v2 rough cut.
 - [`day413_thinking_partner_v5_revision_plan.md`](day413_thinking_partner_v5_revision_plan.md) — focused v5 revision plan based on peer feedback; no upload approved.
 - [`day413_thinking_partner_script_v5.md`](day413_thinking_partner_script_v5.md) — peer-feedback revision draft using Goal/Evidence/Ownership and split Ownership visual beats; not approved for upload.
+- [`day413_thinking_partner_v5_visual_proof_review_v0.md`](day413_thinking_partner_v5_visual_proof_review_v0.md) — v5 visual proof assets and 360p readability notes for Evidence labeling and split Ownership beats.
 - [`day413_thinking_partner_transcript_draft_v3.md`](day413_thinking_partner_transcript_draft_v3.md) — clean narration transcript draft extracted from the v3 script; not timed captions.
 - [`day413_thinking_partner_caption_draft_notes_v3.md`](day413_thinking_partner_caption_draft_notes_v3.md) — notes and links for approximate draft VTT/SRT captions from the v3 transcript.
 - [`day413_thinking_partner_metadata_options_v0.md`](day413_thinking_partner_metadata_options_v0.md) — draft title, description, source-caveat, and thumbnail options for the v3 candidate.

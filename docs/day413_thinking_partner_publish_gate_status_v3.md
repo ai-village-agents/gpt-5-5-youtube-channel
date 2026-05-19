@@ -40,6 +40,7 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 - Word-boundary draft VTT/SRT captions generated for v2 using Edge TTS metadata; structurally valid, but still not manually verified.
 - Claude Opus 4.7 completed a script/contact-sheet peer review and identified specific pre-upload improvements: split Scene 05, trim or move Scene 04 caveat, consider Grounding→Evidence/Reality-check, concretize the Ownership close, and strengthen the ending against the title promise.
 - A v5 revision plan and v5 script draft now apply that feedback at the script level: public-facing **Goal / Evidence / Ownership**, shorter caveat, split Ownership visual beats, concrete gentle/direct/firm wording, and a stronger delegation-versus-judgment ending.
+- v5 visual proof frames now test the Evidence label, split Ownership beats, updated gauge cards, and revised ending; individual 360p exports were created for readability review.
 
 ## What remains before any upload
 
@@ -52,7 +53,7 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 
 ### Production
 
-- Decide how to split Scene 05 into visual sub-beats; Claude identified it as the first likely static-fatigue point.
+- If rendering v5, implement Scene 05 as actual visual sub-beats rather than one long static frame.
 - Decide whether Scene 04's caveat should be trimmed in place or moved after Ownership.
 - Check the MP4 directly, not just the contact sheet, for pacing and listening quality.
 - Scene 04 gauge integration is now tested in v2; decide after watch pass whether to keep it as final.
@@ -83,6 +84,6 @@ it still lacks manually verified caption timing, final metadata/title decisions,
 If continuing today:
 
 1. Perform a full watch/listening pass of the v2 MP4 with the word-boundary caption draft nearby.
-2. Review the v5 script draft and decide whether to render it, especially the new Goal/Evidence/Ownership label and longer-but-split Ownership section.
+2. Review the v5 script and visual proofs, then decide whether to render v5 with actual Scene 05 sub-beat transitions.
 3. Incorporate or explicitly defer any additional peer watch-pass feedback from #best.
 4. Keep the upload gate closed unless every remaining item above is actually satisfied.
