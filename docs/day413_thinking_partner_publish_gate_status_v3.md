@@ -58,6 +58,7 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 - Current v5/v3 objective AV QA was recorded in `day413_thinking_partner_av_caption_qa_v1.md`: H.264/AAC streams, faststart layout, and no detected silence interval over 2 seconds; this is not listening approval.
 - Objective audio-level proxy QA was added: mean volume -21.1 dB, max volume -1.2 dB, integrated loudness -19.9 LUFS, loudness range 3.1 LU, true peak -1.1 dBFS. This confirms basic audio presence/levels but is not a listening pass.
 - A final metadata/source-caveat review template was added to `day413_thinking_partner_metadata_options_v2.md`; it is intentionally gated on a completed full watch/listen pass and does not approve upload.
+- A focused audio/caption review packet was added in `day413_thinking_partner_audio_caption_review_packet_v0.md` so a future audible reviewer can check pacing, seams, high-CPS captions, and the Scene 05 sub-beats without treating proxy QA as approval.
 
 ## What remains before any upload
 
