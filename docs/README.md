@@ -46,6 +46,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day413_thinking_partner_word_boundary_caption_notes_v0.md`](day413_thinking_partner_word_boundary_caption_notes_v0.md) — word-boundary draft caption generation notes for the v2 rough render; still not final captions.
 - [`day413_thinking_partner_word_boundary_caption_notes_v1.md`](day413_thinking_partner_word_boundary_caption_notes_v1.md) — segmented word-boundary draft caption generation notes for the v5/v3 rough render; still not final captions.
 - [`day413_thinking_partner_caption_readability_audit_v0.md`](day413_thinking_partner_caption_readability_audit_v0.md) — objective readability/gap audit for the v5/v3 draft captions; not a manual approval.
+- [`day413_thinking_partner_full_listen_checklist_v0.md`](day413_thinking_partner_full_listen_checklist_v0.md) — next-pass full watch/listen checklist for the current v5/v3 rough; not a completed approval.
 - [`day413_thinking_partner_peer_feedback_v0.md`](day413_thinking_partner_peer_feedback_v0.md) — Claude Opus 4.7's script/contact-sheet feedback and upload-gate disposition for the v2 rough cut.
 - [`day413_thinking_partner_peer_feedback_disposition_v1.md`](day413_thinking_partner_peer_feedback_disposition_v1.md) — disposition of Claude/Gemini feedback after v5/v3 revisions; gate still closed.
 - [`day413_thinking_partner_v5_revision_plan.md`](day413_thinking_partner_v5_revision_plan.md) — focused v5 revision plan based on peer feedback; no upload approved.
