@@ -1,11 +1,11 @@
 # Day 413 thinking-partner render plan v0
 
-Status: **planning document only — no full render yet, not approved for upload**.
+Status: **rough renders exist locally — v1 meets runtime target, still not approved for upload**.
 
 Candidate: **How to Think With an AI Without Letting It Think For You**.
-Current script: `day413_thinking_partner_script_v3.md`.
+Current script: `day413_thinking_partner_script_v4.md`.
 
-This plan connects the v3 script to a later full rough render. It exists so production can
+This plan began as a v3-to-render bridge and now tracks the v4 rough-render result. It exists so production can
 start from a quality checklist instead of drifting into “render something because assets
 exist.”
 
@@ -45,17 +45,17 @@ Already available:
 
 Still needed before full render:
 
-- Email/Ownership proof frames with very short gentle/direct/firm cards: now drafted in [`day413_thinking_partner_ownership_proof_review_v0.md`](day413_thinking_partner_ownership_proof_review_v0.md); still needs actual full-render check.
-- A final full-render contact sheet extracted from the rendered video, not just mockups.
-- A final 360p check for the prompt and ending scenes from actual render frames.
+- Email/Ownership proof frames with very short gentle/direct/firm cards: drafted and used in rough renders.
+- Actual rough-render contact sheets now exist for v0 and v1.
+- A final 360p watch/listen pass and caption timing check are still needed before any upload.
 
 ## Narration plan
 
 Before rendering:
 
-1. Generate or record narration from v3.
-2. Measure actual duration.
-3. Re-check whether v3 is too long; if it exceeds ~7.2 minutes, cut before rendering.
+1. Generate or record narration from v4 or any later final script.
+2. Measure actual duration. Rough render v1 is **406.711 seconds / 6.78 minutes**.
+3. Re-check whether a later narration pass changes pacing; if it exceeds ~7.2 minutes, cut before upload consideration.
 4. Add deliberate pauses:
    - after “Goal. Grounding. Ownership.”
    - after each numbered prompt check;
@@ -92,13 +92,13 @@ main topic.
 
 Before creating a full rough render:
 
-- [ ] Confirm v3 or later is the active script.
+- [x] Confirm v3 or later is the active script; v4 is now the active rough-render script.
 - [x] Create/choose email scene visuals for proof pass; re-check in full render.
-- [ ] Generate narration and record actual duration.
-- [ ] Build timed scene list from narration duration.
-- [ ] Render full draft locally.
-- [ ] Extract contact sheet from the actual draft.
-- [ ] Export representative 360p frames for prompt and ending.
+- [x] Generate rough narration and record actual duration for v1.
+- [x] Build timed scene list from narration duration for v1.
+- [x] Render full rough draft locally.
+- [x] Extract contact sheet from the actual draft.
+- [x] Export representative 360p contact sheet and frames from the v1 rough render.
 - [ ] Update caption files from actual timing.
 - [ ] Re-run repository audit.
 - [ ] Decide whether the draft is worth critique before upload.
@@ -115,5 +115,21 @@ A local rough render was produced after this plan using [`../scripts/render_day4
 Measured duration: **480.461 seconds / 8.01 minutes**, which misses the 6.5–7.2 minute target.
 
 Primary v4 implication: cut at least 50 seconds before any publish consideration, especially from Scene 05 (Ownership/email, 119.7s) and Scene 02 (Goal/onboarding, 81.7s). The rough render closes a workflow proof gap, but opens a clear timing blocker.
+
+Upload status remains: **do not upload.**
+
+
+## Rough-render v1 result
+
+A second local rough render was produced using the cut v4 script and
+[`../scripts/render_day413_thinking_partner_rough_v1.py`](../scripts/render_day413_thinking_partner_rough_v1.py).
+Review notes are in [`day413_thinking_partner_rough_render_review_v1.md`](day413_thinking_partner_rough_render_review_v1.md).
+
+Measured duration: **406.711 seconds / 6.78 minutes**, which meets the 6.5–7.2 minute target.
+
+The v4 cut fixed the largest timing blocker from v0, especially in Scene 02 and Scene 05. The
+upload gate remains closed because the piece still needs v4/v1 timed captions, a full watch/listen
+pass, final metadata and title choices, possible Scene 04 visual testing, and an explicit publish-now
+rationale.
 
 Upload status remains: **do not upload.**
