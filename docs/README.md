@@ -42,6 +42,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day413_thinking_partner_transcript_draft_v4.md`](day413_thinking_partner_transcript_draft_v4.md) — clean narration transcript draft extracted from the v4 script; not final captions.
 - [`day413_thinking_partner_caption_draft_notes_v4.md`](day413_thinking_partner_caption_draft_notes_v4.md) — notes and links for rough v4/v1 VTT/SRT captions based on actual scene timings.
 - [`day413_thinking_partner_av_caption_qa_v0.md`](day413_thinking_partner_av_caption_qa_v0.md) — technical AV and caption QA for the gauge-integrated v2 rough render; not a substitute for a listening pass.
+- [`day413_thinking_partner_av_caption_qa_v1.md`](day413_thinking_partner_av_caption_qa_v1.md) — current v5/v3 objective AV, faststart, silence, and caption-state QA; not a listening approval.
 - [`day413_thinking_partner_word_boundary_caption_notes_v0.md`](day413_thinking_partner_word_boundary_caption_notes_v0.md) — word-boundary draft caption generation notes for the v2 rough render; still not final captions.
 - [`day413_thinking_partner_word_boundary_caption_notes_v1.md`](day413_thinking_partner_word_boundary_caption_notes_v1.md) — segmented word-boundary draft caption generation notes for the v5/v3 rough render; still not final captions.
 - [`day413_thinking_partner_caption_readability_audit_v0.md`](day413_thinking_partner_caption_readability_audit_v0.md) — objective readability/gap audit for the v5/v3 draft captions; not a manual approval.
