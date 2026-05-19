@@ -1,0 +1,351 @@
+WEBVTT
+
+NOTE Draft approximate captions generated before narration/audio timing. Not final.
+
+00:00:00.000 --> 00:00:03.679
+A good AI answer can still arrive too early.
+
+00:00:03.679 --> 00:00:05.642
+You ask a question.
+
+00:00:05.642 --> 00:00:11.166
+The model gives you a fluent paragraph, a clean plan, maybe even a reasonable
+
+00:00:11.166 --> 00:00:13.129
+recommendation.
+
+00:00:13.129 --> 00:00:15.091
+It feels like progress.
+
+00:00:15.091 --> 00:00:20.616
+But sometimes the answer is solving a question you have not actually chosen yet.
+
+00:00:20.616 --> 00:00:26.141
+By the end of this video, you will have a prompt you can reuse
+
+00:00:26.141 --> 00:00:28.343
+before any important AI answer.
+
+00:00:28.343 --> 00:00:30.546
+It checks three things: **Goal.
+
+00:00:30.546 --> 00:00:32.508
+Grounding.
+
+00:00:32.508 --> 00:00:35.449
+Ownership.** What are we trying to do?
+
+00:00:35.449 --> 00:00:38.021
+What facts would change the answer?
+
+00:00:38.021 --> 00:00:41.330
+And what parts are still mine to choose?
+
+00:00:41.330 --> 00:00:44.640
+Think of the model as a bright worktable.
+
+00:00:44.640 --> 00:00:48.319
+It can lay out options, tradeoffs, and missing questions.
+
+00:00:48.319 --> 00:00:52.737
+But the worktable should not decide what the work is for.
+
+00:00:52.737 --> 00:00:55.308
+Here is a simple fictional example.
+
+00:00:55.308 --> 00:00:58.618
+You ask: Should I redesign my onboarding page?
+
+00:00:58.618 --> 00:01:04.143
+The model might answer instantly: simplify the page, reduce friction, emphasize the main benefit,
+
+00:01:04.143 --> 00:01:07.084
+add social proof, test a clearer button.
+
+00:01:07.084 --> 00:01:09.286
+That advice might be useful.
+
+00:01:09.286 --> 00:01:12.227
+It is also answering a half-built question.
+
+00:01:12.227 --> 00:01:14.429
+Does “better” mean more signups?
+
+00:01:14.429 --> 00:01:16.392
+Fewer confused users?
+
+00:01:16.392 --> 00:01:18.354
+Fewer support tickets?
+
+00:01:18.354 --> 00:01:20.557
+A more honest first impression?
+
+00:01:20.557 --> 00:01:24.605
+A clearer explanation of who the product is not for?
+
+00:01:24.605 --> 00:01:26.568
+Those are different goals.
+
+00:01:26.568 --> 00:01:32.092
+If you do not name the goal, the model may quietly name it for
+
+00:01:32.092 --> 00:01:34.055
+you.
+
+00:01:34.055 --> 00:01:36.257
+The first checkpoint is **Goal**.
+
+00:01:36.257 --> 00:01:41.782
+Before asking for advice, ask: what am I actually trying to decide or create?
+
+00:01:41.782 --> 00:01:45.092
+Not just “make this better.” Better for whom?
+
+00:01:45.092 --> 00:01:47.054
+Better by what measure?
+
+00:01:47.054 --> 00:01:49.017
+Better at what cost?
+
+00:01:49.017 --> 00:01:54.542
+A stronger version of the prompt might be: I am deciding whether to redesign
+
+00:01:54.542 --> 00:01:56.504
+an onboarding page.
+
+00:01:56.504 --> 00:01:59.445
+The goal is not just more signups.
+
+00:01:59.445 --> 00:02:04.970
+It is more new users who understand the product and are less likely to
+
+00:02:04.970 --> 00:02:07.541
+need support in the first week.
+
+00:02:07.541 --> 00:02:10.113
+Now the model has a scoreboard.
+
+00:02:10.113 --> 00:02:14.530
+It can still help, but it is not inventing the game.
+
+00:02:14.530 --> 00:02:16.733
+The second checkpoint is **Grounding**.
+
+00:02:16.733 --> 00:02:20.042
+Ask: what real-world facts would change the answer?
+
+00:02:20.042 --> 00:02:25.567
+If the model recommends a redesign, what would make that recommendation stronger or weaker?
+
+00:02:25.567 --> 00:02:28.877
+Maybe users drop off at the second step.
+
+00:02:28.877 --> 00:02:32.556
+Maybe support tickets keep mentioning the same confusing sentence.
+
+00:02:32.556 --> 00:02:36.235
+Maybe recordings show people hesitating over a price detail.
+
+00:02:36.235 --> 00:02:40.652
+Or maybe the page is not the real problem at all.
+
+00:02:40.652 --> 00:02:46.177
+So instead of only asking, “explain your reasoning,” try asking: What evidence would change
+
+00:02:46.177 --> 00:02:48.140
+your recommendation?
+
+00:02:48.140 --> 00:02:51.819
+Separate what you know from what you are assuming.
+
+00:02:51.819 --> 00:02:55.498
+That turns the answer into a checklist for reality.
+
+00:02:55.498 --> 00:02:59.915
+This matters because the goal is not to avoid AI help.
+
+00:02:59.915 --> 00:03:04.332
+The goal is to rely on it in the right place.
+
+00:03:04.332 --> 00:03:09.857
+Researchers studying decision support often use terms like automation bias or over-reliance for cases
+
+00:03:09.857 --> 00:03:13.167
+where people lean too hard on automated recommendations.
+
+00:03:13.167 --> 00:03:18.691
+And in human-AI decision studies, even explanations can change how people rely on a
+
+00:03:18.691 --> 00:03:23.478
+system without reliably making them better at telling which recommendations are correct.
+
+00:03:23.478 --> 00:03:26.788
+So this prompt is not a magic fix.
+
+00:03:26.788 --> 00:03:30.097
+It does not prove the answer is right.
+
+00:03:30.097 --> 00:03:35.622
+It does something smaller: it keeps the goal, the evidence, and the human tradeoffs
+
+00:03:35.622 --> 00:03:39.301
+visible before the advice becomes too easy to accept.
+
+00:03:39.301 --> 00:03:41.504
+The third checkpoint is **Ownership**.
+
+00:03:41.504 --> 00:03:46.290
+Some parts of a decision are not facts the model can discover.
+
+00:03:46.290 --> 00:03:49.600
+They depend on values, context, responsibility, and risk.
+
+00:03:49.600 --> 00:03:55.125
+For the onboarding page, maybe a shorter version increases signups but gives people a
+
+00:03:55.125 --> 00:03:57.087
+less accurate expectation.
+
+00:03:57.087 --> 00:04:01.874
+Maybe a clearer page filters out some users but creates more trust.
+
+00:04:01.874 --> 00:04:04.445
+A model can describe that tradeoff.
+
+00:04:04.445 --> 00:04:08.862
+It cannot decide what kind of relationship you want with users.
+
+00:04:08.862 --> 00:04:12.911
+The same idea shows up in a more everyday example.
+
+00:04:12.911 --> 00:04:18.435
+Suppose you write: Draft an email telling a collaborator I am unhappy that the
+
+00:04:18.435 --> 00:04:20.398
+timeline is slipping.
+
+00:04:20.398 --> 00:04:23.339
+The model can produce a polished email.
+
+00:04:23.339 --> 00:04:27.387
+But it does not know what you want to protect.
+
+00:04:27.387 --> 00:04:29.958
+Do you want to repair trust?
+
+00:04:29.958 --> 00:04:31.921
+Set a boundary?
+
+00:04:31.921 --> 00:04:33.883
+Get a new date?
+
+00:04:33.883 --> 00:04:35.846
+Document accountability?
+
+00:04:35.846 --> 00:04:37.809
+Lower the temperature?
+
+00:04:37.809 --> 00:04:40.380
+Make the seriousness impossible to miss?
+
+00:04:40.380 --> 00:04:42.343
+Those are different choices.
+
+00:04:42.343 --> 00:04:44.545
+The model can show versions.
+
+00:04:44.545 --> 00:04:48.224
+You choose what you are willing to stand behind.
+
+00:04:48.224 --> 00:04:53.749
+A better request is: Before drafting, list the possible goals of this message and
+
+00:04:53.749 --> 00:04:55.951
+the relationship risks of each.
+
+00:04:55.951 --> 00:04:59.261
+Then give three versions: gentle, direct, and firm.
+
+00:04:59.261 --> 00:05:01.833
+Separate tone choices from factual claims.
+
+00:05:01.833 --> 00:05:05.512
+Now the model is doing work on the table.
+
+00:05:05.512 --> 00:05:08.453
+You are still responsible for the decision.
+
+00:05:08.453 --> 00:05:13.977
+Here is the whole habit as one prompt: Before answering, help me keep ownership
+
+00:05:13.977 --> 00:05:15.940
+of this decision.
+
+00:05:15.940 --> 00:05:17.902
+1.
+
+00:05:17.902 --> 00:05:21.212
+Restate the goal you think I am pursuing.
+
+00:05:21.212 --> 00:05:23.175
+2.
+
+00:05:23.175 --> 00:05:27.223
+List the facts or evidence that would change your answer.
+
+00:05:27.223 --> 00:05:29.186
+3.
+
+00:05:29.186 --> 00:05:33.603
+Identify which parts depend on my values, context, or risk tolerance.
+
+00:05:33.603 --> 00:05:36.544
+Then give advice, separating assumptions from recommendations.
+
+00:05:36.544 --> 00:05:39.484
+That does not make the model correct.
+
+00:05:39.484 --> 00:05:42.794
+But it gives you three places to intervene.
+
+00:05:42.794 --> 00:05:45.735
+If the goal is wrong, correct it.
+
+00:05:45.735 --> 00:05:49.414
+If the evidence is missing, go look for it.
+
+00:05:49.414 --> 00:05:54.939
+If the answer depends on values, stop pretending it is only a technical question.
+
+00:05:54.939 --> 00:05:57.879
+The point is not to think alone.
+
+00:05:57.879 --> 00:06:03.404
+A good model can widen the room: more options, clearer tradeoffs, sharper questions, and
+
+00:06:03.404 --> 00:06:05.976
+a second pass on your reasoning.
+
+00:06:05.976 --> 00:06:07.938
+Use it for that.
+
+00:06:07.938 --> 00:06:10.879
+Use the model for options and tradeoffs.
+
+00:06:10.879 --> 00:06:14.189
+Keep the goal, evidence, and final judgment visible.
+
+00:06:14.189 --> 00:06:18.237
+Before you accept the answer, ask: What is the goal?
+
+00:06:18.237 --> 00:06:20.809
+What would ground this in reality?
+
+00:06:20.809 --> 00:06:23.380
+What belongs to me to choose?
+
+00:06:23.380 --> 00:06:26.321
+Let the AI help you see more.
+
+00:06:26.321 --> 00:06:30.000
+Do not let it decide what seeing is for.
