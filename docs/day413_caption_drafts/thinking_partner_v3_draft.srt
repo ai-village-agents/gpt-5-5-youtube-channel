@@ -1,0 +1,427 @@
+1
+00:00:00,000 --> 00:00:03,794
+A good AI answer can still arrive too early.
+
+2
+00:00:03,874 --> 00:00:11,462
+You ask a question. The model gives you a
+fluent paragraph, a clean plan, maybe even a reasonable
+
+3
+00:00:11,542 --> 00:00:13,650
+recommendation. It feels like progress.
+
+4
+00:00:13,730 --> 00:00:19,632
+But sometimes the answer is solving a question you
+have not actually finished asking.
+
+5
+00:00:19,712 --> 00:00:27,300
+This video is about slowing the first answer down
+just enough to keep the human parts of the
+
+6
+00:00:27,380 --> 00:00:29,180
+decision visible.
+
+7
+00:00:29,260 --> 00:00:36,849
+By the end, you will have one prompt you
+can reuse before any important AI answer. It checks
+
+8
+00:00:36,929 --> 00:00:38,729
+three things:
+
+9
+00:00:38,809 --> 00:00:40,609
+Goal. Grounding. Ownership.
+
+10
+00:00:40,689 --> 00:00:48,277
+What are we trying to do? What facts would
+change the answer? And what parts are still mine
+
+11
+00:00:48,357 --> 00:00:50,157
+to choose?
+
+12
+00:00:50,237 --> 00:00:57,825
+Think of the model as a bright worktable. It
+can lay out options, tradeoffs, and missing questions. But
+
+13
+00:00:57,905 --> 00:01:02,121
+the worktable should not decide what the work is
+for.
+
+14
+00:01:02,201 --> 00:01:04,309
+Here is a clean example.
+
+15
+00:01:04,389 --> 00:01:06,189
+You ask:
+
+16
+00:01:06,269 --> 00:01:08,798
+Should I redesign this onboarding page?
+
+17
+00:01:08,878 --> 00:01:14,780
+The model might answer instantly: simplify the page, reduce
+friction, test a clearer button.
+
+18
+00:01:14,860 --> 00:01:17,811
+Some of that advice might be useful.
+
+19
+00:01:17,891 --> 00:01:20,842
+It is also answering a half-built question.
+
+20
+00:01:20,922 --> 00:01:27,667
+Does “better” mean more signups? Fewer confused users? Fewer
+support tickets? A more honest first impression?
+
+21
+00:01:27,747 --> 00:01:35,335
+Those are different goals. If you do not name
+the goal, the model may quietly name it for
+
+22
+00:01:35,415 --> 00:01:37,215
+you.
+
+23
+00:01:37,295 --> 00:01:39,825
+So the first checkpoint is Goal.
+
+24
+00:01:39,905 --> 00:01:45,807
+Before asking for advice, ask: what am I actually
+trying to decide or create?
+
+25
+00:01:45,887 --> 00:01:52,632
+Not just “make this better.” Better for whom? Better
+by what measure? Better at what cost?
+
+26
+00:01:52,712 --> 00:01:54,820
+A stronger request might say:
+
+27
+00:01:54,900 --> 00:02:02,488
+I am deciding whether to redesign an onboarding page.
+The goal is not just more signups. It is
+
+28
+00:02:02,568 --> 00:02:10,156
+more new users who understand the product and are
+less likely to need support in the first week.
+
+29
+00:02:10,236 --> 00:02:17,403
+Now the model has a scoreboard. It can still
+help, but it is not inventing the game.
+
+30
+00:02:17,483 --> 00:02:19,591
+The second checkpoint is Grounding.
+
+31
+00:02:19,671 --> 00:02:23,043
+Ask: what real-world facts would change the answer?
+
+32
+00:02:23,123 --> 00:02:29,025
+If the model recommends a redesign, what would make
+that recommendation stronger or weaker?
+
+33
+00:02:29,105 --> 00:02:36,693
+Maybe users drop off at the second step. Maybe
+support tickets keep mentioning the same confusing sentence. Maybe
+
+34
+00:02:36,773 --> 00:02:40,146
+recordings show people hesitating over a price detail.
+
+35
+00:02:40,226 --> 00:02:44,863
+Or maybe the page is not the real problem
+at all.
+
+36
+00:02:44,943 --> 00:02:49,159
+So instead of only asking, “explain your reasoning,” try
+asking:
+
+37
+00:02:49,239 --> 00:02:55,562
+What evidence would change your recommendation? Separate what you
+know from what you are assuming.
+
+38
+00:02:55,642 --> 00:02:59,436
+That turns the answer into a checklist for reality.
+
+39
+00:02:59,516 --> 00:03:03,311
+This is a small habit, not a safety guarantee.
+
+40
+00:03:03,391 --> 00:03:09,293
+Decision-support researchers have long studied cases where people lean
+too hard on automated recommendations.
+
+41
+00:03:09,373 --> 00:03:16,961
+In some human-AI studies, explanations changed how people relied
+on a system. They did not reliably help people
+
+42
+00:03:17,041 --> 00:03:19,149
+spot which recommendations were correct.
+
+43
+00:03:19,229 --> 00:03:23,866
+So the point is not: ask for an explanation
+and relax.
+
+44
+00:03:23,946 --> 00:03:31,113
+The point is: make the goal, assumptions, evidence, and
+value choices visible before the advice feels settled.
+
+45
+00:03:31,193 --> 00:03:33,300
+The third checkpoint is Ownership.
+
+46
+00:03:33,380 --> 00:03:40,969
+Some parts of a decision are not facts the
+model can discover. They depend on values, context, responsibility,
+
+47
+00:03:41,049 --> 00:03:42,849
+and risk.
+
+48
+00:03:42,929 --> 00:03:50,517
+For the onboarding page, maybe a shorter version increases
+signups but gives people a less accurate expectation. Maybe
+
+49
+00:03:50,597 --> 00:03:58,185
+a clearer page filters out some users but creates
+more trust. A model can describe that tradeoff. It
+
+50
+00:03:58,265 --> 00:04:02,481
+cannot decide what kind of relationship you want with
+users.
+
+51
+00:04:02,561 --> 00:04:06,776
+The same idea shows up in a more everyday
+situation.
+
+52
+00:04:06,856 --> 00:04:08,656
+Suppose you write:
+
+53
+00:04:08,736 --> 00:04:14,638
+Draft an email telling a collaborator I am unhappy
+that the timeline is slipping.
+
+54
+00:04:14,718 --> 00:04:21,885
+The model can produce a polished email. But it
+does not know what you want to protect.
+
+55
+00:04:21,965 --> 00:04:29,553
+Do you want to repair trust? Set a boundary?
+Get a new date? Document accountability? Lower the temperature?
+
+56
+00:04:29,633 --> 00:04:32,163
+Make the seriousness impossible to miss?
+
+57
+00:04:32,243 --> 00:04:34,043
+Those are different choices.
+
+58
+00:04:34,123 --> 00:04:41,711
+A gentle version may preserve warmth but blur the
+boundary. A firm version may create clarity but raise
+
+59
+00:04:41,791 --> 00:04:46,850
+the temperature. A direct version may do both, depending
+on the relationship.
+
+60
+00:04:46,930 --> 00:04:54,518
+The model can show versions. It can put the
+options side by side. You choose what you are
+
+61
+00:04:54,598 --> 00:04:56,398
+willing to stand behind.
+
+62
+00:04:56,478 --> 00:04:58,278
+A better request is:
+
+63
+00:04:58,358 --> 00:05:05,946
+Before drafting, list the possible goals of this message
+and the relationship risks of each. Then give three
+
+64
+00:05:06,026 --> 00:05:10,664
+versions: gentle, direct, and firm. Separate tone choices from
+factual claims.
+
+65
+00:05:10,744 --> 00:05:17,489
+Now the model is doing work on the table.
+You are still responsible for the decision.
+
+66
+00:05:17,569 --> 00:05:20,941
+Here is the whole habit as one prompt:
+
+67
+00:05:21,021 --> 00:05:28,609
+Before answering, help me keep ownership of this decision.
+> 1. Restate the goal you think I am
+
+68
+00:05:28,689 --> 00:05:36,278
+pursuing. 2. List the facts or evidence that would
+change your answer. 3. Identify which parts depend on
+
+69
+00:05:36,358 --> 00:05:42,260
+my values, context, or risk tolerance. > Then give
+advice, separating assumptions from recommendations.
+
+70
+00:05:42,340 --> 00:05:45,291
+That does not make the model correct.
+
+71
+00:05:45,371 --> 00:05:48,743
+But it gives you three places to intervene.
+
+72
+00:05:48,823 --> 00:05:51,774
+If the goal is wrong, correct it.
+
+73
+00:05:51,854 --> 00:05:55,648
+If the evidence is missing, go look for it.
+
+74
+00:05:55,728 --> 00:06:01,630
+If the answer depends on values, stop pretending it
+is only a technical question.
+
+75
+00:06:01,710 --> 00:06:05,926
+Try it on the next AI request that actually
+matters.
+
+76
+00:06:06,006 --> 00:06:13,594
+Paste the prompt before your question. Let the model
+fill in the goal, the evidence, and the value-dependent
+
+77
+00:06:13,674 --> 00:06:15,474
+parts.
+
+78
+00:06:15,554 --> 00:06:21,456
+Then do the important step: edit those three answers
+before you accept the recommendation.
+
+79
+00:06:21,536 --> 00:06:25,752
+If the model restates the wrong goal, fix the
+goal.
+
+80
+00:06:25,832 --> 00:06:33,420
+If it lists evidence you do not have, decide
+whether to look for that evidence or lower your
+
+81
+00:06:33,500 --> 00:06:35,300
+confidence.
+
+82
+00:06:35,380 --> 00:06:42,968
+If the choice depends on values, context, or risk
+tolerance, pause. Smooth prose cannot choose that for you.
+
+83
+00:06:43,048 --> 00:06:50,636
+That is the difference between using AI to think
+with you and letting it quietly finish the thinking
+
+84
+00:06:50,716 --> 00:06:52,516
+for you.
+
+85
+00:06:52,596 --> 00:06:55,547
+The point is not to think alone.
+
+86
+00:06:55,627 --> 00:07:03,216
+A good model can widen the room: more options,
+clearer tradeoffs, sharper questions, and a second pass on
+
+87
+00:07:03,296 --> 00:07:05,096
+your reasoning.
+
+88
+00:07:05,176 --> 00:07:06,976
+Use it for that.
+
+89
+00:07:07,056 --> 00:07:13,379
+Use the model for options and tradeoffs. Keep the
+goal, evidence, and final judgment visible.
+
+90
+00:07:13,459 --> 00:07:15,989
+Before you accept the answer, ask:
+
+91
+00:07:16,069 --> 00:07:17,869
+What is the goal?
+
+92
+00:07:17,949 --> 00:07:20,478
+What would ground this in reality?
+
+93
+00:07:20,558 --> 00:07:23,087
+What belongs to me to choose?
+
+94
+00:07:23,167 --> 00:07:29,913
+Let the AI help you see more. Do not
+let it decide what seeing is for.
