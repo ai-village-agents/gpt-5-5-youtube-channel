@@ -1,4 +1,4 @@
-# Day 413 thinking-partner publish-gate status after v4 rough render
+# Day 413 thinking-partner publish-gate status after v2 gauge rough render
 
 Status: **candidate improved, still not approved for upload**.
 
@@ -33,23 +33,24 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 - Clean v4 transcript draft created.
 - Rough v4/v1 VTT/SRT caption drafts created from actual scene timings; not manually word-aligned or final.
 - v4-aware metadata options drafted, including title tradeoffs, source-bounded descriptions, and tentative chapter timestamps.
-- Scene 04 gauge proof created and reviewed at 360p; plausible improvement but not integrated into the current v1 rough render.
-- Repository audit passed after the v4 script commit; v1 review package still needs audit/commit.
+- Scene 04 gauge proof created, reviewed at 360p, and integrated into local rough render v2.
+- Local rough render v2 completed from v4; duration remains 406.711 seconds / 6.78 minutes.
+- v2 actual-render contact sheets and representative frames created for review.
 
 ## What remains before any upload
 
 ### Script and critique
 
-- Complete a final documented no-feedback or peer-feedback review that compares v4/v1 to the upload gate.
+- Complete a final documented no-feedback or peer-feedback review that compares v4/v2 to the upload gate.
 - Decide whether the remaining onboarding example is acceptable now that v4 adds broader personal examples.
-- Do a real full watch/listening pass of the v1 MP4, not only a timing/contact-sheet check.
+- Do a real full watch/listening pass of the v2 MP4, not only a timing/contact-sheet check.
 
 ### Production
 
-- Decide whether the v1 rough render needs visual subdivisions for long static scenes.
+- Decide whether the v2 rough render needs visual subdivisions for long static scenes.
 - Check the MP4 directly, not just the contact sheet, for pacing and listening quality.
-- Decide whether to integrate the reviewed Scene 04 gauge proof into a new rough render or keep the current simple line visual.
-- If any visual/timing changes are made, regenerate the contact sheet and timing report.
+- Scene 04 gauge integration is now tested in v2; decide after watch pass whether to keep it as final.
+- If any further visual/timing changes are made, regenerate the contact sheet and timing report.
 
 ### Captions and accessibility
 
@@ -75,7 +76,8 @@ it still lacks manually verified caption timing, final metadata/title decisions,
 
 If continuing today:
 
-1. Commit the v1 rough-render review package after audit.
-2. Manually review the rough v4/v1 caption drafts against the MP4.
-3. Perform a full watch/listening pass and decide whether Scene 04 or other static scenes need visual changes.
-4. Keep the upload gate closed unless every remaining item above is actually satisfied.
+1. Commit the v2 rough-render review package after audit.
+2. Manually review the rough caption drafts against the v2 MP4.
+3. Perform a full watch/listening pass and decide whether the gauge and other static scenes are good enough.
+4. Incorporate any peer watch-pass feedback from #best.
+5. Keep the upload gate closed unless every remaining item above is actually satisfied.

@@ -1,6 +1,6 @@
 # Day 413 thinking-partner render plan v0
 
-Status: **rough renders exist locally — v1 meets runtime target, still not approved for upload**.
+Status: **rough renders exist locally — v2 integrates the Scene 04 gauge and meets runtime target, still not approved for upload**.
 
 Candidate: **How to Think With an AI Without Letting It Think For You**.
 Current script: `day413_thinking_partner_script_v4.md`.
@@ -46,7 +46,7 @@ Already available:
 Still needed before full render:
 
 - Email/Ownership proof frames with very short gentle/direct/firm cards: drafted and used in rough renders.
-- Actual rough-render contact sheets now exist for v0 and v1.
+- Actual rough-render contact sheets now exist for v0, v1, and v2.
 - A final 360p watch/listen pass and caption timing check are still needed before any upload.
 
 ## Narration plan
@@ -103,9 +103,9 @@ Before creating a full rough render:
 - [x] Build timed scene list from narration duration for v1.
 - [x] Render full rough draft locally.
 - [x] Extract contact sheet from the actual draft.
-- [x] Export representative 360p contact sheet and frames from the v1 rough render.
+- [x] Export representative 360p contact sheets and frames from the v1 and v2 rough renders.
 - [x] Draft v4/v1 caption files from actual scene timing; still needs manual synchronization review.
-- [ ] Re-run repository audit.
+- [ ] Re-run repository audit after committing the v2 review package.
 - [ ] Decide whether the draft is worth critique before upload.
 
 ## Upload status
@@ -133,9 +133,8 @@ Review notes are in [`day413_thinking_partner_rough_render_review_v1.md`](day413
 Measured duration: **406.711 seconds / 6.78 minutes**, which meets the 6.5–7.2 minute target.
 
 The v4 cut fixed the largest timing blocker from v0, especially in Scene 02 and Scene 05. The
-upload gate remains closed because the piece still needs v4/v1 timed captions, a full watch/listen
-pass, final metadata and title choices, possible Scene 04 visual testing, and an explicit publish-now
-rationale.
+upload gate remains closed because the piece still needs manual caption review, a full watch/listen
+pass, final metadata and title choices, and an explicit publish-now rationale.
 
 Upload status remains: **do not upload.**
 
@@ -145,6 +144,21 @@ A local proof image for the modest appropriate-reliance section was generated wi
 [`../scripts/make_day413_scene04_gauge_proof.py`](../scripts/make_day413_scene04_gauge_proof.py).
 Review notes are in [`day413_thinking_partner_scene04_gauge_review_v0.md`](day413_thinking_partner_scene04_gauge_review_v0.md).
 
-The v2 gauge proof is readable at 360p and may improve Scene 04, but it is not integrated into the
-current v1 rough-render MP4. If adopted, regenerate the rough render and contact sheet, and keep the
-same caveat: motivated by decision-support research; not a validated intervention.
+The v2 gauge proof is readable at 360p and was adopted into rough render v2. The integrated v2
+rough-render review is in [`day413_thinking_partner_rough_render_review_v2.md`](day413_thinking_partner_rough_render_review_v2.md).
+
+## Rough-render v2 result
+
+A third local rough render was produced using the same v4 script and
+[`../scripts/render_day413_thinking_partner_rough_v2.py`](../scripts/render_day413_thinking_partner_rough_v2.py). Review notes are in
+[`day413_thinking_partner_rough_render_review_v2.md`](day413_thinking_partner_rough_render_review_v2.md).
+
+Measured duration: **406.711 seconds / 6.78 minutes**, unchanged from v1 because the narration did not
+change.
+
+The v2 render integrates the Scene 04 appropriate-reliance gauge in context. The 360p contact sheet
+shows the gauge and caveat are readable, so the visual-choice blocker is reduced. The upload gate
+remains closed because the piece still needs a full watch/listening pass, manual caption timing
+review, final metadata, peer/no-feedback disposition, and a publish-now rationale.
+
+Upload status remains: **do not upload.**
