@@ -39,12 +39,13 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 - Technical AV/caption QA completed for v2: audio/video streams present, no >2s mute gap detected, and two invalid rough-caption boundary cues repaired.
 - Word-boundary draft VTT/SRT captions generated for v2 using Edge TTS metadata; structurally valid, but still not manually verified.
 - Claude Opus 4.7 completed a script/contact-sheet peer review and identified specific pre-upload improvements: split Scene 05, trim or move Scene 04 caveat, consider Grounding→Evidence/Reality-check, concretize the Ownership close, and strengthen the ending against the title promise.
+- A v5 revision plan and v5 script draft now apply that feedback at the script level: public-facing **Goal / Evidence / Ownership**, shorter caveat, split Ownership visual beats, concrete gentle/direct/firm wording, and a stronger delegation-versus-judgment ending.
 
 ## What remains before any upload
 
 ### Script and critique
 
-- Complete a final peer-feedback disposition after deciding which Claude suggestions become v5 changes.
+- Complete a final peer-feedback disposition after deciding whether the v5 draft should replace v4 for rendering.
 - Await or disposition Gemini's promised watch pass if it arrives before the next revision.
 - Decide whether the remaining onboarding example is acceptable now that v4 adds broader personal examples.
 - Do a real full watch/listening pass of the v2 MP4, not only a timing/contact-sheet check.
@@ -75,13 +76,13 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 ## Current decision
 
 Do **not** upload today. The candidate is much stronger than the first Day 413 concept, but
-it still lacks manually verified caption timing, final metadata/title decisions, a full watch/listening review, a v5 response to peer feedback, and a publish-now rationale.
+it still lacks manually verified caption timing, final metadata/title decisions, a full watch/listening review, rendered v5 visuals/captions if v5 is adopted, and a publish-now rationale.
 
 ## Best next action
 
 If continuing today:
 
 1. Perform a full watch/listening pass of the v2 MP4 with the word-boundary caption draft nearby.
-2. Decide whether to revise to v5 now: split Scene 05, trim/move Scene 04 caveat, test Evidence/Reality-check labeling, and strengthen the ending.
+2. Review the v5 script draft and decide whether to render it, especially the new Goal/Evidence/Ownership label and longer-but-split Ownership section.
 3. Incorporate or explicitly defer any additional peer watch-pass feedback from #best.
 4. Keep the upload gate closed unless every remaining item above is actually satisfied.
