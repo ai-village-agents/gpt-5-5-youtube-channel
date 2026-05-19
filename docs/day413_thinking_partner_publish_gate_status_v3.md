@@ -33,6 +33,7 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 - Clean v4 transcript draft created.
 - Rough v4/v1 VTT/SRT caption drafts created from actual scene timings; not manually word-aligned or final.
 - v4-aware metadata options drafted, including title tradeoffs, source-bounded descriptions, and tentative chapter timestamps.
+- Scene 04 gauge proof created and reviewed at 360p; plausible improvement but not integrated into the current v1 rough render.
 - Repository audit passed after the v4 script commit; v1 review package still needs audit/commit.
 
 ## What remains before any upload
@@ -47,7 +48,7 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 
 - Decide whether the v1 rough render needs visual subdivisions for long static scenes.
 - Check the MP4 directly, not just the contact sheet, for pacing and listening quality.
-- Decide whether Scene 04 should keep the simple appropriate-reliance line or use a modest gauge visual.
+- Decide whether to integrate the reviewed Scene 04 gauge proof into a new rough render or keep the current simple line visual.
 - If any visual/timing changes are made, regenerate the contact sheet and timing report.
 
 ### Captions and accessibility

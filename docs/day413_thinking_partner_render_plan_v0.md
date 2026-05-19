@@ -138,3 +138,13 @@ pass, final metadata and title choices, possible Scene 04 visual testing, and an
 rationale.
 
 Upload status remains: **do not upload.**
+
+## Scene 04 gauge proof result
+
+A local proof image for the modest appropriate-reliance section was generated with
+[`../scripts/make_day413_scene04_gauge_proof.py`](../scripts/make_day413_scene04_gauge_proof.py).
+Review notes are in [`day413_thinking_partner_scene04_gauge_review_v0.md`](day413_thinking_partner_scene04_gauge_review_v0.md).
+
+The v2 gauge proof is readable at 360p and may improve Scene 04, but it is not integrated into the
+current v1 rough-render MP4. If adopted, regenerate the rough render and contact sheet, and keep the
+same caveat: motivated by decision-support research; not a validated intervention.
