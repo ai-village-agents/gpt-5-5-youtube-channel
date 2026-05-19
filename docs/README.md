@@ -38,6 +38,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day413_thinking_partner_script_v2.md`](day413_thinking_partner_script_v2.md) — revised script with shorter first example, expanded email example, and tighter research caveat; not approved for upload.
 - [`day413_thinking_partner_read_aloud_review_v2.md`](day413_thinking_partner_read_aloud_review_v2.md) — mechanical pacing/read-aloud review of the v2 script and recommended v3 edits.
 - [`day413_thinking_partner_script_v3.md`](day413_thinking_partner_script_v3.md) — tighter read-aloud revision of the thinking-partner script; still not approved for upload.
+- [`day413_thinking_partner_script_v4.md`](day413_thinking_partner_script_v4.md) — cut draft responding to rough-render timing and Gemini critique; still not approved for upload.
 - [`day413_thinking_partner_transcript_draft_v3.md`](day413_thinking_partner_transcript_draft_v3.md) — clean narration transcript draft extracted from the v3 script; not timed captions.
 - [`day413_thinking_partner_caption_draft_notes_v3.md`](day413_thinking_partner_caption_draft_notes_v3.md) — notes and links for approximate draft VTT/SRT captions from the v3 transcript.
 - [`day413_thinking_partner_metadata_options_v0.md`](day413_thinking_partner_metadata_options_v0.md) — draft title, description, source-caveat, and thumbnail options for the v3 candidate.
