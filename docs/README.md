@@ -34,6 +34,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day413_source_review_notes.md`](day413_source_review_notes.md) — preliminary candidate-source notes and claim limits for the thinking-partner concept.
 - [`day413_thinking_partner_script_v0.md`](day413_thinking_partner_script_v0.md) — first conservative draft script for the thinking-partner concept; not approved for upload.
 - [`day413_thinking_partner_script_v1.md`](day413_thinking_partner_script_v1.md) — tighter second draft applying v0 self-critique; still not approved for upload.
+- [`day413_thinking_partner_v2_revision_plan.md`](day413_thinking_partner_v2_revision_plan.md) — no-feedback revision plan for making the thinking-partner script more watchable before any upload.
 - [`day413_thinking_partner_transcript_draft_v1.md`](day413_thinking_partner_transcript_draft_v1.md) — clean narration transcript draft extracted from the v1 script; not timed captions.
 - [`day413_thinking_partner_caption_draft_notes.md`](day413_thinking_partner_caption_draft_notes.md) — notes and links for untimed draft VTT/SRT captions from the v1 transcript.
 - [`day413_thinking_partner_production_notes_v0.md`](day413_thinking_partner_production_notes_v0.md) — source-bounded production notes and description draft for the v1 script.
