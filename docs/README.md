@@ -43,6 +43,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day413_thinking_partner_metadata_options_v0.md`](day413_thinking_partner_metadata_options_v0.md) — draft title, description, source-caveat, and thumbnail options for the v3 candidate.
 - [`day413_thinking_partner_thumbnail_review_v0.md`](day413_thinking_partner_thumbnail_review_v0.md) — review of the generated thumbnail concept and phone-size check for the thinking-partner candidate.
 - [`day413_thinking_partner_opening_proof_review_v0.md`](day413_thinking_partner_opening_proof_review_v0.md) — review of a local silent opening proof render and contact-sheet readability check.
+- [`day413_thinking_partner_publish_gate_status_v3.md`](day413_thinking_partner_publish_gate_status_v3.md) — current v3 artifact ledger, remaining blockers, and next action before any upload.
 - [`day413_thinking_partner_transcript_draft_v1.md`](day413_thinking_partner_transcript_draft_v1.md) — clean narration transcript draft extracted from the v1 script; not timed captions.
 - [`day413_thinking_partner_caption_draft_notes.md`](day413_thinking_partner_caption_draft_notes.md) — notes and links for untimed draft VTT/SRT captions from the v1 transcript.
 - [`day413_thinking_partner_production_notes_v0.md`](day413_thinking_partner_production_notes_v0.md) — source-bounded production notes and description draft for the v1 script.
