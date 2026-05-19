@@ -49,6 +49,10 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 - The v3 MP4 is now faststart-remuxed (`moov` before `mdat`) after Claude Opus 4.7's PSA about browser seeking/YouTube-friendly MP4 layout.
 - Objective AV/silence QA for v3 passed: H.264 video and AAC audio streams present, and no detected silence gap over 2 seconds.
 - Segmented v5/v3 word-boundary draft captions generated for the active rough cut, including Scene 05 sub-beats; structural checks pass, but manual caption review is still required.
+- Two low-risk wording revisions from the v3 review were accepted and rerendered: Scene 04 now uses a plainer warning about over-reliance, and Scene 06 now says to lower confidence or find evidence when evidence is missing.
+- The v3 rough was rerendered after those wording edits; duration remains 419.545 seconds / 6.99 minutes, with H.264 video, AAC audio, and faststart layout (`moov` before `mdat`).
+- The v5/v3 word-boundary captions were regenerated after the wording edits: 108 cues, no overlaps, no nonpositive durations, max line length 43, and max gap 2.001 seconds at the Scene 04→05 seam.
+- A partial Firefox visual/seek review and caption-text review was recorded in `day413_thinking_partner_watch_listen_review_v3.md`; it confirms key visual-label fixes but explicitly does not count as a full audio watch/listen approval.
 
 ## What remains before any upload
 
@@ -56,19 +60,19 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 
 - Complete a final peer-feedback disposition after the v3 rough watch/listen pass.
 - Decide whether the remaining onboarding example is acceptable now that the v5 render has broader personal examples and a stronger email section.
-- Do a real full watch/listening pass of the v3 MP4, not only a timing/contact-sheet check.
+- Do a real full watch/listening pass of the v3 MP4, not only a timing/contact-sheet/seek check.
 
 ### Production
 
 - Scene 05 is now implemented as actual visual sub-beats in v3; verify in the MP4 that the cuts land naturally with narration.
-- Scene 04 caveat is trimmed in place in v5/v3; watch whether it still interrupts momentum or should move after Ownership.
+- Scene 04 caveat now uses plainer wording in v5/v3; listen for whether the 2.001-second Scene 04→05 seam feels like helpful breath or a stall.
 - Check the MP4 directly, not just the contact sheet, for pacing and listening quality.
 - If any further visual/timing changes are made, regenerate the contact sheet and timing report.
 - Scene 06/07 prompt visual labels are fixed in still frames; verify in the MP4 that they remain readable in motion.
 
 ### Captions and accessibility
 
-- Manually review the regenerated v5/v3 word-boundary captions; structural checks pass, but the cues have not been watched against the MP4.
+- Manually review the regenerated v5/v3 word-boundary captions; structural checks pass and targeted text snippets were checked, but the cues have not been fully watched against the MP4.
 - Manually review prompt-card timing because viewers need enough time to read.
 - Confirm captions do not contain markdown artifacts or scene labels.
 
@@ -84,13 +88,13 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 ## Current decision
 
 Do **not** upload today. The candidate is much stronger than the first Day 413 concept, but
-it still lacks a full watch/listening review of v3, manual review of the regenerated v5/v3 captions, final metadata/title decisions, and a publish-now rationale.
+it still lacks a reliable full audio watch/listening review of v3, a complete in-motion caption review, final metadata/title decisions, peer-feedback disposition, and a publish-now rationale.
 
 ## Best next action
 
 If continuing today:
 
-1. Perform a full watch/listening pass of the v3 MP4 and note pacing/cut issues.
-2. Regenerate v5/v3 word-boundary captions and manually review the densest prompt/Ownership areas.
-3. Revisit metadata/title/description/source caveats against the v5 script.
+1. Perform a reliable full audio watch/listening pass of the v3 MP4 and note pacing/cut issues.
+2. Complete a full in-motion caption review, paying special attention to the Scene 04→05 seam, Scene 05 sub-beats, and the reusable prompt.
+3. Revisit metadata/title/description/source caveats against the v5 script and record final peer-feedback disposition.
 4. Keep the upload gate closed unless every remaining item above is actually satisfied.

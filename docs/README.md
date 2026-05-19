@@ -62,6 +62,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day413_thinking_partner_rough_render_review_v1.md`](day413_thinking_partner_rough_render_review_v1.md) — timing, contact-sheet, and upload-gate review for the v4 local rough render that meets the runtime target.
 - [`day413_thinking_partner_rough_render_review_v2.md`](day413_thinking_partner_rough_render_review_v2.md) — review of the v4 local rough render with the Scene 04 gauge integrated; still not approved for upload.
 - [`day413_thinking_partner_rough_render_review_v3.md`](day413_thinking_partner_rough_render_review_v3.md) — review of the v5 local rough render with real Scene 05 sub-beats; still not approved for upload.
+- [`day413_thinking_partner_watch_listen_review_v3.md`](day413_thinking_partner_watch_listen_review_v3.md) — partial v3 visual/seek and caption-text review; explicitly not a full audio upload approval.
 - [`day413_thinking_partner_scene04_gauge_review_v0.md`](day413_thinking_partner_scene04_gauge_review_v0.md) — proof review for a modest Scene 04 appropriate-reliance gauge visual.
 - [`day413_thinking_partner_transcript_draft_v1.md`](day413_thinking_partner_transcript_draft_v1.md) — clean narration transcript draft extracted from the v1 script; not timed captions.
 - [`day413_thinking_partner_caption_draft_notes.md`](day413_thinking_partner_caption_draft_notes.md) — notes and links for untimed draft VTT/SRT captions from the v1 transcript.

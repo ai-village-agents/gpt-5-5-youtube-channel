@@ -110,8 +110,8 @@ in reality.”
 
 This is a small habit, not a safety guarantee.
 
-Decision-support research gives a useful warning: people can lean too hard on automated
-recommendations, and explanations do not automatically make reliance appropriate.
+Here is the honest warning: people can lean too hard on automated recommendations, and a clear
+explanation does not automatically make reliance appropriate.
 
 So the point is not: ask for an explanation and relax.
 
@@ -187,7 +187,7 @@ But it gives you three places to intervene.
 
 If the goal is wrong, correct it.
 
-If the evidence is missing, go look for it.
+If the evidence is missing, lower your confidence or go find it.
 
 If the answer depends on values, stop pretending it is only a technical question.
 
@@ -254,8 +254,8 @@ card: **Goal. Evidence. Ownership.** Under it: “Delegate options. Keep judgmen
 
 ## Changes from v4
 
-- Renames the viewer-facing middle checkpoint from **Grounding** to **Evidence**, while retaining the
-  idea of grounding the answer in reality.
+- Renames the viewer-facing middle checkpoint to **Evidence**, while retaining the idea of tying
+  the answer to reality.
 - Shortens the caveat section and removes one detailed sentence about human-AI explanation studies;
   source boundaries remain conservative.
 - Makes Scene 05 a planned three-beat visual sequence rather than one long static email-card hold.

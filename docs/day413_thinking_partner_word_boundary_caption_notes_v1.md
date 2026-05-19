@@ -44,11 +44,11 @@ Structural validation printed by the generator:
 segment 01: 133 words -> 15 cues
 segment 02: 131 words -> 15 cues
 segment 03: 93 words -> 11 cues
-segment 04: 59 words -> 6 cues
+segment 04: 60 words -> 6 cues
 segment 05a: 82 words -> 9 cues
 segment 05b: 69 words -> 9 cues
 segment 05c: 56 words -> 8 cues
-segment 06: 101 words -> 11 cues
+segment 06: 104 words -> 11 cues
 segment 07: 82 words -> 11 cues
 segment 08: 98 words -> 13 cues
 cue_count: 108
@@ -56,16 +56,25 @@ first_start: 0.102
 last_end: 419.071
 min_duration: 0.689
 max_duration: 5.714
-max_gap: 1.328
+max_gap: 2.001
 nonpositive: 0
 overlaps: 0
-max_line_len: 46
+max_line_len: 43
 long_lines_count: 0
 artifact_count: 0
 ```
 
 Interpretation: the files are structurally sane enough for a manual caption review. They are not yet
-safe to call final because no human-speed watch/listen/caption pass has been completed.
+safe to call final because no reliable human-speed watch/listen/caption pass has been completed. The
+new largest caption gap is 2.001 seconds at the Scene 04→05 seam, after the cue “before the advice
+feels settled.” and before “The third checkpoint is Ownership.” This likely corresponds to the
+intentional transition breath requested in peer feedback, but it still needs a real listening pass.
+
+Latest wording reflected in the captions:
+
+- Scene 04 now uses the plainer warning “Here is the honest warning: people can lean too hard on
+  automated recommendations...” rather than the more academic original sentence.
+- Scene 06 now says “If the evidence is missing, lower your confidence or go find it.”
 
 ## Manual review targets
 
@@ -73,11 +82,11 @@ Use the local v3 MP4 with captions loaded or side-by-side with the VTT/SRT. Prio
 
 1. **0:32–0:41** — “Goal. Evidence. Ownership.” Ensure the three short cues do not feel too abrupt.
 2. **2:45–3:14** — Scene 04 caveat/gauge. Check whether captions preserve the plain-language warning
-   without making the research caveat feel heavier.
+   and whether the 2.001-second Scene 04→05 caption gap feels like useful breath rather than a stall.
 3. **3:14–4:50** — Scene 05 sub-beats. Confirm caption timing across 05a→05b→05c, especially the
    cue beginning “Same facts. Different posture. Different risk.”
-4. **4:50–5:34** — reusable prompt. Confirm numbered prompt cues are readable and match the prompt
-   card on screen.
+4. **4:50–5:34** — reusable prompt. Confirm numbered prompt cues are readable, match the prompt
+   card on screen, and include the updated confidence/evidence wording.
 5. **5:34–6:14** — Scene 07. Confirm the corrected **Goal / Evidence / Ownership** visual now matches
    the spoken/captioned frame.
 6. **6:14–7:00** — ending. Confirm the final “What is the goal? / What evidence would change this? /
