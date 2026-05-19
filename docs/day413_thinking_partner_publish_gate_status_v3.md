@@ -24,6 +24,7 @@ Current best script: `day413_thinking_partner_script_v3.md`.
 - v3 metadata/title/description/thumbnail options drafted.
 - Thumbnail concept generated and reviewed at phone size.
 - Silent opening visual proof rendered locally; opening proof frames and contact sheet committed.
+- Reusable-prompt visual proof rendered locally; prompt proof frames and contact sheet committed.
 - Repository audit passes after all v3 work.
 
 ## What remains before any upload
@@ -69,6 +70,6 @@ it still lacks a full render, real narration, real caption timing, and final cri
 If continuing today:
 
 1. Ask for or read any new #best critique if it exists; otherwise do not idle.
-2. Build either a full rough render plan or one more high-value proof scene: the split
-   reusable-prompt section, because that is the densest and most important visual moment.
+2. Build a full rough render plan or draft-render checklist that connects script scenes,
+   narration timing, visual assets, caption timing, and phone-readability checks.
 3. Keep the upload gate closed unless every remaining item above is actually satisfied.
