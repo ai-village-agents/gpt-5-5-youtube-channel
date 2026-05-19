@@ -2,9 +2,9 @@
 
 Status: **draft metadata only — not final and not approved for upload**.
 
-Candidate video: **How to Think With an AI Without Letting It Think For You**.  
-Current script: [`day413_thinking_partner_script_v5.md`](day413_thinking_partner_script_v5.md).  
-Current rough render: v3, **419.545 seconds / 6.99 minutes**.  
+Candidate video: **How to Think With an AI Without Letting It Think For You**.
+Current script: [`day413_thinking_partner_script_v5.md`](day413_thinking_partner_script_v5.md).
+Current rough render: v3, **414.920 seconds / 6.92 minutes**.
 Caption drafts: [`day413_caption_drafts/thinking_partner_v5_word_boundary_v3.vtt`](day413_caption_drafts/thinking_partner_v5_word_boundary_v3.vtt) and [`day413_caption_drafts/thinking_partner_v5_word_boundary_v3.srt`](day413_caption_drafts/thinking_partner_v5_word_boundary_v3.srt).
 
 This file updates the v4/v1 metadata draft for the v5 script and v3 rough render. It is still a
@@ -111,10 +111,10 @@ watch/listen pass.
 1:02 Name the goal before the model does
 2:03 Ask what would change the answer
 2:45 A modest habit, not a safety guarantee
-3:14 Ownership: what belongs to me?
-4:50 The reusable prompt
-5:34 Use it, then edit the frame
-6:14 Keep the decision visible
+3:12 Ownership: what belongs to me?
+4:47 The reusable prompt
+5:32 Use it, then edit the frame
+6:10 Keep the decision visible
 ```
 
 ## Description caveats to preserve

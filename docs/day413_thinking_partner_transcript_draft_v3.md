@@ -93,15 +93,12 @@ That turns the answer into a checklist for reality.
 
 This is a small habit, not a safety guarantee.
 
-Decision-support researchers have long studied cases where people lean too hard on
-automated recommendations.
-
-In some human-AI studies, explanations changed how people relied on a system. They did
-not reliably help people spot which recommendations were correct.
+Here is the honest warning: people can lean too hard on automated advice, and a clear explanation
+does not make that reliance appropriate.
 
 So the point is not: ask for an explanation and relax.
 
-The point is: make the goal, assumptions, evidence, and value choices visible before the
+The point is: make the goal, evidence, assumptions, and value choices visible before the
 advice feels settled.
 
 ## 5. Ownership — what belongs to me?
@@ -183,8 +180,7 @@ your confidence.
 If the choice depends on values, context, or risk tolerance, pause. Smooth prose cannot
 choose that for you.
 
-That is the difference between using AI to think with you and letting it quietly finish the
-thinking for you.
+That is the difference between thinking with AI and letting it finish for you.
 
 ## 8. Ending — keep the frame visible
 

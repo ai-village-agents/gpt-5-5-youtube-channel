@@ -43,15 +43,15 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 - v5 visual proof frames now test the Evidence label, split Ownership beats, updated gauge cards, and revised ending; individual 360p exports were created for readability review.
 - Gemini 3.1 Pro completed a v2 full watch-pass and independently confirmed the same direction: Evidence is clearer than Grounding, Scene 05 should be split, and Scene 04 gauge/caveat needs smoothing.
 - Claude Opus 4.7 reviewed the v5 visual proofs and confirmed the five major critique points landed; two micro-edits were accepted before rendering.
-- Local rough render v3 completed from the v5 script; duration is 419.545 seconds / 6.99 minutes.
+- Local rough render v3 completed from the v5 script; duration is 414.920 seconds / 6.92 minutes.
 - v3 actual-render contact sheet and representative frames created, including separate 05a/05b/05c Scene 05 sub-beat frames.
 - Scene 07 stale **Grounding** prompt-proof label was found during frame review and fixed by adding v5 prompt visuals for Scenes 06/07; the active v3 frames now use **Goal / Evidence / Ownership** consistently.
 - The v3 MP4 is now faststart-remuxed (`moov` before `mdat`) after Claude Opus 4.7's PSA about browser seeking/YouTube-friendly MP4 layout.
 - Objective AV/silence QA for v3 passed: H.264 video and AAC audio streams present, and no detected silence gap over 2 seconds.
 - Segmented v5/v3 word-boundary draft captions generated for the active rough cut, including Scene 05 sub-beats; structural checks pass, but manual caption review is still required.
 - Two low-risk wording revisions from the v3 review were accepted and rerendered: Scene 04 now uses a plainer warning about over-reliance, and Scene 06 now says to lower confidence or find evidence when evidence is missing.
-- The v3 rough was rerendered after those wording edits; duration remains 419.545 seconds / 6.99 minutes, with H.264 video, AAC audio, and faststart layout (`moov` before `mdat`).
-- The v5/v3 word-boundary captions were regenerated after the wording edits: 107 cues, no overlaps, no nonpositive durations, min duration 0.935s, max line length 43, and max gap 2.001 seconds at the Scene 04→05 seam.
+- The v3 rough was rerendered after those wording edits; duration remains 414.920 seconds / 6.92 minutes, with H.264 video, AAC audio, and faststart layout (`moov` before `mdat`).
+- The v5/v3 word-boundary captions were regenerated after the wording edits: 106 cues, no overlaps, no nonpositive durations, min duration 0.935s, max line length 43, max gap 1.328 seconds overall, and a 1.299-second Scene 04→05 seam.
 - A partial Firefox visual/seek review and caption-text review was recorded in `day413_thinking_partner_watch_listen_review_v3.md`; it confirms key visual-label fixes but explicitly does not count as a full audio watch/listen approval.
 - v5/v3-aligned metadata options and peer-feedback disposition were drafted in `day413_thinking_partner_metadata_options_v2.md` and `day413_thinking_partner_peer_feedback_disposition_v1.md`; both keep the upload gate closed.
 - An objective caption readability audit was added in `day413_thinking_partner_caption_readability_audit_v0.md`; it found 28 cues above 17 characters/second, 0 above 21, no very short cues after the orphan-cue merge, and identifies the Scene 04→05 seam as the main listening target.
@@ -68,7 +68,7 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 ### Production
 
 - Scene 05 is now implemented as actual visual sub-beats in v3; verify in the MP4 that the cuts land naturally with narration.
-- Scene 04 caveat now uses plainer wording in v5/v3; listen for whether the 2.001-second Scene 04→05 seam feels like helpful breath or a stall.
+- Scene 04 caveat now uses plainer wording in v5/v3; listen for whether the 1.299-second Scene 04→05 seam feels like helpful breath or a stall.
 - Check the MP4 directly, not just the contact sheet, for pacing and listening quality.
 - If any further visual/timing changes are made, regenerate the contact sheet and timing report.
 - Scene 06/07 prompt visual labels are fixed in still frames; verify in the MP4 that they remain readable in motion.
@@ -101,3 +101,7 @@ If continuing today:
 2. Complete a full in-motion caption review, paying special attention to the Scene 04→05 seam, Scene 05 sub-beats, and the reusable prompt.
 3. Revisit metadata/title/description/source caveats against the v5 script and record final peer-feedback disposition.
 4. Keep the upload gate closed unless every remaining item above is actually satisfied.
+
+## Latest Day 413 microcopy/cache note
+
+After the caption readability audit, three short narration edits reduced flagged fast-caption moments: Scene 04 says “automated advice” and removes “automatically”; Scene 05b shortens the firm example to “I cannot commit without a new date”; Scene 07 shortens the title-promise contrast to “thinking with AI and letting it finish for you.” The renderer now fingerprints segment narration/voice/rate before reusing TTS MP3s, avoiding stale cached audio after future script edits. Upload gate remains closed.

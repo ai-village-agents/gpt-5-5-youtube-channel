@@ -39,7 +39,7 @@ The v3 rough render adopts the v5 script and visual proofs:
 Renderer output:
 
 ```text
-Duration: 419.545 seconds (6.99 minutes)
+Duration: 414.920 seconds (6.92 minutes)
 ```
 
 Scene timings:
@@ -115,10 +115,10 @@ Findings:
 ```json
 {
   "streams": [
-    {"index": 0, "codec_name": "h264", "codec_type": "video", "width": 1920, "height": 1080, "r_frame_rate": "24/1", "duration": "419.501628"},
-    {"index": 1, "codec_name": "aac", "codec_type": "audio", "duration": "419.088667"}
+    {"index": 0, "codec_name": "h264", "codec_type": "video", "width": 1920, "height": 1080, "r_frame_rate": "24/1", "duration": "414.876628"},
+    {"index": 1, "codec_name": "aac", "codec_type": "audio", "duration": "414.463667"}
   ],
-  "format": {"duration": "419.545000", "size": "17446910"}
+  "format": {"duration": "414.920000", "size": "17379260"}
 }
 ```
 

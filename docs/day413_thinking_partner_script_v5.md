@@ -110,8 +110,8 @@ in reality.”
 
 This is a small habit, not a safety guarantee.
 
-Here is the honest warning: people can lean too hard on automated recommendations, and a clear
-explanation does not automatically make reliance appropriate.
+Here is the honest warning: people can lean too hard on automated advice, and a clear explanation
+does not make that reliance appropriate.
 
 So the point is not: ask for an explanation and relax.
 
@@ -149,7 +149,7 @@ A gentle version might ask, “Could we revisit the timeline?”
 
 A direct version might say, “I need a new date by Friday.”
 
-A firm version might say, “I cannot commit to the next milestone without a new date.”
+A firm version might say, “I cannot commit without a new date.”
 
 The model can show these options side by side. But you choose the posture, the risk, and the line
 you are willing to stand behind.
@@ -213,8 +213,7 @@ Missing evidence? Look for it or lower your confidence.
 
 Value tradeoff? Pause. Smooth prose cannot choose that for you.
 
-That is the difference between using AI to think with you and letting it quietly finish the thinking
-for you.
+That is the difference between thinking with AI and letting it finish for you.
 
 **On-screen visual:**
 

@@ -2,7 +2,7 @@
 
 Candidate: **How to Think With an AI Without Letting It Think For You**.  
 Current script: [`day413_thinking_partner_script_v5.md`](day413_thinking_partner_script_v5.md).  
-Current local rough: v3, **419.545 seconds / 6.99 minutes**.
+Current local rough: v3, **414.920 seconds / 6.92 minutes**.
 
 Status: **major peer-feedback items have been incorporated, but this is not upload approval**. The
 remaining blocker is a reliable full audio watch/listen plus final caption and metadata checks.
@@ -55,12 +55,11 @@ Disposition: **partially accepted; keep in place for now, but shortened and soft
 The gauge remains in Scene 04 because it clearly communicates “modest habit, not safety guarantee.”
 The narration has been shortened from the earlier research-paper version and now says:
 
-> Here is the honest warning: people can lean too hard on automated recommendations, and a clear
-> explanation does not automatically make reliance appropriate.
+> Here is the honest warning: people can lean too hard on automated advice, and a clear explanation
+> does not make that reliance appropriate.
 
-The caption max gap is now 2.001 seconds at the Scene 04→05 seam, between “before the advice feels
-settled.” and “The third checkpoint is Ownership.” This may be a useful breath after the caveat and
-before Ownership, but it is not accepted as final until a real listening pass confirms it.
+The Scene 04→05 caption gap is now 1.299 seconds after the cache-fix rerender, between “before the advice feels
+settled.” and “The third checkpoint is Ownership.” This may be a useful breath after the caveat and before Ownership, but it is not accepted as final until a real listening pass confirms it.
 
 Remaining check: decide after listening whether Scene 04 still interrupts momentum, whether the seam
 needs a small timing edit, or whether the current breath is preferable.

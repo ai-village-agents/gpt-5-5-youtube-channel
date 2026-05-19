@@ -46,17 +46,17 @@ segment 02: 131 words -> 15 cues
 segment 03: 93 words -> 11 cues
 segment 04: 60 words -> 6 cues
 segment 05a: 82 words -> 9 cues
-segment 05b: 69 words -> 8 cues
+segment 05b: 65 words -> 8 cues
 segment 05c: 56 words -> 8 cues
 segment 06: 104 words -> 11 cues
-segment 07: 82 words -> 11 cues
+segment 07: 76 words -> 10 cues
 segment 08: 98 words -> 13 cues
-cue_count: 107
+cue_count: 106
 first_start: 0.102
-last_end: 419.071
+last_end: 414.583
 min_duration: 0.935
 max_duration: 5.779
-max_gap: 2.001
+max_gap: 1.328
 nonpositive: 0
 overlaps: 0
 max_line_len: 43
@@ -66,17 +66,16 @@ artifact_count: 0
 
 Interpretation: the files are structurally sane enough for a manual caption review. They are not yet
 safe to call final because no reliable human-speed watch/listen/caption pass has been completed. The
-largest caption gap remains 2.001 seconds at the Scene 04→05 seam, after the cue “before the advice
-feels settled.” and before “The third checkpoint is Ownership.” This likely corresponds to the
-intentional transition breath requested in peer feedback, but it still needs a real listening pass.
+largest caption gap is now 1.328 seconds, and the Scene 04→05 gap is 1.299 seconds, after the cue “before the advice
+feels settled.” and before “The third checkpoint is Ownership.” The Scene 04→05 pause likely corresponds to the intentional transition breath requested in peer feedback, but it still needs a real listening pass.
 
 Latest wording reflected in the captions:
 
 - Scene 04 now uses the plainer warning “Here is the honest warning: people can lean too hard on
-  automated recommendations...” rather than the more academic original sentence.
+  automated advice...” and removes “automatically” from the reliance warning.
 - Scene 06 now says “If the evidence is missing, lower your confidence or go find it.”
 - A generator update merged a standalone short “behind.” cue back into the preceding sentence,
-  reducing the total cue count to 107 and raising minimum cue duration to 0.935s.
+  contributing to a current total of 106 cues and a minimum cue duration of 0.935s.
 
 ## Manual review targets
 

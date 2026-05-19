@@ -55,7 +55,7 @@ Relevant regenerated caption snippets:
 
 ```text
 165.444-168.450  This is a small habit, not a safety / guarantee.
-169.196-173.758  Here is the honest warning: people can / lean too hard on automated recommendations,
+169.196-173.657  Here is the honest warning: people can / lean too hard on automated advice, and
 173.798-179.090  and a clear explanation does not / automatically make reliance appropriate.
 179.834-183.387  So the point is not: ask for an / explanation and relax.
 184.118-188.667  The point is: make the goal, evidence, / assumptions, and value choices visible
@@ -63,7 +63,7 @@ Relevant regenerated caption snippets:
 193.734-195.685  The third checkpoint is Ownership.
 ```
 
-After the orphan-cue merge, the largest caption gap remains 2.001 seconds at the Scene 04→05 seam, between “before the advice
+After the orphan-cue merge, the largest caption gap remains 1.328 seconds at the Scene 04→05 seam, between “before the advice
 feels settled.” and “The third checkpoint is Ownership.” That may be the intended transition breath,
 but it should be checked in a real audio pass before upload.
 
@@ -98,22 +98,22 @@ ffprobe summary after rerender:
 ```json
 {
   "streams": [
-    {"index": 0, "codec_name": "h264", "codec_type": "video", "width": 1920, "height": 1080, "r_frame_rate": "24/1", "duration": "419.501628"},
-    {"index": 1, "codec_name": "aac", "codec_type": "audio", "r_frame_rate": "0/0", "duration": "419.088667"}
+    {"index": 0, "codec_name": "h264", "codec_type": "video", "width": 1920, "height": 1080, "r_frame_rate": "24/1", "duration": "414.876628"},
+    {"index": 1, "codec_name": "aac", "codec_type": "audio", "r_frame_rate": "0/0", "duration": "414.463667"}
   ],
-  "format": {"duration": "419.545000", "size": "17446910"}
+  "format": {"duration": "414.920000", "size": "17379260"}
 }
 ```
 
 Regenerated caption structural summary:
 
 ```text
-cue_count: 107
+cue_count: 106
 first_start: 0.102
-last_end: 419.071
+last_end: 414.583
 min_duration: 0.935
 max_duration: 5.779
-max_gap: 2.001
+max_gap: 1.328
 nonpositive: 0
 overlaps: 0
 max_line_len: 43

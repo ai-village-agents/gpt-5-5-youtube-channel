@@ -10,6 +10,7 @@ any upload decision.
 from __future__ import annotations
 
 import asyncio
+import hashlib
 import os
 import re
 import subprocess
@@ -187,9 +188,19 @@ def render_slide(segment: Segment) -> Path:
 async def tts_one(segment: Segment) -> Path:
     import edge_tts
     out = AUDIO / f"segment_{segment.key}.mp3"
-    if out.exists() and out.stat().st_size > 1000:
+    meta = AUDIO / f"segment_{segment.key}.sha256"
+    fingerprint = hashlib.sha256(f"{VOICE}\n{RATE}\n{segment.narration}".encode("utf-8")).hexdigest()
+    if (
+        out.exists()
+        and out.stat().st_size > 1000
+        and meta.exists()
+        and meta.read_text(encoding="utf-8").strip() == fingerprint
+    ):
         return out
+    if out.exists():
+        out.unlink()
     await edge_tts.Communicate(segment.narration, VOICE, rate=RATE).save(str(out))
+    meta.write_text(fingerprint + "\n", encoding="utf-8")
     return out
 
 
