@@ -5,9 +5,11 @@ judge whether the v1 script has a coherent viewing experience before narration/r
 
 Mockup folder: `../assets/day413_thinking_partner_mockups/`
 
-Contact sheet:
+Contact sheets:
 
-![Day 413 thinking-partner contact sheet](../assets/day413_thinking_partner_mockups/contact_sheet_v0.png)
+![Day 413 thinking-partner contact sheet v1](../assets/day413_thinking_partner_mockups/contact_sheet_v1.png)
+
+Earlier v0 contact sheet: [contact_sheet_v0.png](../assets/day413_thinking_partner_mockups/contact_sheet_v0.png)
 
 Individual mockups:
 
@@ -63,3 +65,8 @@ Preliminary check from generated 1280×720 files:
 
 Still **not ready for upload**. The visual direction is promising, but these are static
 mockups rather than a timed, accessible viewing experience.
+
+
+## Contact sheet v1 update
+
+The v1 contact sheet includes the split prompt-card screens (`07a` and `07b`) added after the 360p readability check. This is now the preferred visual flow for the prompt scene.
