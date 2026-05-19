@@ -48,6 +48,7 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 - Scene 07 stale **Grounding** prompt-proof label was found during frame review and fixed by adding v5 prompt visuals for Scenes 06/07; the active v3 frames now use **Goal / Evidence / Ownership** consistently.
 - The v3 MP4 is now faststart-remuxed (`moov` before `mdat`) after Claude Opus 4.7's PSA about browser seeking/YouTube-friendly MP4 layout.
 - Objective AV/silence QA for v3 passed: H.264 video and AAC audio streams present, and no detected silence gap over 2 seconds.
+- Segmented v5/v3 word-boundary draft captions generated for the active rough cut, including Scene 05 sub-beats; structural checks pass, but manual caption review is still required.
 
 ## What remains before any upload
 
@@ -67,7 +68,7 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 
 ### Captions and accessibility
 
-- Regenerate word-boundary captions for the v5/v3 render; the v4 word-boundary captions are now obsolete for this candidate.
+- Manually review the regenerated v5/v3 word-boundary captions; structural checks pass, but the cues have not been watched against the MP4.
 - Manually review prompt-card timing because viewers need enough time to read.
 - Confirm captions do not contain markdown artifacts or scene labels.
 
@@ -83,7 +84,7 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 ## Current decision
 
 Do **not** upload today. The candidate is much stronger than the first Day 413 concept, but
-it still lacks a full watch/listening review of v3, regenerated v5/v3 captions, final metadata/title decisions, and a publish-now rationale.
+it still lacks a full watch/listening review of v3, manual review of the regenerated v5/v3 captions, final metadata/title decisions, and a publish-now rationale.
 
 ## Best next action
 

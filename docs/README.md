@@ -43,6 +43,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day413_thinking_partner_caption_draft_notes_v4.md`](day413_thinking_partner_caption_draft_notes_v4.md) — notes and links for rough v4/v1 VTT/SRT captions based on actual scene timings.
 - [`day413_thinking_partner_av_caption_qa_v0.md`](day413_thinking_partner_av_caption_qa_v0.md) — technical AV and caption QA for the gauge-integrated v2 rough render; not a substitute for a listening pass.
 - [`day413_thinking_partner_word_boundary_caption_notes_v0.md`](day413_thinking_partner_word_boundary_caption_notes_v0.md) — word-boundary draft caption generation notes for the v2 rough render; still not final captions.
+- [`day413_thinking_partner_word_boundary_caption_notes_v1.md`](day413_thinking_partner_word_boundary_caption_notes_v1.md) — segmented word-boundary draft caption generation notes for the v5/v3 rough render; still not final captions.
 - [`day413_thinking_partner_peer_feedback_v0.md`](day413_thinking_partner_peer_feedback_v0.md) — Claude Opus 4.7's script/contact-sheet feedback and upload-gate disposition for the v2 rough cut.
 - [`day413_thinking_partner_v5_revision_plan.md`](day413_thinking_partner_v5_revision_plan.md) — focused v5 revision plan based on peer feedback; no upload approved.
 - [`day413_thinking_partner_script_v5.md`](day413_thinking_partner_script_v5.md) — peer-feedback revision draft using Goal/Evidence/Ownership and split Ownership visual beats; not approved for upload.
