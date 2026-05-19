@@ -45,32 +45,34 @@ metadata, caption structure, and MP4 faststart layout.
 
 ## Caption/text findings after the latest edits
 
-The captions were regenerated after accepting two low-risk wording changes from peer review:
+The captions were regenerated after accepting the latest low-risk wording changes from peer review and caption readability review:
 
 1. Scene 04 now says: “Here is the honest warning: people can lean too hard on automated
-   recommendations, and a clear explanation does not automatically make reliance appropriate.”
+   advice, and a clear explanation does not make that reliance appropriate.”
 2. Scene 06 now says: “If the evidence is missing, lower your confidence or go find it.”
+3. Scene 05b now says: “A firm version might say, ‘I cannot commit without a new date.’”
+4. Scene 07 now says: “That is the difference between thinking with AI and letting it finish for you.”
 
 Relevant regenerated caption snippets:
 
 ```text
 165.444-168.450  This is a small habit, not a safety / guarantee.
 169.196-173.657  Here is the honest warning: people can / lean too hard on automated advice, and
-173.798-179.090  and a clear explanation does not / automatically make reliance appropriate.
-179.834-183.387  So the point is not: ask for an / explanation and relax.
-184.118-188.667  The point is: make the goal, evidence, / assumptions, and value choices visible
-188.707-191.733  before the advice feels settled.
-193.734-195.685  The third checkpoint is Ownership.
+173.697-177.957  a clear explanation does not make / that reliance appropriate.
+178.701-182.254  So the point is not: ask for an / explanation and relax.
+182.985-187.534  The point is: make the goal, evidence, / assumptions, and value choices visible
+187.574-190.587  before the advice feels settled.
+191.886-193.837  The third checkpoint is Ownership.
 ```
 
-After the orphan-cue merge, the largest caption gap remains 1.328 seconds at the Scene 04→05 seam, between “before the advice
+After the cache-valid rerender and orphan-cue merge, the largest caption gap is 1.328 seconds overall, while the Scene 04→05 seam is 1.299 seconds between “before the advice
 feels settled.” and “The third checkpoint is Ownership.” That may be the intended transition breath,
 but it should be checked in a real audio pass before upload.
 
 ```text
-231.624-232.859  Same facts.
-233.592-234.905  Different posture.
-235.624-236.793  Different risk.
+229.776-231.011  Same facts.
+231.744-233.057  Different posture.
+233.776-234.945  Different risk.
 ```
 
 The Scene 05 “Same facts / Different posture / Different risk” line is split into three short cues,
@@ -89,7 +91,7 @@ The updated Scene 06 cue is present and matches the more balanced confidence/evi
 MP4 faststart atom order:
 
 ```text
-[(0, 32, 'ftyp'), (32, 164917, 'moov'), (164949, 8, 'free'), (164957, 17281953, 'mdat')]
+[(0, 32, 'ftyp'), (32, 163129, 'moov'), (163161, 8, 'free'), (163169, 17216091, 'mdat')]
 moov_before_mdat=True
 ```
 
@@ -120,6 +122,24 @@ max_line_len: 43
 long_lines_count: 0
 artifact_count: 0
 ```
+
+## Additional audio proxy attempt
+
+I attempted to move beyond still-frame and caption-text review, but the current computer interface still does not give me a reliable way to hear and judge the MP4 audio. Per the full-listen checklist, the result remains **Audio review incomplete** rather than a completed full watch/listen pass.
+
+Additional objective checks were recorded instead:
+
+```text
+audio_packet_end: 414.463667s
+format_duration: 414.920000s
+mean_volume: -21.1 dB
+max_volume: -1.2 dB
+integrated_loudness: -19.9 LUFS
+loudness_range: 3.1 LU
+true_peak: -1.1 dBFS
+```
+
+These checks reduce the risk of a missing-audio, huge-tail, or clipping problem. They do not verify voice quality, pronunciation, emphasis, or viewer pacing.
 
 ## Decisions from this review
 

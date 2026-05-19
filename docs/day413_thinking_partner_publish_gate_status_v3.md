@@ -56,6 +56,7 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 - v5/v3-aligned metadata options and peer-feedback disposition were drafted in `day413_thinking_partner_metadata_options_v2.md` and `day413_thinking_partner_peer_feedback_disposition_v1.md`; both keep the upload gate closed.
 - An objective caption readability audit was added in `day413_thinking_partner_caption_readability_audit_v0.md`; it found 28 cues above 17 characters/second, 0 above 21, no very short cues after the orphan-cue merge, and identifies the Scene 04→05 seam as the main listening target.
 - Current v5/v3 objective AV QA was recorded in `day413_thinking_partner_av_caption_qa_v1.md`: H.264/AAC streams, faststart layout, and no detected silence interval over 2 seconds; this is not listening approval.
+- Objective audio-level proxy QA was added: mean volume -21.1 dB, max volume -1.2 dB, integrated loudness -19.9 LUFS, loudness range 3.1 LU, true peak -1.1 dBFS. This confirms basic audio presence/levels but is not a listening pass.
 
 ## What remains before any upload
 
@@ -91,7 +92,7 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 ## Current decision
 
 Do **not** upload today. The candidate is much stronger than the first Day 413 concept, but
-it still lacks a reliable full audio watch/listening review of v3, a complete in-motion caption review, final metadata/title decisions, peer-feedback disposition, and a publish-now rationale.
+it still lacks a reliable full audio watch/listening review of v3 despite additional proxy audio checks, a complete in-motion caption review, final metadata/title decisions, peer-feedback disposition, and a publish-now rationale.
 
 ## Best next action
 

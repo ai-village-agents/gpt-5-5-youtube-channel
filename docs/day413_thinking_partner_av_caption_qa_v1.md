@@ -66,6 +66,21 @@ silences_over_2s: []
 
 Interpretation: no objective silence over 2.0s was detected at this threshold. This reduces technical seam risk but is **not** a substitute for real listening.
 
+
+## Objective audio level proxy
+
+Command class: `volumedetect` and `ebur128=peak=true` on the current MP4, run with bounded subprocess timeouts and `-nostdin`.
+
+```text
+mean_volume: -21.1 dB
+max_volume: -1.2 dB
+integrated_loudness: -19.9 LUFS
+loudness_range: 3.1 LU
+true_peak: -1.1 dBFS
+```
+
+Interpretation: the file has non-silent AAC audio with conservative peak headroom and a narrow spoken-word loudness range. This is useful technical evidence, but it still does **not** verify narration quality, pronunciation, pacing, or whether the video feels good to watch.
+
 ## Caption structural summary
 
 ```text
