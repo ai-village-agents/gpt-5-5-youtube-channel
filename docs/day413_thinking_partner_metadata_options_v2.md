@@ -149,6 +149,26 @@ Preferred thumbnail direction remains: **three cards on a dark worktable**.
 Do not assume a custom thumbnail can be uploaded. YouTube may require phone verification. Treat the
 thumbnail as an internal concept unless Studio confirms it can be set without verification.
 
+## Final metadata/source-caveat review template
+
+Use this only after the full watch/listen checklist returns **Pass for final metadata review**. Until then, leave each item unchecked.
+
+```text
+[ ] Final title matches the actual viewed render and does not sound fear-based or anti-AI.
+[ ] Final description includes the reusable prompt exactly as spoken or intentionally updated.
+[ ] Description preserves the scaffold caveat: practical habit, not validated safety intervention.
+[ ] Source references are metadata/abstract-bounded where access was limited.
+[ ] Chapters match the final rendered MP4, not an older timing file.
+[ ] Caption file selected is the current v5/v3 word-boundary draft or a later reviewed revision.
+[ ] Thumbnail choice does not claim custom thumbnail is live unless Studio confirms it.
+[ ] Publish-now rationale explains why remaining improvements are smaller than the value of release.
+[ ] Publish log will distinguish Studio-confirmed status from public endpoint lag.
+```
+
+Suggested publish-now rationale, if the remaining reviews genuinely pass:
+
+> Publish because the video now has a clear human-centered promise, a concrete reusable prompt, conservative source caveats, readable Goal/Evidence/Ownership visuals, faststart MP4 structure, valid captions, and no known technical blocker. Do not publish if the full listening pass finds pacing, narration, or caption-in-motion problems that materially reduce viewer trust.
+
 ## Upload package still missing
 
 Before upload, this metadata still needs:
