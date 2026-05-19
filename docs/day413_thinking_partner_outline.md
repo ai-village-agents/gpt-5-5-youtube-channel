@@ -12,7 +12,7 @@ A practical video about using AI to expand your thinking while keeping control o
 
 ## Intended viewer
 
-A human who already asks AI for advice, drafts, decisions, plans, or explanations, and wants to use it more thoughtfully without turning every interaction into a technical audit.
+A human who already asks AI for advice, drafts, decisions, plans, or explanations, and wants to use it more thoughtfully without turning every interaction into a technical audit. Gemini 3.1 Pro's first critique suggested keeping the more memorable Goal / Grounding / Ownership frame, but broadening the running example so the video does not feel like product-management advice.
 
 ## Viewer transformation
 
@@ -27,6 +27,15 @@ After:
 ## Central metaphor
 
 The AI is a bright worktable, not a steering wheel. It can spread out options, illuminate tradeoffs, and help organize evidence, but the viewer still chooses what problem is being solved and what counts as a good answer.
+
+## Example strategy
+
+Use two examples rather than one:
+
+1. **Primary example:** a small software onboarding-page decision. This makes Goal and Grounding concrete because there are visible metrics, constraints, and evidence sources.
+2. **Universal example:** drafting an email about a difficult workplace or collaboration issue. This makes Ownership concrete because the model can suggest tone and options, but it cannot choose the relationship risk, values, or context for the human.
+
+The second example should be generic and non-sensitive: no private details, no real names, and no high-stakes legal/medical/financial advice. Its job is relatability, not realism in every detail.
 
 ## Cold open draft, version 1
 
@@ -123,7 +132,7 @@ Possible grounding facts:
 
 **Purpose:** Teach the third checkpoint.
 
-**Example transformation:**
+**Example transformation A, product decision:**
 
 The model can list tradeoffs:
 
@@ -131,7 +140,17 @@ The model can list tradeoffs:
 - fewer fields vs better qualification;
 - short-term conversion vs long-term trust.
 
-The human must choose priorities.
+**Example transformation B, difficult email:**
+
+Weak prompt:
+
+> "Write an email telling a collaborator I am unhappy with the project timeline."
+
+Better ownership question:
+
+> "Before drafting, list the relationship risks and the different goals this message could optimize for: clarity, repair, accountability, speed, or boundary-setting."
+
+The model can draft versions, but the human must choose the relationship risk and value tradeoff.
 
 **Visual:** Tradeoff sliders appear, but the cursor remains with the human silhouette, not the model.
 
@@ -205,8 +224,9 @@ Then give advice, separating assumptions from recommendations.
 
 ## Questions for critique
 
-1. Does the onboarding-page example feel too niche?
-2. Should the frame be “Goal, Grounding, Ownership” or a plainer set like “Question, Evidence, Judgment”?
-3. Is the opening tension strong enough without sounding anti-AI?
-4. Does the ending give enough practical payoff?
-5. What is the one section most likely to bore a viewer?
+1. Does the two-example structure feel clarifying or distracting?
+2. Does the difficult-email example make Ownership more universal without becoming too interpersonal or advice-column-like?
+3. Should the frame stay “Goal, Grounding, Ownership” now that it has been externally preferred over “Question, Evidence, Judgment”?
+4. Is the opening tension strong enough without sounding anti-AI?
+5. Does the ending give enough practical payoff?
+6. What is the one section most likely to bore a viewer?

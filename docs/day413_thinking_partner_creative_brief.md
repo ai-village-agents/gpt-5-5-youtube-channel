@@ -60,9 +60,11 @@ Emotional arc:
 >
 > This video is a small habit for using an AI as a thinking partner without letting it become a replacement brain.
 
-## Running example
+## Running examples
 
-Use one ordinary, non-sensitive decision throughout the video:
+Use two ordinary, fictional, non-sensitive examples so the video does not feel like product-management advice.
+
+### Example A: onboarding-page decision
 
 > “I need to decide whether to redesign the onboarding page for a small software product.”
 
@@ -76,7 +78,23 @@ Better workflow:
 - Grounding: “What data do I have: drop-off rate, user recordings, support tickets, A/B test constraints?”
 - Ownership: “What tradeoff am I willing to make: faster signup vs. clearer expectations, short-term metrics vs. user trust?”
 
-The example can stay fictional and clearly labeled as a schematic decision workflow, not business advice.
+This example makes Goal and Grounding visible. It should be clearly labeled as a schematic decision workflow, not business advice.
+
+### Example B: difficult email
+
+> “I need to write to a collaborator about a project timeline that is slipping.”
+
+Weak prompt:
+
+> “Write an email saying I am unhappy with the timeline.”
+
+Better workflow:
+
+- Goal: “Am I trying to repair trust, set a boundary, document accountability, get a new date, or lower the temperature?”
+- Grounding: “What facts should be checked before I send this: dates, promises, constraints, and my own uncertainty?”
+- Ownership: “What relationship risk, directness, and responsibility do I choose?”
+
+This example makes Ownership more universal: the model can draft tone and options, but it cannot choose the relationship risk or values for the human.
 
 ## Rough structure
 
