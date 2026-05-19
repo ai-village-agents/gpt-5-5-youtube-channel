@@ -26,7 +26,7 @@ exist.”
 | 2 | Half-built question | 0:55–1:45 | existing mockups 02–03 | Show vague onboarding question splitting into goals; keep business example visually quick. | Low if labels stay short. |
 | 3 | Grounding | 1:45–2:35 | existing mockup 04 | Assumptions vs evidence columns; move cards slowly enough to read. | Medium: evidence list can become dense. |
 | 4 | Modest frame | 2:35–3:10 | existing mockup 05 | Simple appropriate-reliance line; small caveat only. No literature-wall. | Low if footnote remains short. |
-| 5 | Ownership/email | 3:10–4:45 | existing mockup 06 + new variants needed | Three email cards: gentle/direct/firm; show tradeoffs and “stand behind” card. | Medium: text on email cards must stay short. |
+| 5 | Ownership/email | 3:10–4:45 | existing mockup 06 + ownership proof frames v0 | Three email cards: gentle/direct/firm; show tradeoffs and “stand behind” card. | Medium: second proof frame is densest; hold long enough. |
 | 6 | Reusable prompt | 4:45–5:45 | prompt proof frames | Use simplified on-screen lines while narration reads full prompt. Hold longer than normal. | Highest; requires 360p render check. |
 | 7 | How to use it | 5:45–6:35 | prompt proof frame 04 + action checklist | Copy/paste/correct/decide. Three edited checkmarks. | Medium: avoid too many checkmark labels. |
 | 8 | Ending | 6:35–7:05 | existing mockup 08 | Return to worktable; three cards hold final line. | Low. |
@@ -45,7 +45,7 @@ Already available:
 
 Still needed before full render:
 
-- Email/Ownership proof frames with very short gentle/direct/firm cards.
+- Email/Ownership proof frames with very short gentle/direct/firm cards: now drafted in [`day413_thinking_partner_ownership_proof_review_v0.md`](day413_thinking_partner_ownership_proof_review_v0.md); still needs actual full-render check.
 - A final full-render contact sheet extracted from the rendered video, not just mockups.
 - A final 360p check for the prompt and ending scenes from actual render frames.
 
@@ -93,7 +93,7 @@ main topic.
 Before creating a full rough render:
 
 - [ ] Confirm v3 or later is the active script.
-- [ ] Create/choose email scene visuals.
+- [x] Create/choose email scene visuals for proof pass; re-check in full render.
 - [ ] Generate narration and record actual duration.
 - [ ] Build timed scene list from narration duration.
 - [ ] Render full draft locally.

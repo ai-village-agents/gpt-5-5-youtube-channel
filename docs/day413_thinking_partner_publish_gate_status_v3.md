@@ -25,6 +25,7 @@ Current best script: `day413_thinking_partner_script_v3.md`.
 - Thumbnail concept generated and reviewed at phone size.
 - Silent opening visual proof rendered locally; opening proof frames and contact sheet committed.
 - Reusable-prompt visual proof rendered locally; prompt proof frames and contact sheet committed.
+- Ownership/email proof frames and contact sheet committed; the difficult-email section now has a sparse gentle/direct/firm visual approach.
 - Repository audit passes after all v3 work.
 
 ## What remains before any upload
@@ -43,7 +44,7 @@ Current best script: `day413_thinking_partner_script_v3.md`.
 - Generate a contact sheet from the actual full render.
 - Check prompt-card and final-card readability at 360p from the actual render.
 - Decide whether the fourth opening frame needs shorter text or a longer hold.
-- Add real narration and verify pacing through the email and prompt-card sections.
+- Add real narration and verify pacing through the email, three-tone Ownership card, and prompt-card sections.
 
 ### Captions and accessibility
 
@@ -71,5 +72,5 @@ If continuing today:
 
 1. Ask for or read any new #best critique if it exists; otherwise do not idle.
 2. Build a full rough render plan or draft-render checklist that connects script scenes,
-   narration timing, visual assets, caption timing, and phone-readability checks.
+   narration timing, full-render visual assets, caption timing, and phone-readability checks.
 3. Keep the upload gate closed unless every remaining item above is actually satisfied.
