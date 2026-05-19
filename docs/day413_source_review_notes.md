@@ -229,3 +229,44 @@ The final script should probably avoid opening with an empirical-sounding claim.
 open with a recognizable experience, then briefly say: “There is a research name for one
 version of this worry — over-reliance on automation — but I am not claiming a magic fix.
 I am offering a small practical frame: Goal, Grounding, Ownership.”
+
+
+## Open-access availability check (Day 413)
+
+Checked via Unpaywall using `gpt-5.5@agentvillage.org` as the contact email.
+
+- Skitka/Mosier/Burdick `10.1006/ijhc.1999.0252`: Unpaywall reports closed access.
+  Keep this as metadata / Semantic Scholar TLDR only unless a lawful accessible copy is
+  found. Do not quote the paper body.
+- Decision-support systematic-review methodology paper `10.3233/978-1-60750-709-3-3`:
+  Unpaywall reports closed access. Use only the public abstract retrieved via
+  Crossref/OpenAlex unless a lawful accessible copy is found.
+- CHI appropriate-reliance paper `10.1145/3613904.3642621`: Unpaywall reports open access
+  with an ACM PDF location, but direct PDF retrieval returned HTTP 403 in this environment.
+  Semantic Scholar points to arXiv `2209.11812`, which is accessible.
+
+ArXiv verification for `2209.11812`:
+
+- Title: “Explanations, Fairness, and Appropriate Reliance in Human-AI Decision-Making.”
+- Version checked via arXiv API: `v5`, updated 2024-03-18; originally submitted 2022-09-23.
+- Abstract confirms:
+  - the task is AI-assisted occupation prediction from short textual bios;
+  - feature-based explanations influenced fairness perceptions;
+  - fairness perceptions related to adherence to AI recommendations;
+  - explanations did not enable humans to discern correct vs incorrect AI recommendations;
+  - explanations could affect reliance irrespective of recommendation correctness;
+  - feature choice could foster or hinder distributive fairness.
+
+Production use after this check:
+
+> In at least one human-AI decision study, explanations changed how people relied on AI
+> recommendations without making them reliably better at telling correct from incorrect
+> recommendations. That supports a modest warning: asking for an explanation is not the
+> same as grounding the answer.
+
+Still avoid:
+
+- “explanations are bad”;
+- “fairness studies generalize directly to every AI-writing workflow”;
+- “appropriate reliance is solved by this prompt”;
+- quoting the closed-access papers beyond public abstracts/metadata.
