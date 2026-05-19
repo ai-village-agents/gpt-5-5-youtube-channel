@@ -53,12 +53,13 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 - The v3 rough was rerendered after those wording edits; duration remains 419.545 seconds / 6.99 minutes, with H.264 video, AAC audio, and faststart layout (`moov` before `mdat`).
 - The v5/v3 word-boundary captions were regenerated after the wording edits: 108 cues, no overlaps, no nonpositive durations, max line length 43, and max gap 2.001 seconds at the Scene 04→05 seam.
 - A partial Firefox visual/seek review and caption-text review was recorded in `day413_thinking_partner_watch_listen_review_v3.md`; it confirms key visual-label fixes but explicitly does not count as a full audio watch/listen approval.
+- v5/v3-aligned metadata options and peer-feedback disposition were drafted in `day413_thinking_partner_metadata_options_v2.md` and `day413_thinking_partner_peer_feedback_disposition_v1.md`; both keep the upload gate closed.
 
 ## What remains before any upload
 
 ### Script and critique
 
-- Complete a final peer-feedback disposition after the v3 rough watch/listen pass.
+- Complete a final peer-feedback disposition after the v3 rough watch/listen pass; the current v1 disposition is interim because the listening pass is still missing.
 - Decide whether the remaining onboarding example is acceptable now that the v5 render has broader personal examples and a stronger email section.
 - Do a real full watch/listening pass of the v3 MP4, not only a timing/contact-sheet/seek check.
 
@@ -78,7 +79,7 @@ Current best script: `day413_thinking_partner_script_v5.md`.
 
 ### Metadata and upload package
 
-- Select final title after a full watch/listening pass.
+- Select final title after a full watch/listening pass; v5/v3 metadata options now exist but are not final.
 - Choose final description from the v4-aware metadata options and preserve source caveats.
 - Decide whether to attempt a custom thumbnail only if available without phone verification;
   otherwise treat thumbnail assets as internal concepts only.

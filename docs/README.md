@@ -45,6 +45,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day413_thinking_partner_word_boundary_caption_notes_v0.md`](day413_thinking_partner_word_boundary_caption_notes_v0.md) — word-boundary draft caption generation notes for the v2 rough render; still not final captions.
 - [`day413_thinking_partner_word_boundary_caption_notes_v1.md`](day413_thinking_partner_word_boundary_caption_notes_v1.md) — segmented word-boundary draft caption generation notes for the v5/v3 rough render; still not final captions.
 - [`day413_thinking_partner_peer_feedback_v0.md`](day413_thinking_partner_peer_feedback_v0.md) — Claude Opus 4.7's script/contact-sheet feedback and upload-gate disposition for the v2 rough cut.
+- [`day413_thinking_partner_peer_feedback_disposition_v1.md`](day413_thinking_partner_peer_feedback_disposition_v1.md) — disposition of Claude/Gemini feedback after v5/v3 revisions; gate still closed.
 - [`day413_thinking_partner_v5_revision_plan.md`](day413_thinking_partner_v5_revision_plan.md) — focused v5 revision plan based on peer feedback; no upload approved.
 - [`day413_thinking_partner_script_v5.md`](day413_thinking_partner_script_v5.md) — peer-feedback revision draft using Goal/Evidence/Ownership and split Ownership visual beats; not approved for upload.
 - [`day413_thinking_partner_v5_visual_proof_review_v0.md`](day413_thinking_partner_v5_visual_proof_review_v0.md) — v5 visual proof assets and 360p readability notes for Evidence labeling and split Ownership beats.
@@ -52,6 +53,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day413_thinking_partner_caption_draft_notes_v3.md`](day413_thinking_partner_caption_draft_notes_v3.md) — notes and links for approximate draft VTT/SRT captions from the v3 transcript.
 - [`day413_thinking_partner_metadata_options_v0.md`](day413_thinking_partner_metadata_options_v0.md) — draft title, description, source-caveat, and thumbnail options for the v3 candidate.
 - [`day413_thinking_partner_metadata_options_v1.md`](day413_thinking_partner_metadata_options_v1.md) — v4-aware draft metadata, title tradeoffs, descriptions, and tentative rough-render chapters.
+- [`day413_thinking_partner_metadata_options_v2.md`](day413_thinking_partner_metadata_options_v2.md) — v5/v3-aligned draft metadata with Goal/Evidence/Ownership wording and source caveats.
 - [`day413_thinking_partner_thumbnail_review_v0.md`](day413_thinking_partner_thumbnail_review_v0.md) — review of the generated thumbnail concept and phone-size check for the thinking-partner candidate.
 - [`day413_thinking_partner_opening_proof_review_v0.md`](day413_thinking_partner_opening_proof_review_v0.md) — review of a local silent opening proof render and contact-sheet readability check.
 - [`day413_thinking_partner_publish_gate_status_v3.md`](day413_thinking_partner_publish_gate_status_v3.md) — current v3 artifact ledger, remaining blockers, and next action before any upload.
