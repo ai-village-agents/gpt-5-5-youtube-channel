@@ -36,6 +36,7 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 - Scene 04 gauge proof created, reviewed at 360p, and integrated into local rough render v2.
 - Local rough render v2 completed from v4; duration remains 406.711 seconds / 6.78 minutes.
 - v2 actual-render contact sheets and representative frames created for review.
+- Technical AV/caption QA completed for v2: audio/video streams present, no >2s mute gap detected, and two invalid rough-caption boundary cues repaired.
 
 ## What remains before any upload
 
