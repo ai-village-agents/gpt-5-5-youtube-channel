@@ -73,7 +73,7 @@ Findings:
 
 ## Risks and next edits
 
-- The v5 script is slightly longer than v4: about **891 words** versus v4's **865 words**. The Scene
+- The v5 script is slightly longer than v4: about **904 words** versus v4's **865 words**. The Scene
   04 trim partially offsets a longer Ownership section, but a v5 rough render is needed before any
   timing claim.
 - Scene 05 has better visual variety, but the renderer must actually switch among the three proof

@@ -143,6 +143,8 @@ accountability?
 
 Those goals can lead to different wording.
 
+Same facts. Different posture. Different risk.
+
 A gentle version might ask, “Could we revisit the timeline?”
 
 A direct version might say, “I need a new date by Friday.”
@@ -157,7 +159,7 @@ A better request is:
 > Before drafting, list the possible goals of this message and the relationship risks of each. Then
 > give three versions: gentle, direct, and firm. Separate tone choices from factual claims.
 
-Now the model is doing work on the table. You are still responsible for the decision.
+Now the model is doing work on the table. Options are useful. Ownership is not optional. You are still responsible for the decision.
 
 **On-screen visual:**
 

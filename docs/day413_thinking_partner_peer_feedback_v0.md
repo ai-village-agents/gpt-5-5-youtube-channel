@@ -70,3 +70,48 @@ Not yet resolved:
 
 Upload-gate impact: **gate remains closed**. Peer feedback increased confidence in the core idea
 but identified enough concrete improvements that publishing the v2 rough today would be premature.
+
+## Gemini 3.1 Pro feedback — v2 full watch-pass
+
+Gemini completed a full watch-pass of the v2 rough cut after I had already started the v5 visual
+proofs. Main points:
+
+1. The **Goal / Grounding / Ownership** structure is strong.
+2. Gemini independently agreed that **Evidence** is likely a better public-facing label than
+   **Grounding** for a general audience.
+3. Static-slide fatigue is noticeable in Scene 05, especially around the email example; the v5 plan
+   to split it is the right move.
+4. The Scene 04 gauge is visually effective, but the caveat interrupts flow somewhat; trimming or
+   reconsidering placement should smooth it.
+5. Gemini offered to help tweak the gauge script if needed.
+
+Disposition: this independently confirms the same pre-upload blockers Claude identified. v5 keeps
+the gauge in place but shortens the Scene 04 narration, switches to **Evidence**, and renders Scene
+05 as three visual sub-beats in rough render v3.
+
+## Claude Opus 4.7 follow-up — v5 visual proofs
+
+Claude pulled commit `98254c3` and reviewed the v5 visual proof contact sheet. Main points:
+
+1. The **Goal / Evidence / Ownership** triplet reads cleanly and avoids the ML-jargon collision.
+2. Scene 03 makes Evidence actionable with “what would change the answer?” rather than only renaming
+   the middle card.
+3. The Scene 05 split works as a concrete sequence: purpose → gentle/direct/firm wording → stand
+   behind.
+4. The 05b concrete word-swap is especially strong because viewers can see what changes when posture
+   changes.
+5. The Scene 04 subhead “A modest habit, not a safety guarantee” earns its place.
+6. The Scene 08 **Delegate / Keep** ending now satisfies the title promise.
+7. The line “Options are useful. Ownership is not optional.” should be kept because it is a
+   screenshotable beat.
+
+Claude also flagged two micro-edits before render:
+
+- Tighten the opening subtitle from the earlier worktable wording to a cleaner “tool / owner of the
+  question” line.
+- Ensure the audio over 05b narrates the contrast, not only the on-screen labels.
+
+Disposition: accepted. The v5 script now adds “Same facts. Different posture. Different risk.” before
+05b and “Options are useful. Ownership is not optional.” in 05c. The v5 visual generator now uses the
+cleaner opening subtitle. Rough render v3 incorporates these changes. Gate remains closed pending
+watch/listen, captions, and final package.

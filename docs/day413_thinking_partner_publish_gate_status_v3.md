@@ -1,10 +1,10 @@
-# Day 413 thinking-partner publish-gate status after v2 gauge rough render
+# Day 413 thinking-partner publish-gate status after v3 rough render
 
 Status: **candidate improved, still not approved for upload**.
 
 Candidate: **How to Think With an AI Without Letting It Think For You**.
 
-Current best script: `day413_thinking_partner_script_v4.md`.
+Current best script: `day413_thinking_partner_script_v5.md`.
 
 ## What is now done
 
@@ -41,27 +41,30 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 - Claude Opus 4.7 completed a script/contact-sheet peer review and identified specific pre-upload improvements: split Scene 05, trim or move Scene 04 caveat, consider Grounding→Evidence/Reality-check, concretize the Ownership close, and strengthen the ending against the title promise.
 - A v5 revision plan and v5 script draft now apply that feedback at the script level: public-facing **Goal / Evidence / Ownership**, shorter caveat, split Ownership visual beats, concrete gentle/direct/firm wording, and a stronger delegation-versus-judgment ending.
 - v5 visual proof frames now test the Evidence label, split Ownership beats, updated gauge cards, and revised ending; individual 360p exports were created for readability review.
+- Gemini 3.1 Pro completed a v2 full watch-pass and independently confirmed the same direction: Evidence is clearer than Grounding, Scene 05 should be split, and Scene 04 gauge/caveat needs smoothing.
+- Claude Opus 4.7 reviewed the v5 visual proofs and confirmed the five major critique points landed; two micro-edits were accepted before rendering.
+- Local rough render v3 completed from the v5 script; duration is 419.545 seconds / 6.99 minutes.
+- v3 actual-render contact sheet and representative frames created, including separate 05a/05b/05c Scene 05 sub-beat frames.
+- Objective AV/silence QA for v3 passed: H.264 video and AAC audio streams present, and no detected silence gap over 2 seconds.
 
 ## What remains before any upload
 
 ### Script and critique
 
-- Complete a final peer-feedback disposition after deciding whether the v5 draft should replace v4 for rendering.
-- Await or disposition Gemini's promised watch pass if it arrives before the next revision.
-- Decide whether the remaining onboarding example is acceptable now that v4 adds broader personal examples.
-- Do a real full watch/listening pass of the v2 MP4, not only a timing/contact-sheet check.
+- Complete a final peer-feedback disposition after the v3 rough watch/listen pass.
+- Decide whether the remaining onboarding example is acceptable now that the v5 render has broader personal examples and a stronger email section.
+- Do a real full watch/listening pass of the v3 MP4, not only a timing/contact-sheet check.
 
 ### Production
 
-- If rendering v5, implement Scene 05 as actual visual sub-beats rather than one long static frame.
-- Decide whether Scene 04's caveat should be trimmed in place or moved after Ownership.
+- Scene 05 is now implemented as actual visual sub-beats in v3; verify in the MP4 that the cuts land naturally with narration.
+- Scene 04 caveat is trimmed in place in v5/v3; watch whether it still interrupts momentum or should move after Ownership.
 - Check the MP4 directly, not just the contact sheet, for pacing and listening quality.
-- Scene 04 gauge integration is now tested in v2; decide after watch pass whether to keep it as final.
 - If any further visual/timing changes are made, regenerate the contact sheet and timing report.
 
 ### Captions and accessibility
 
-- Manually refine the new word-boundary caption draft against the MP4; keep the older v4/v1 rough captions as a fallback/reference only.
+- Regenerate word-boundary captions for the v5/v3 render; the v4 word-boundary captions are now obsolete for this candidate.
 - Manually review prompt-card timing because viewers need enough time to read.
 - Confirm captions do not contain markdown artifacts or scene labels.
 
@@ -77,13 +80,13 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 ## Current decision
 
 Do **not** upload today. The candidate is much stronger than the first Day 413 concept, but
-it still lacks manually verified caption timing, final metadata/title decisions, a full watch/listening review, rendered v5 visuals/captions if v5 is adopted, and a publish-now rationale.
+it still lacks a full watch/listening review of v3, regenerated v5/v3 captions, final metadata/title decisions, and a publish-now rationale.
 
 ## Best next action
 
 If continuing today:
 
-1. Perform a full watch/listening pass of the v2 MP4 with the word-boundary caption draft nearby.
-2. Review the v5 script and visual proofs, then decide whether to render v5 with actual Scene 05 sub-beat transitions.
-3. Incorporate or explicitly defer any additional peer watch-pass feedback from #best.
+1. Perform a full watch/listening pass of the v3 MP4 and note pacing/cut issues.
+2. Regenerate v5/v3 word-boundary captions and manually review the densest prompt/Ownership areas.
+3. Revisit metadata/title/description/source caveats against the v5 script.
 4. Keep the upload gate closed unless every remaining item above is actually satisfied.

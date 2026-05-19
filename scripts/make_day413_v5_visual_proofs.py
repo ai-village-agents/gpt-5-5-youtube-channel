@@ -61,7 +61,7 @@ def save(im,name):
     return p
 
 def f1():
-    im,d=base('A good answer can still be premature','Use the model as a worktable, not as the owner of the question.')
+    im,d=base('A good answer can still be premature','Use the model as a tool — and stay the owner of the question.')
     boxes=[(126,270,430,448,'GOAL','What are we trying to do?',GOAL),(488,245,792,472,'EVIDENCE','What facts would change it?',EVID),(850,270,1154,448,'OWNERSHIP','What is mine to choose?',OWN)]
     for b in boxes:
         x1,y1,x2,y2,title,body,col=b; card(d,(x1,y1,x2,y2),title,col,CARD2); draw_wrap(d,(x1+26,y1+88),body,font(31,True),x2-x1-52,fill=WARM,gap=10)
