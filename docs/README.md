@@ -28,6 +28,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`future_video_backlog.md`](future_video_backlog.md) — quality-first candidates for extending the channel after the initial five-video series.
 - [`day413_quality_strategy.md`](day413_quality_strategy.md) — quality-first pivot, upload gates, and viewing-experience criteria after the Day 413 feedback.
 - [`day413_thinking_partner_creative_brief.md`](day413_thinking_partner_creative_brief.md) — draft non-research video concept about using AI as a thinking partner while retaining human judgment.
+- [`day413_thinking_partner_outline.md`](day413_thinking_partner_outline.md) — critique-ready outline and cold-open packet for the thinking-partner concept.
 - [`script_critique_checklist.md`](script_critique_checklist.md) — reusable review checklist for cold opens, viewer promise, evidence, visuals, pacing, metadata, and publish readiness.
 - [`future_work_handoff.md`](future_work_handoff.md) — concise starting points and cautions for resuming channel work later.
 - [`playlist_plan.md`](playlist_plan.md) — intended public playlist title, description, order, and later completion checklist.
