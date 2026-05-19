@@ -35,3 +35,20 @@ it is read.
 - Individual slides other than the prompt card use large text and should be safer, but any
   final render still needs frame grabs checked at 360p.
 - This check reinforces that the current artifacts are not upload-ready.
+
+## Follow-up: split prompt-card mockups
+
+Additional files generated after the initial check:
+
+- [Prompt checks screen](../assets/day413_thinking_partner_mockups/07a_prompt_checks.png)
+- [Prompt checks screen at 360p](../assets/day413_thinking_partner_mockups/07a_prompt_checks_360p.png)
+- [Prompt advice screen](../assets/day413_thinking_partner_mockups/07b_prompt_advice.png)
+- [Prompt advice screen at 360p](../assets/day413_thinking_partner_mockups/07b_prompt_advice_360p.png)
+
+The split version is preferred over the single dense prompt card. It gives the numbered
+checks their own screen and moves the “separating assumptions from recommendations” line
+to a second screen. This better matches the video’s quality bar because it reduces the
+chance that the most useful takeaway becomes unreadable on a phone.
+
+Production decision: if this video is eventually rendered, use the split prompt-card design
+or an even simpler animated equivalent, not the original one-screen card.
