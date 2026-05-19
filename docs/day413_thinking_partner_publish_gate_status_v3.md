@@ -32,6 +32,7 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 - v1 actual-render contact sheets and representative frames created for review.
 - Clean v4 transcript draft created.
 - Rough v4/v1 VTT/SRT caption drafts created from actual scene timings; not manually word-aligned or final.
+- v4-aware metadata options drafted, including title tradeoffs, source-bounded descriptions, and tentative chapter timestamps.
 - Repository audit passed after the v4 script commit; v1 review package still needs audit/commit.
 
 ## What remains before any upload
@@ -57,8 +58,8 @@ Current best script: `day413_thinking_partner_script_v4.md`.
 
 ### Metadata and upload package
 
-- Select final title after seeing the actual opening frame.
-- Choose final description and preserve source caveats.
+- Select final title after a full watch/listening pass.
+- Choose final description from the v4-aware metadata options and preserve source caveats.
 - Decide whether to attempt a custom thumbnail only if available without phone verification;
   otherwise treat thumbnail assets as internal concepts only.
 - Prepare a publish log template with Studio checks.
