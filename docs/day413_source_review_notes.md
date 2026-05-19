@@ -128,3 +128,104 @@ The script should keep the memorable title and frame, but soften any psychologic
 3. Add production notes with exact source summaries and links.
 4. Remove or soften any line that the reviewed sources do not support.
 5. Keep the reusable prompt described as a practical scaffold, not a validated intervention.
+
+
+## Abstract-level follow-up (Day 413)
+
+This section upgrades the earlier metadata-only notes using public API records from
+Crossref, OpenAlex, and Semantic Scholar. It is still not a substitute for full-paper
+close reading, but it is enough to narrow the script's evidence claims.
+
+### 1. Skitka, Mosier, and Burdick — “Does automation bias decision-making?”
+
+- DOI: `10.1006/ijhc.1999.0252`
+- Venue/year: *International Journal of Human-Computer Studies*, 1999.
+- Public API status: Crossref/OpenAlex confirm metadata; Semantic Scholar provides a
+  TLDR but not publisher abstract text.
+- Semantic Scholar TLDR summary: in a simulated flight task, participants using a
+  very-but-not-perfectly reliable automated aid made more monitoring-task errors than
+  participants without the automated aid.
+- Safer use in script:
+  - This is an example from human-factors literature that automated recommendations
+    can create distinctive reliance errors when the automation is imperfect.
+  - It motivates caution about over-reliance, not a claim that chatbots always make
+    people passive.
+- Do **not** use it to say:
+  - “LLM users stop thinking.”
+  - “AI fluency causes automation bias.”
+  - “The Goal/Grounding/Ownership prompt reduces the error rate.”
+
+### 2. Decision Support and Automation Bias systematic-review methodology paper
+
+- DOI: `10.3233/978-1-60750-709-3-3`
+- Venue/year: *Studies in Health Technology and Informatics*, 2011.
+- Public abstract text retrieved via Crossref/OpenAlex.
+- Key abstract-level points:
+  - automation bias is described as “a tendency to over-rely on automation”;
+  - it has been studied across multiple academic fields;
+  - clinical decision-support systems often improve performance overall;
+  - decision-support systems can also introduce new errors that users/fields may fail
+    to recognize;
+  - the paper says automation bias is significant but not well defined, and that more
+    research is needed to optimize decision-support use.
+- Safer use in script:
+  - “Decision-support tools can help and can also introduce new error patterns,
+    including over-reliance.”
+  - “The goal is not refusing help; it is more appropriate reliance.”
+- Do **not** use it to say:
+  - decision-support tools are net harmful;
+  - human oversight reliably fixes automation bias;
+  - every field has the same failure mode;
+  - a three-question prompt is an evidence-based clinical-safety intervention.
+
+### 3. Explanations, Fairness, and Appropriate Reliance in Human-AI Decision-Making
+
+- DOI: `10.1145/3613904.3642621`
+- Venue/year: CHI / ACM human-computer interaction record; Crossref lists 2024 CHI
+  proceedings, while Semantic Scholar's record points to an earlier CHI/arXiv version.
+- Public abstract text retrieved via Semantic Scholar; open-access PDF link points to
+  ACM/arXiv availability.
+- Key abstract-level points:
+  - the study examines feature-based explanations in AI-assisted occupation-prediction
+    decisions from short bios;
+  - explanations affected fairness perceptions and those perceptions related to
+    adherence to AI recommendations;
+  - explanations did **not** enable humans to discern correct from incorrect AI
+    recommendations;
+  - explanations could affect reliance regardless of recommendation correctness;
+  - depending on highlighted features, explanations could foster or hinder fairness.
+- Safer use in script:
+  - “More information from an AI system is not automatically better. Explanations can
+    change how people rely on recommendations without necessarily making them better at
+    spotting when the recommendation is wrong.”
+  - “So the habit here is not ‘ask for an explanation and trust it’; it is ‘separate
+    assumptions, evidence, and value tradeoffs before accepting advice.’”
+- Do **not** use it to say:
+  - explanations are useless;
+  - explanations always increase bias;
+  - this video's prompt is validated by CHI evidence;
+  - appropriate reliance is solved by asking the model to explain itself.
+
+## Evidence-backed script boundaries after follow-up
+
+Reasonable, supportable motivation:
+
+> Human-factors and human-AI decision-support research gives a useful warning: automated
+> recommendations can help, but people can also over-rely on them, and even explanations
+> can change reliance in ways that do not simply track correctness. This video offers a
+> practical habit for keeping the human parts of a decision visible.
+
+Claims still too strong for this video:
+
+- “AI chat makes people passive.”
+- “The danger is fluency itself.”
+- “Ask these three questions and you will avoid automation bias.”
+- “Explanations make AI safer.”
+- “Human-in-the-loop is enough.”
+
+Production implication:
+
+The final script should probably avoid opening with an empirical-sounding claim. It can
+open with a recognizable experience, then briefly say: “There is a research name for one
+version of this worry — over-reliance on automation — but I am not claiming a magic fix.
+I am offering a small practical frame: Goal, Grounding, Ownership.”
