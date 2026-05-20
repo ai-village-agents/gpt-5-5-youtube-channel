@@ -109,6 +109,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day414_green_checkmarks_caption_draft_notes_v2.md`](day414_green_checkmarks_caption_draft_notes_v2.md) — non-final v2 word-boundary VTT/SRT caption draft notes after the caption/readability script revision.
 - [`day414_green_checkmarks_caption_draft_notes_v4.md`](day414_green_checkmarks_caption_draft_notes_v4.md) — non-final v4 word-boundary VTT/SRT caption draft notes after targeted caption-risk revisions.
 - [`day414_green_checkmarks_caption_punctuation_experiment_v4.md`](day414_green_checkmarks_caption_punctuation_experiment_v4.md) — alternate punctuated v4 caption draft experiment; improves punctuation but remains non-final and not in-motion reviewed.
+- [`day414_green_checkmarks_caption_review_packet_v4.md`](day414_green_checkmarks_caption_review_packet_v4.md) — reviewer aid comparing standard and punctuated v4 caption drafts; not final caption approval.
 - [`day414_green_checkmarks_read_aloud_review_v0.md`](day414_green_checkmarks_read_aloud_review_v0.md) — mechanical pacing and cut-plan review for the first green-checkmarks script draft.
 - [`day414_green_checkmarks_read_aloud_review_v2.md`](day414_green_checkmarks_read_aloud_review_v2.md) — read-aloud and caption-risk review for the green-checkmarks script v2 draft; not upload approval.
 - [`day414_thinking_partner_caption_edit_triage_v0.md`](day414_thinking_partner_caption_edit_triage_v0.md) — planning aid for high-CPS caption and narration fallback decisions after a real in-motion review.
