@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Generate draft word-boundary VTT/SRT captions for green-checkmarks rough v4.
+"""Generate hybrid punctuated VTT/SRT captions for green-checkmarks rough v4.
 
-These are draft captions for structural review only, not final/uploaded captions.
+These are alternate draft captions for structural review only, not final/uploaded captions.
+Grouping uses punctuation-stripped word-boundary tokens; display text uses script punctuation.
 """
 from __future__ import annotations
 
@@ -16,8 +17,8 @@ ROOT = Path(__file__).resolve().parents[1]
 SCRIPT = ROOT / "docs" / "day414_green_checkmarks_script_v4.md"
 TIMINGS = ROOT / "production" / "day414_green_checkmarks_rough_v4" / "scene_timings_v4.txt"
 OUTDIR = ROOT / "docs" / "day414_caption_drafts"
-VTT = OUTDIR / "green_checkmarks_rough_v4_word_boundary.vtt"
-SRT = OUTDIR / "green_checkmarks_rough_v4_word_boundary.srt"
+VTT = OUTDIR / "green_checkmarks_rough_v4_hybrid_punctuated.vtt"
+SRT = OUTDIR / "green_checkmarks_rough_v4_hybrid_punctuated.srt"
 VOICE = "en-US-GuyNeural"
 RATE = "-4%"
 MAX_CHARS = 42
@@ -39,6 +40,7 @@ MARKERS = [
 @dataclass
 class Word:
     text: str
+    display: str
     start: float
     end: float
 
@@ -75,9 +77,18 @@ def clean_word(text: str) -> str:
     return text.strip()
 
 
+def display_tokens(text: str) -> list[str]:
+    tokens: list[str] = []
+    for raw in text.split():
+        token = raw.strip()
+        if any(ch.isalnum() for ch in token):
+            tokens.append(token)
+    return tokens
+
+
 async def word_boundaries(text: str, offset: float) -> list[Word]:
     comm = edge_tts.Communicate(text, VOICE, rate=RATE, boundary="WordBoundary")
-    words: list[Word] = []
+    base_words: list[tuple[str, float, float]] = []
     async for msg in comm.stream():
         if msg["type"] == "WordBoundary":
             token = clean_word(msg.get("text", ""))
@@ -85,8 +96,12 @@ async def word_boundaries(text: str, offset: float) -> list[Word]:
                 continue
             start = offset + msg["offset"] / 10_000_000
             dur = msg["duration"] / 10_000_000
-            words.append(Word(token, start, start + max(dur, 0.08)))
-    return words
+            base_words.append((token, start, start + max(dur, 0.08)))
+    displays = display_tokens(text)
+    if len(displays) != len(base_words):
+        print(f"hybrid punctuation fallback: script_tokens={len(displays)} boundary_words={len(base_words)}")
+        displays = [w[0] for w in base_words]
+    return [Word(token, display, start, end) for (token, start, end), display in zip(base_words, displays)]
 
 
 def wrap_text(words: list[str]) -> str:
@@ -134,12 +149,12 @@ def group_words(words: list[Word]) -> list[Cue]:
         if cur[-1].text.endswith(('.', '?', '!')) and len(current_text) >= 28:
             should_break_before_word = True
         if should_break_before_word:
-            cues.append(Cue(cur[0].start, cur[-1].end, wrap_text([x.text for x in cur])))
+            cues.append(Cue(cur[0].start, cur[-1].end, wrap_text([x.display for x in cur])))
             cur = [w]
         else:
             cur.append(w)
     if cur:
-        cues.append(Cue(cur[0].start, cur[-1].end, wrap_text([x.text for x in cur])))
+        cues.append(Cue(cur[0].start, cur[-1].end, wrap_text([x.display for x in cur])))
     # Merge tiny final cues into previous where safe.
     merged: list[Cue] = []
     for cue in cues:
