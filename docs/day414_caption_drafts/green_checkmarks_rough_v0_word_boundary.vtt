@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00:00.102 --> 00:00:02.355
+A green checkmark is one of the most
+comforting
+
+00:00:02.381 --> 00:00:07.331
+shapes in software It says the build
+passed The
+
+00:00:07.344 --> 00:00:12.135
+tests passed The robot is happy And when
+you are
+
+00:00:12.161 --> 00:00:14.531
+tired it is easy to read that as a bigger
+
+00:00:14.557 --> 00:00:19.258
+sentence This is safe to merge But a green
+check
+
+00:00:19.271 --> 00:00:22.812
+usually means something narrower It means
+this
+
+00:00:22.826 --> 00:00:25.026
+check passed on this version under these
+
+00:00:25.039 --> 00:00:30.391
+conditions That is useful evidence It is
+not a verdict
+
+00:00:31.436 --> 00:00:33.780
+Here are three questions that keep the
+signal in
+
+00:00:33.806 --> 00:00:38.131
+its lane Fresh base Right diff
+
+00:00:39.042 --> 00:00:40.240
+Uncovered risk
+
+00:00:41.270 --> 00:00:44.957
+First Fresh base Did the check run against
+the
+
+00:00:44.970 --> 00:00:48.525
+target you are about to merge or deploy
+into In
+
+00:00:48.538 --> 00:00:51.194
+a fast-moving repo the target branch can
+move
+
+00:00:51.220 --> 00:00:54.293
+while a pull request waits The check may
+have
+
+00:00:54.319 --> 00:00:57.652
+been true when main looked one way Then
+other
+
+00:00:57.678 --> 00:01:02.158
+work lands The surrounding file changes A
+
+00:01:02.184 --> 00:01:05.986
+validator appears A slot that was empty
+becomes
+
+00:01:06.012 --> 00:01:10.829
+occupied The old check is not useless But
+it is
+
+00:01:10.842 --> 00:01:14.671
+dated evidence In one exploratory AI
+Village
+
+00:01:14.697 --> 00:01:17.223
+pull-request study local git
+reconstruction
+
+00:01:17.249 --> 00:01:20.751
+found six hundred and ten pull requests
+One
+
+00:01:20.777 --> 00:01:23.121
+hundred forty-four pull-request heads were
+not
+
+00:01:23.134 --> 00:01:26.689
+descendants of their recorded base That
+does not
+
+00:01:26.715 --> 00:01:30.100
+prove those branches were unsafe It does
+mean
+
+00:01:30.126 --> 00:01:32.691
+the base relationship was a useful place
+to look
+
+00:01:33.603 --> 00:01:38.147
+Green on an old base is not bad evidence
+It is old evidence
+
+00:01:39.158 --> 00:01:42.626
+Second Right diff Did the check inspect
+the
+
+00:01:42.650 --> 00:01:46.335
+exact change that will land A file list is
+not
+
+00:01:46.348 --> 00:01:49.915
+the same as the current merge diff A
+preview you
+
+00:01:49.928 --> 00:01:52.168
+remember is not the same as the change
+that will
+
+00:01:52.194 --> 00:01:55.931
+ship In the same study's case appendix one
+pull
+
+00:01:55.957 --> 00:01:58.457
+request is described as mechanically
+mergeable
+
+00:01:58.483 --> 00:02:01.595
+with passing checks But a reviewer noted
+that
+
+00:02:01.608 --> 00:02:03.576
+its diff inserted new entries before an
+
+00:02:03.600 --> 00:02:06.074
+already-merged tail shifting the intended
+
+00:02:06.100 --> 00:02:08.105
+numbering instead of appending after
+current
+
+00:02:08.132 --> 00:02:11.400
+main The issue was not simply whether the
+code
+
+00:02:11.426 --> 00:02:14.342
+could parse The issue was whether the
+checked
+
+00:02:14.368 --> 00:02:17.702
+change matched the real review question So
+do
+
+00:02:17.715 --> 00:02:21.191
+not only ask whether a check passed Ask
+what
+
+00:02:21.217 --> 00:02:22.780
+diff the check was attached to
+
+00:02:23.788 --> 00:02:27.514
+Third Uncovered risk What important
+failure
+
+00:02:27.540 --> 00:02:29.806
+could still happen even if the check
+result is
+
+00:02:29.832 --> 00:02:33.113
+correct Some failures are easy for generic
+
+00:02:33.139 --> 00:02:35.823
+automation to see the file does not
+compile the
+
+00:02:35.847 --> 00:02:38.662
+unit test fails a required command exits
+with an
+
+00:02:38.686 --> 00:02:43.113
+error Other failures are about meaning Did
+this
+
+00:02:43.126 --> 00:02:46.446
+remove recent work Did it preserve the
+source
+
+00:02:46.472 --> 00:02:49.767
+layout the application expects Did it
+change
+
+00:02:49.780 --> 00:02:52.855
+permissions ordering user-visible wording
+or a
+
+00:02:52.840 --> 00:02:56.420
+hidden invariant The most useful question
+is not
+
+00:02:56.616 --> 00:03:00.066
+Did the robot approve It is What would
+still
+
+00:03:00.092 --> 00:03:01.746
+worry me if the robot is right
+
+00:03:02.764 --> 00:03:06.633
+This is also the caveat A stale branch is
+not
+
+00:03:06.659 --> 00:03:10.488
+automatically unsafe A large deletion
+count is
+
+00:03:10.514 --> 00:03:14.290
+not automatically bad And a passing check
+is not
+
+00:03:14.316 --> 00:03:18.990
+automatically enough Each of those is a
+signal not a verdict
+
+00:03:20.020 --> 00:03:22.325
+So before you treat a green check as
+approval
+
+00:03:22.520 --> 00:03:26.051
+ask Fresh base did the check run against
+the
+
+00:03:26.064 --> 00:03:29.592
+target I am about to merge or deploy into
+Right
+
+00:03:29.619 --> 00:03:32.236
+diff did it inspect the exact change that
+will
+
+00:03:32.262 --> 00:03:36.155
+land Uncovered risk what important failure
+could
+
+00:03:36.181 --> 00:03:38.264
+still happen even if this check result is
+
+00:03:38.277 --> 00:03:41.845
+correct If you are using an AI assistant
+during
+
+00:03:41.858 --> 00:03:45.022
+review you can ask it the same thing What
+
+00:03:45.048 --> 00:03:47.717
+version base branch and diff did this
+check run
+
+00:03:47.744 --> 00:03:51.650
+on What files behaviors or risks did it
+not
+
+00:03:51.663 --> 00:03:55.217
+inspect What human decision remains even
+if the
+
+00:03:55.230 --> 00:03:58.590
+check result is correct That prompt will
+not
+
+00:03:58.603 --> 00:04:02.210
+make the decision safe by itself But it
+can slow
+
+00:04:02.223 --> 00:04:04.579
+the moment down just enough to keep the
+evidence
+
+00:04:04.606 --> 00:04:09.163
+visible Keep the green check It is useful
+
+00:04:10.074 --> 00:04:13.564
+Just read it like a receipt What version
+did it
+
+00:04:13.577 --> 00:04:18.473
+check What diff did it inspect What risk
+did it
+
+00:04:18.486 --> 00:04:21.845
+leave uncovered Let the green check speed
+up the
+
+00:04:21.858 --> 00:04:25.283
+review Do not let it replace the question
