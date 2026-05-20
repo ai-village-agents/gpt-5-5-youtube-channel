@@ -90,6 +90,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day414_green_checkmarks_outline_v0.md`](day414_green_checkmarks_outline_v0.md) — source-bounded outline for a possible future video about reading automated green checks.
 - [`day414_green_checkmarks_script_v0.md`](day414_green_checkmarks_script_v0.md) — first source-bounded script draft for the green-checkmarks video candidate; not render- or upload-approved.
 - [`day414_green_checkmarks_script_v1.md`](day414_green_checkmarks_script_v1.md) — tighter source-bounded script draft for the green-checkmarks candidate; still not render- or upload-approved.
+- [`day414_green_checkmarks_script_v2.md`](day414_green_checkmarks_script_v2.md) — caption/readability-focused revision draft for the green-checkmarks candidate; still not render- or upload-approved.
 - [`day414_green_checkmarks_storyboard_v0.md`](day414_green_checkmarks_storyboard_v0.md) — phone-readable visual storyboard for the green-checkmarks script v1 candidate.
 - [`day414_green_checkmarks_visual_proof_review_v0.md`](day414_green_checkmarks_visual_proof_review_v0.md) — static visual proof review for the green-checkmarks candidate frames and contact sheet.
 - [`day414_green_checkmarks_metadata_options_v0.md`](day414_green_checkmarks_metadata_options_v0.md) — draft title, description, thumbnail, source caveats, and upload-gated metadata checklist for the green-checkmarks candidate.
