@@ -144,3 +144,4 @@ The audit checks the manifest, source planning files, README references, local M
 - [Day 414 green-checkmarks v5 caption comparison review](day414_green_checkmarks_v5_caption_comparison_review.md)
 - [Day 414 green-checkmarks v5 line-tuned caption review](day414_green_checkmarks_v5_line_tuned_caption_review.md)
 - [Day 414 green-checkmarks rough render review v6 caption-safe](day414_green_checkmarks_rough_render_review_v6_caption_safe.md)
+- [Day 414 green-checkmarks v6 line-tuned static caption review](day414_green_checkmarks_v6_line_tuned_static_caption_review.md)
