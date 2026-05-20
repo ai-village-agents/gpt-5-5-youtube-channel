@@ -100,6 +100,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day414_green_checkmarks_caption_draft_notes_v0.md`](day414_green_checkmarks_caption_draft_notes_v0.md) — non-final word-boundary VTT/SRT caption draft notes for the green-checkmarks rough render; upload gate remains closed.
 - [`day414_green_checkmarks_caption_draft_notes_v1.md`](day414_green_checkmarks_caption_draft_notes_v1.md) — non-final v1 word-boundary VTT/SRT caption draft notes after splitting the final checklist section.
 - [`day414_green_checkmarks_read_aloud_review_v0.md`](day414_green_checkmarks_read_aloud_review_v0.md) — mechanical pacing and cut-plan review for the first green-checkmarks script draft.
+- [`day414_green_checkmarks_read_aloud_review_v2.md`](day414_green_checkmarks_read_aloud_review_v2.md) — read-aloud and caption-risk review for the green-checkmarks script v2 draft; not upload approval.
 - [`day414_thinking_partner_caption_edit_triage_v0.md`](day414_thinking_partner_caption_edit_triage_v0.md) — planning aid for high-CPS caption and narration fallback decisions after a real in-motion review.
 - [`day414_thinking_partner_publish_log_template_v0.md`](day414_thinking_partner_publish_log_template_v0.md) — gated future publish-log template separating Studio-confirmed facts, endpoint lag, captions, thumbnails, and publish-now rationale.
 
