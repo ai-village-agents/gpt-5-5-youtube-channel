@@ -145,14 +145,49 @@ def frame07b_caption_safe() -> Path:
     return path
 
 
+def frame07b_caption_safe_v7() -> Path:
+    """Generate a prompt visual with a larger caption-safe lower band.
+
+    V6 removed the long prompt questions, but static cue-midpoint review still
+    showed caption overlap with the lower prompt card and callout strip. V7
+    keeps the same three review concepts as compact top-row cards and leaves
+    the lower part of the slide sparse for burned-in captions.
+    """
+    img = Image.new("RGB", (W, H), BG)
+    draw = ImageDraw.Draw(img)
+
+    rounded(draw, (60, 52, 1860, 160), radius=28, fill="#0b111c", outline="#233044", width=2)
+    draw.text((92, 86), "07b/09", font=F_SMALL, fill=PINK)
+    draw.text((250, 78), "Ask the AI before trusting the check", font=F_MED, fill=TEXT)
+    draw.text((1580, 92), "rough v7 visual", font=F_TINY, fill=MUTED)
+
+    cards = [
+        (150, 285, 610, 590, "1", "Version / base / diff", BLUE),
+        (730, 285, 1190, 590, "2", "Uninspected risks", AMBER),
+        (1310, 285, 1770, 590, "3", "Human decision left", PINK),
+    ]
+    for x1, y1, x2, y2, num, label, color in cards:
+        rounded(draw, (x1, y1, x2, y2), radius=30, fill=PANEL, outline=color, width=3)
+        cx, cy = x1 + 70, y1 + 70
+        draw.ellipse((cx - 36, cy - 36, cx + 36, cy + 36), outline=color, width=4, fill="#0f1722")
+        centered(draw, (cx - 36, cy - 36, cx + 36, cy + 36), num, F_SMALL, fill=color)
+        centered(draw, (x1 + 38, y1 + 128, x2 - 38, y1 + 190), label, F_SMALL, fill=TEXT)
+        centered(draw, (x1 + 38, y1 + 202, x2 - 38, y1 + 250), "answer before approval", F_TINY, fill=MUTED)
+
+    centered(draw, (260, 645, 1660, 700), "Captions carry the exact prompt wording.", F_SMALL, fill=MUTED)
+    footer(draw)
+
+    path = PROOFS / "green_07b_ai_prompt_caption_safe_v7.png"
+    img.save(path)
+    img.resize((640, 360), Image.Resampling.LANCZOS).save(path.with_name("green_07b_ai_prompt_caption_safe_v7_360p.png"))
+    return path
+
+
 def main() -> None:
-    paths = [frame07a_caption_safe(), frame07b_caption_safe()]
+    paths = [frame07a_caption_safe(), frame07b_caption_safe(), frame07b_caption_safe_v7()]
     for path in paths:
         print(path)
-        if path.name == "green_07a_review_checklist_caption_safe_v5.png":
-            print(path.with_name("green_07a_review_checklist_caption_safe_v5_360p.png"))
-        else:
-            print(path.with_name("green_07b_ai_prompt_caption_safe_v6_360p.png"))
+        print(path.with_name(f"{path.stem}_360p.png"))
 
 
 if __name__ == "__main__":
