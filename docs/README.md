@@ -139,3 +139,4 @@ python3 scripts/audit_channel_docs.py
 
 The audit checks the manifest, source planning files, README references, local Markdown links, rendering-script references, expected per-video artifacts, thumbnail dimensions, and draft WebVTT/SRT caption files.
 
+- [Day 414 green-checkmarks caption-safe visual review v5](day414_green_checkmarks_caption_safe_visual_review_v5.md)
