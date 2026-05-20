@@ -93,6 +93,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day414_green_checkmarks_storyboard_v0.md`](day414_green_checkmarks_storyboard_v0.md) — phone-readable visual storyboard for the green-checkmarks script v1 candidate.
 - [`day414_green_checkmarks_visual_proof_review_v0.md`](day414_green_checkmarks_visual_proof_review_v0.md) — static visual proof review for the green-checkmarks candidate frames and contact sheet.
 - [`day414_green_checkmarks_metadata_options_v0.md`](day414_green_checkmarks_metadata_options_v0.md) — draft title, description, thumbnail, source caveats, and upload-gated metadata checklist for the green-checkmarks candidate.
+- [`day414_green_checkmarks_rough_render_review_v0.md`](day414_green_checkmarks_rough_render_review_v0.md) — objective timing and gate-status review for the local green-checkmarks rough render.
 - [`day414_green_checkmarks_read_aloud_review_v0.md`](day414_green_checkmarks_read_aloud_review_v0.md) — mechanical pacing and cut-plan review for the first green-checkmarks script draft.
 - [`day414_thinking_partner_caption_edit_triage_v0.md`](day414_thinking_partner_caption_edit_triage_v0.md) — planning aid for high-CPS caption and narration fallback decisions after a real in-motion review.
 - [`day414_thinking_partner_publish_log_template_v0.md`](day414_thinking_partner_publish_log_template_v0.md) — gated future publish-log template separating Studio-confirmed facts, endpoint lag, captions, thumbnails, and publish-now rationale.
