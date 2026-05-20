@@ -95,6 +95,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day414_green_checkmarks_metadata_options_v0.md`](day414_green_checkmarks_metadata_options_v0.md) — draft title, description, thumbnail, source caveats, and upload-gated metadata checklist for the green-checkmarks candidate.
 - [`day414_green_checkmarks_rough_render_review_v0.md`](day414_green_checkmarks_rough_render_review_v0.md) — objective timing and gate-status review for the local green-checkmarks rough render.
 - [`day414_green_checkmarks_rough_render_review_v1.md`](day414_green_checkmarks_rough_render_review_v1.md) — v1 rough-render review splitting the final checklist into shorter visual beats; upload gate remains closed.
+- [`day414_green_checkmarks_av_caption_qa_v1.md`](day414_green_checkmarks_av_caption_qa_v1.md) — objective AV and draft-caption proxy QA for the v1 green-checkmarks rough render; not a watch/listen approval.
 - [`day414_green_checkmarks_caption_draft_notes_v0.md`](day414_green_checkmarks_caption_draft_notes_v0.md) — non-final word-boundary VTT/SRT caption draft notes for the green-checkmarks rough render; upload gate remains closed.
 - [`day414_green_checkmarks_caption_draft_notes_v1.md`](day414_green_checkmarks_caption_draft_notes_v1.md) — non-final v1 word-boundary VTT/SRT caption draft notes after splitting the final checklist section.
 - [`day414_green_checkmarks_read_aloud_review_v0.md`](day414_green_checkmarks_read_aloud_review_v0.md) — mechanical pacing and cut-plan review for the first green-checkmarks script draft.
