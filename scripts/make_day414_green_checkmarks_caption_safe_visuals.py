@@ -36,6 +36,7 @@ def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont | ImageFont.Im
     return ImageFont.load_default()
 
 
+F_TITLE = font(62, True)
 F_MED = font(42, True)
 F_BODY = font(36)
 F_SMALL = font(28)
@@ -183,8 +184,37 @@ def frame07b_caption_safe_v7() -> Path:
     return path
 
 
+def frame07c_caption_safe_v8() -> Path:
+    """Generate a closing visual with an intentionally clear caption band.
+
+    Earlier close slides placed the final sentence in a low green strip and used
+    the standard footer. Static caption samples showed burned-in captions
+    competing with that low text. This version keeps the core receipt message
+    high on the slide and leaves the lower caption area sparse.
+    """
+    img = Image.new("RGB", (W, H), BG)
+    draw = ImageDraw.Draw(img)
+
+    rounded(draw, (60, 52, 1860, 160), radius=28, fill="#0b111c", outline="#233044", width=2)
+    draw.text((92, 86), "07c/09", font=F_SMALL, fill=PINK)
+    draw.text((250, 78), "Receipt, not verdict", font=F_MED, fill=TEXT)
+    draw.text((1580, 92), "rough v8 visual", font=F_TINY, fill=MUTED)
+
+    rounded(draw, (260, 235, 1660, 650), radius=38, fill=PANEL, outline=GREEN, width=4)
+    centered(draw, (330, 285, 1590, 365), "Keep the green check.", F_TITLE, fill=GREEN)
+    centered(draw, (330, 405, 1590, 455), "It is useful.", F_MED, fill=TEXT)
+    centered(draw, (330, 510, 1590, 590), "Read it like a receipt.", F_TITLE, fill=TEXT)
+
+    centered(draw, (360, 705, 1560, 760), "Captions carry the final sentence.", F_SMALL, fill=MUTED)
+
+    path = PROOFS / "green_07c_receipt_close_caption_safe_v8.png"
+    img.save(path)
+    img.resize((640, 360), Image.Resampling.LANCZOS).save(path.with_name("green_07c_receipt_close_caption_safe_v8_360p.png"))
+    return path
+
+
 def main() -> None:
-    paths = [frame07a_caption_safe(), frame07b_caption_safe(), frame07b_caption_safe_v7()]
+    paths = [frame07a_caption_safe(), frame07b_caption_safe(), frame07b_caption_safe_v7(), frame07c_caption_safe_v8()]
     for path in paths:
         print(path)
         print(path.with_name(f"{path.stem}_360p.png"))
