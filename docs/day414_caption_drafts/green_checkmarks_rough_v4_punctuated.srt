@@ -1,0 +1,349 @@
+1
+00:00:00,102 --> 00:00:02,706
+A green checkmark feels comforting in
+software.
+
+2
+00:00:03,633 --> 00:00:07,513
+It says: the build passed. The tests
+passed.
+
+3
+00:00:08,424 --> 00:00:12,448
+The robot is happy. And when you are
+tired, it is easy
+
+4
+00:00:12,474 --> 00:00:16,081
+to read that as a bigger sentence: This is
+safe to
+
+5
+00:00:16,107 --> 00:00:19,570
+merge. But a green check usually means
+something
+
+6
+00:00:19,596 --> 00:00:23,568
+narrower. It means: this check passed, on
+this version,
+
+7
+00:00:23,737 --> 00:00:27,396
+under these conditions. That is useful
+evidence.
+
+8
+00:00:28,294 --> 00:00:29,544
+It is not a verdict.
+
+9
+00:00:30,602 --> 00:00:33,415
+Use three questions to keep the signal in
+its lane:
+
+10
+00:00:34,341 --> 00:00:39,250
+Fresh base. Right diff. Uncovered risk.
+
+11
+00:00:40,274 --> 00:00:44,391
+First: Fresh base. Did the check run
+against the target
+
+12
+00:00:44,417 --> 00:00:46,448
+you are about to merge or deploy into?
+
+13
+00:00:47,373 --> 00:00:50,419
+In a fast-moving repo, the target branch
+can move while
+
+14
+00:00:50,432 --> 00:00:53,987
+a pull request waits. The check may have
+been true when
+
+15
+00:00:54,013 --> 00:00:57,503
+main looked one way. Then other work
+lands.
+
+16
+00:00:58,401 --> 00:01:00,120
+The surrounding file changes.
+
+17
+00:01:01,018 --> 00:01:04,990
+A validator appears. A slot that was empty
+becomes
+
+18
+00:01:05,016 --> 00:01:08,349
+occupied. The old check is not useless.
+
+19
+00:01:09,248 --> 00:01:13,675
+But it is dated evidence. In one
+exploratory AI Village
+
+20
+00:01:13,701 --> 00:01:16,865
+pull-request study, local git
+reconstruction covered six
+
+21
+00:01:16,891 --> 00:01:18,583
+hundred and ten pull requests.
+
+22
+00:01:19,508 --> 00:01:22,307
+In one hundred forty-four cases, the head
+did not
+
+23
+00:01:22,320 --> 00:01:24,065
+descend from the recorded base.
+
+24
+00:01:24,977 --> 00:01:27,542
+That does not prove those branches were
+unsafe.
+
+25
+00:01:28,453 --> 00:01:31,318
+It does mean the base relationship was a
+useful place to
+
+26
+00:01:31,331 --> 00:01:35,016
+look. Green on an old base is not bad
+evidence.
+
+27
+00:01:35,914 --> 00:01:37,138
+It is old evidence.
+
+28
+00:01:38,162 --> 00:01:42,136
+Second: Right diff. Did the check inspect
+the exact
+
+29
+00:01:42,149 --> 00:01:45,912
+change that will land? A file list is not
+the same as
+
+30
+00:01:45,938 --> 00:01:49,675
+today's merge diff. A preview from memory
+is not the
+
+31
+00:01:49,688 --> 00:01:53,490
+same as today's merge diff. In the same
+study's case
+
+32
+00:01:53,516 --> 00:01:56,693
+appendix, one pull request was described
+as mechanically
+
+33
+00:01:56,719 --> 00:01:58,477
+mergeable, with passing checks.
+
+34
+00:01:59,388 --> 00:02:01,537
+A reviewer noted a narrower problem.
+
+35
+00:02:02,448 --> 00:02:05,208
+The diff inserted new entries before an
+already-merged
+
+36
+00:02:05,234 --> 00:02:08,724
+tail. That shifted the intended numbering.
+
+37
+00:02:09,636 --> 00:02:11,849
+It did not append after current main.
+
+38
+00:02:12,774 --> 00:02:14,531
+Parsing was not the whole issue.
+
+39
+00:02:15,443 --> 00:02:19,323
+The real question was this. Did the
+checked change match
+
+40
+00:02:19,349 --> 00:02:23,112
+the review question? So do not only ask
+whether a check
+
+41
+00:02:23,138 --> 00:02:26,706
+passed. Ask what diff the check was
+attached to.
+
+42
+00:02:27,746 --> 00:02:31,667
+Third: Uncovered risk. What important
+failure could
+
+43
+00:02:31,694 --> 00:02:33,438
+still happen if the check is right?
+
+44
+00:02:34,337 --> 00:02:37,110
+Some failures are easy for automation to
+see.
+
+45
+00:02:38,022 --> 00:02:41,941
+The file does not compile. The unit test
+fails.
+
+46
+00:02:42,852 --> 00:02:45,183
+A required command exits with an error.
+
+47
+00:02:46,095 --> 00:02:47,852
+Other failures are about meaning.
+
+48
+00:02:48,764 --> 00:02:50,483
+Did this remove recent work?
+
+49
+00:02:51,394 --> 00:02:53,829
+Did the app still get the layout it
+expects?
+
+50
+00:02:54,740 --> 00:02:57,631
+Did it change permissions, ordering,
+user-visible
+
+51
+00:02:57,657 --> 00:02:59,428
+wording, or a hidden invariant?
+
+52
+00:03:00,339 --> 00:03:02,930
+The most useful question is not, "Did the
+robot
+
+53
+00:03:02,956 --> 00:03:07,345
+approve?" It is, "What would still worry
+me if the robot is right?"
+
+54
+00:03:08,371 --> 00:03:12,240
+This is also the caveat. A stale branch is
+not
+
+55
+00:03:12,266 --> 00:03:16,355
+automatically unsafe. A large deletion
+count is not
+
+56
+00:03:16,381 --> 00:03:19,897
+automatically bad. And a passing check is
+not
+
+57
+00:03:19,923 --> 00:03:24,597
+automatically enough. Each of those is a
+signal, not a verdict.
+
+58
+00:03:25,627 --> 00:03:29,548
+Before treating a green check as approval,
+ask: Fresh
+
+59
+00:03:29,574 --> 00:03:32,439
+base: did the check run against the target
+I am about to
+
+60
+00:03:32,452 --> 00:03:36,399
+merge or deploy into? Right diff: did it
+inspect the
+
+61
+00:03:36,423 --> 00:03:38,038
+exact change that will land?
+
+62
+00:03:38,950 --> 00:03:41,814
+Uncovered risk: what important failure
+could still
+
+63
+00:03:41,827 --> 00:03:43,494
+happen if this check is correct?
+
+64
+00:03:44,515 --> 00:03:47,655
+If you are using an AI assistant during
+review, ask it
+
+65
+00:03:47,679 --> 00:03:51,627
+the same thing: What version, base branch,
+and diff did
+
+66
+00:03:51,653 --> 00:03:55,897
+this check run on? What files, behaviors,
+or risks did
+
+67
+00:03:55,923 --> 00:03:59,869
+it not inspect? What human decision
+remains if the check
+
+68
+00:03:59,895 --> 00:04:03,879
+is correct? That prompt cannot make the
+decision safe.
+
+69
+00:04:04,804 --> 00:04:08,098
+But it can slow the moment down so the
+evidence stays visible.
+
+70
+00:04:09,115 --> 00:04:12,229
+Keep the green check. It is useful.
+
+71
+00:04:13,141 --> 00:04:14,755
+Just read it like a receipt.
+
+72
+00:04:15,667 --> 00:04:19,612
+What version did it check? What diff did
+it inspect?
+
+73
+00:04:20,536 --> 00:04:22,451
+What risk did it leave uncovered?
+
+74
+00:04:23,362 --> 00:04:25,471
+Let the green check speed up the review.
+
+75
+00:04:26,396 --> 00:04:28,349
+Do not let it replace the question.
