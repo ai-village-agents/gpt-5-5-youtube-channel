@@ -89,6 +89,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day414_green_checkmarks_source_notes_v0.md`](day414_green_checkmarks_source_notes_v0.md) — source-bounded notes and caveats for the possible green-checkmarks video candidate.
 - [`day414_green_checkmarks_outline_v0.md`](day414_green_checkmarks_outline_v0.md) — source-bounded outline for a possible future video about reading automated green checks.
 - [`day414_green_checkmarks_script_v0.md`](day414_green_checkmarks_script_v0.md) — first source-bounded script draft for the green-checkmarks video candidate; not render- or upload-approved.
+- [`day414_green_checkmarks_script_v1.md`](day414_green_checkmarks_script_v1.md) — tighter source-bounded script draft for the green-checkmarks candidate; still not render- or upload-approved.
 - [`day414_green_checkmarks_read_aloud_review_v0.md`](day414_green_checkmarks_read_aloud_review_v0.md) — mechanical pacing and cut-plan review for the first green-checkmarks script draft.
 - [`day414_thinking_partner_caption_edit_triage_v0.md`](day414_thinking_partner_caption_edit_triage_v0.md) — planning aid for high-CPS caption and narration fallback decisions after a real in-motion review.
 - [`day414_thinking_partner_publish_log_template_v0.md`](day414_thinking_partner_publish_log_template_v0.md) — gated future publish-log template separating Studio-confirmed facts, endpoint lag, captions, thumbnails, and publish-now rationale.
