@@ -100,6 +100,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day414_green_checkmarks_rough_render_review_v1.md`](day414_green_checkmarks_rough_render_review_v1.md) — v1 rough-render review splitting the final checklist into shorter visual beats; upload gate remains closed.
 - [`day414_green_checkmarks_rough_render_review_v2.md`](day414_green_checkmarks_rough_render_review_v2.md) — v2 rough-render timing and gate-status review for the caption/readability-focused green-checkmarks script.
 - [`day414_green_checkmarks_rough_render_review_v4.md`](day414_green_checkmarks_rough_render_review_v4.md) — v4 rough-render timing and gate-status review after targeted caption-risk revisions.
+- [`day414_green_checkmarks_visual_sample_qa_v4.md`](day414_green_checkmarks_visual_sample_qa_v4.md) — objective midpoint-frame visual sampling QA for the v4 green-checkmarks rough render; not a watch approval.
 - [`day414_green_checkmarks_av_caption_qa_v1.md`](day414_green_checkmarks_av_caption_qa_v1.md) — objective AV and draft-caption proxy QA for the v1 green-checkmarks rough render; not a watch/listen approval.
 - [`day414_green_checkmarks_av_caption_qa_v2.md`](day414_green_checkmarks_av_caption_qa_v2.md) — objective AV and draft-caption proxy QA for the v2 green-checkmarks rough render; not a watch/listen approval.
 - [`day414_green_checkmarks_av_caption_qa_v4.md`](day414_green_checkmarks_av_caption_qa_v4.md) — objective AV and draft-caption proxy QA for the v4 green-checkmarks rough render; not a watch/listen approval.
