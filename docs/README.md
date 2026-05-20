@@ -92,17 +92,21 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day414_green_checkmarks_script_v1.md`](day414_green_checkmarks_script_v1.md) — tighter source-bounded script draft for the green-checkmarks candidate; still not render- or upload-approved.
 - [`day414_green_checkmarks_script_v2.md`](day414_green_checkmarks_script_v2.md) — caption/readability-focused revision draft for the green-checkmarks candidate; still not render- or upload-approved.
 - [`day414_green_checkmarks_script_v3.md`](day414_green_checkmarks_script_v3.md) — targeted caption-risk revision draft after v2 rough-caption QA; still not render- or upload-approved.
+- [`day414_green_checkmarks_script_v4.md`](day414_green_checkmarks_script_v4.md) — second targeted caption-risk revision draft after v3 caption-regression testing; still not render- or upload-approved.
 - [`day414_green_checkmarks_storyboard_v0.md`](day414_green_checkmarks_storyboard_v0.md) — phone-readable visual storyboard for the green-checkmarks script v1 candidate.
 - [`day414_green_checkmarks_visual_proof_review_v0.md`](day414_green_checkmarks_visual_proof_review_v0.md) — static visual proof review for the green-checkmarks candidate frames and contact sheet.
 - [`day414_green_checkmarks_metadata_options_v0.md`](day414_green_checkmarks_metadata_options_v0.md) — draft title, description, thumbnail, source caveats, and upload-gated metadata checklist for the green-checkmarks candidate.
 - [`day414_green_checkmarks_rough_render_review_v0.md`](day414_green_checkmarks_rough_render_review_v0.md) — objective timing and gate-status review for the local green-checkmarks rough render.
 - [`day414_green_checkmarks_rough_render_review_v1.md`](day414_green_checkmarks_rough_render_review_v1.md) — v1 rough-render review splitting the final checklist into shorter visual beats; upload gate remains closed.
 - [`day414_green_checkmarks_rough_render_review_v2.md`](day414_green_checkmarks_rough_render_review_v2.md) — v2 rough-render timing and gate-status review for the caption/readability-focused green-checkmarks script.
+- [`day414_green_checkmarks_rough_render_review_v4.md`](day414_green_checkmarks_rough_render_review_v4.md) — v4 rough-render timing and gate-status review after targeted caption-risk revisions.
 - [`day414_green_checkmarks_av_caption_qa_v1.md`](day414_green_checkmarks_av_caption_qa_v1.md) — objective AV and draft-caption proxy QA for the v1 green-checkmarks rough render; not a watch/listen approval.
 - [`day414_green_checkmarks_av_caption_qa_v2.md`](day414_green_checkmarks_av_caption_qa_v2.md) — objective AV and draft-caption proxy QA for the v2 green-checkmarks rough render; not a watch/listen approval.
+- [`day414_green_checkmarks_av_caption_qa_v4.md`](day414_green_checkmarks_av_caption_qa_v4.md) — objective AV and draft-caption proxy QA for the v4 green-checkmarks rough render; not a watch/listen approval.
 - [`day414_green_checkmarks_caption_draft_notes_v0.md`](day414_green_checkmarks_caption_draft_notes_v0.md) — non-final word-boundary VTT/SRT caption draft notes for the green-checkmarks rough render; upload gate remains closed.
 - [`day414_green_checkmarks_caption_draft_notes_v1.md`](day414_green_checkmarks_caption_draft_notes_v1.md) — non-final v1 word-boundary VTT/SRT caption draft notes after splitting the final checklist section.
 - [`day414_green_checkmarks_caption_draft_notes_v2.md`](day414_green_checkmarks_caption_draft_notes_v2.md) — non-final v2 word-boundary VTT/SRT caption draft notes after the caption/readability script revision.
+- [`day414_green_checkmarks_caption_draft_notes_v4.md`](day414_green_checkmarks_caption_draft_notes_v4.md) — non-final v4 word-boundary VTT/SRT caption draft notes after targeted caption-risk revisions.
 - [`day414_green_checkmarks_read_aloud_review_v0.md`](day414_green_checkmarks_read_aloud_review_v0.md) — mechanical pacing and cut-plan review for the first green-checkmarks script draft.
 - [`day414_green_checkmarks_read_aloud_review_v2.md`](day414_green_checkmarks_read_aloud_review_v2.md) — read-aloud and caption-risk review for the green-checkmarks script v2 draft; not upload approval.
 - [`day414_thinking_partner_caption_edit_triage_v0.md`](day414_thinking_partner_caption_edit_triage_v0.md) — planning aid for high-CPS caption and narration fallback decisions after a real in-motion review.
