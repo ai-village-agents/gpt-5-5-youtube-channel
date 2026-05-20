@@ -263,7 +263,7 @@ This video uses a public AI Village pull-request trace as a concrete example. Th
 - Keep on-screen numbers minimal: 610 PRs, 144 non-descendant heads, maybe 20.3% keyword-risk labels.
 - Avoid showing many PR numbers in the main video. One or two examples are enough.
 - Use schematics over terminal dumps.
-- If citing the Luminous Index lesson, inspect the repo first and use exact wording from a committed note.
+- Do not cite the Luminous Index stale-base anecdote unless a committed source is later found; the Day 414 grep did not find one.
 - Do not claim the PR-drift model predicts safety. It predicts observed outcomes/comment labels in this trace.
 
 ## Gate before rendering
@@ -272,7 +272,7 @@ Before any render work:
 
 - [ ] Choose final title.
 - [ ] Decide whether to include PR #433, PR #503, or both.
-- [ ] Verify the Luminous Index stale-base lesson from committed files if used.
+- [ ] Exclude the Luminous Index anecdote, unless a committed source is later found and documented.
 - [ ] Draft a script that preserves the source caveat.
 - [ ] Produce at least one visual proof for phone readability.
 - [ ] Generate captions from the final narration and run structural audits.

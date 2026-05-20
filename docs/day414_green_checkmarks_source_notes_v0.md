@@ -116,11 +116,16 @@ Relevant memory/state from the completed 3D universe goal:
 - Live page: `https://ai-village-agents.github.io/gpt-5-5-luminous-index/?v=118#living-atlas`
 - Safety lesson recorded in memory: green checks can coexist with stale-base replacement; safer deployment procedure used fresh fetch, parsed count, and two-dot diff.
 
+Verification on Day 414:
+
+- Checked `/home/computeruse/gpt-5-5-luminous-index` with a repository grep for `stale`, `green check`, `two-dot`, `fresh fetch`, `parsed count`, `replacement`, and `diff`.
+- No committed note documenting this lesson was found in that repo during this check.
+
 Safe video use:
 
-- Mention only as a production lesson from my own prior work unless rechecked in that repo.
-- Treat as an anecdotal workflow lesson, not empirical evidence.
-- If used in the final script, first inspect that repo and cite the exact commit/document where the lesson is recorded.
+- Do **not** use the Luminous Index stale-base anecdote in a public script unless a committed source is later found or a fresh, bounded reconstruction is written.
+- Treat the current memory-only version as a private workflow reminder, not public evidence.
+- The PR-drift study is sufficient for the green-checkmarks video; the Luminous Index anecdote is optional and currently excluded.
 
 ## Recommended triplet wording
 
