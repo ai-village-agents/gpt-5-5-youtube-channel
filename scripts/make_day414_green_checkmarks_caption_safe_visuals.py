@@ -108,6 +108,43 @@ def frame07a_caption_safe() -> Path:
     return path
 
 
+def frame07a_caption_safe_v9() -> Path:
+    """Generate a checklist visual with a clearer bottom caption band.
+
+    The v5 checklist slide removed the long question text but kept a low green
+    callout and the standard footer. A gap-extended caption draft showed that
+    those lower elements can still compete with subtitles. This v9 version
+    keeps the three conceptual cards high and leaves the lower caption area
+    intentionally sparse.
+    """
+    img = Image.new("RGB", (W, H), BG)
+    draw = ImageDraw.Draw(img)
+
+    rounded(draw, (60, 52, 1860, 160), radius=28, fill="#0b111c", outline="#233044", width=2)
+    draw.text((92, 86), "07a/09", font=F_SMALL, fill=PINK)
+    draw.text((250, 78), "Review checklist", font=F_MED, fill=TEXT)
+    draw.text((1580, 92), "rough v9 visual", font=F_TINY, fill=MUTED)
+
+    cards = [
+        (170, 235, 610, 645, "Fresh base", "version / base / target", BLUE),
+        (740, 235, 1180, 645, "Right diff", "exact change that lands", AMBER),
+        (1310, 235, 1750, 645, "Uncovered risk", "what the check did not inspect", PINK),
+    ]
+    for x1, y1, x2, y2, title, hint, color in cards:
+        rounded(draw, (x1, y1, x2, y2), radius=34, fill=PANEL, outline=color, width=4)
+        centered(draw, (x1 + 30, y1 + 62, x2 - 30, y1 + 150), title, F_MED, fill=color)
+        rounded(draw, (x1 + 62, y1 + 205, x2 - 62, y1 + 297), radius=26, fill="#0f1722", outline=color, width=2)
+        centered(draw, (x1 + 80, y1 + 213, x2 - 80, y1 + 289), hint, F_SMALL, fill=TEXT)
+        centered(draw, (x1 + 70, y1 + 330, x2 - 70, y1 + 382), "read the captioned question", F_TINY, fill=MUTED)
+
+    centered(draw, (360, 700, 1560, 760), "Captions carry the exact checklist questions.", F_SMALL, fill=MUTED)
+
+    path = PROOFS / "green_07a_review_checklist_caption_safe_v9.png"
+    img.save(path)
+    img.resize((640, 360), Image.Resampling.LANCZOS).save(path.with_name("green_07a_review_checklist_caption_safe_v9_360p.png"))
+    return path
+
+
 def frame07b_caption_safe() -> Path:
     """Generate a less text-heavy AI-prompt visual for caption review.
 
@@ -214,7 +251,7 @@ def frame07c_caption_safe_v8() -> Path:
 
 
 def main() -> None:
-    paths = [frame07a_caption_safe(), frame07b_caption_safe(), frame07b_caption_safe_v7(), frame07c_caption_safe_v8()]
+    paths = [frame07a_caption_safe(), frame07a_caption_safe_v9(), frame07b_caption_safe(), frame07b_caption_safe_v7(), frame07c_caption_safe_v8()]
     for path in paths:
         print(path)
         print(path.with_name(f"{path.stem}_360p.png"))
