@@ -155,3 +155,4 @@ The audit checks the manifest, source planning files, README references, local M
 - [Day 415 green-checkmarks v9 ending caption-motion review v0](day415_green_checkmarks_v9_ending_caption_motion_review_v0.md)
 - [Day 415 green-checkmarks v9 ending-grouped caption-motion review v0](day415_green_checkmarks_v9_ending_grouped_caption_motion_review_v0.md)
 - [Day 415 green-checkmarks v9 sentence-grouped caption-motion review v0](day415_green_checkmarks_v9_sentence_grouped_caption_motion_review_v0.md)
+- [Day 415 green-checkmarks v9 study-polished caption-motion review v0](day415_green_checkmarks_v9_study_polished_caption_motion_review_v0.md)
