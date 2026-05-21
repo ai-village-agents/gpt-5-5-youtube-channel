@@ -169,3 +169,4 @@ The audit checks the manifest, source planning files, README references, local M
 - [Day 415 green-checkmarks v11 full burnin visual review v0](day415_green_checkmarks_v11_full_burnin_visual_review_v0.md)
 - [Day 415 green-checkmarks wrap phrase-polished caption experiment v0](day415_green_checkmarks_v9_caveat_joined_wrap_phrase_polished_caption_experiment_v0.md)
 - [Day 415 green-checkmarks wrap phrase-polished focused visual review v0](day415_green_checkmarks_wrap_phrase_polished_focused_visual_review_v0.md)
+- [Day 415 green-checkmarks wrap phrase-polished end-to-end visual review v0](day415_green_checkmarks_wrap_phrase_polished_end_to_end_visual_review_v0.md)
