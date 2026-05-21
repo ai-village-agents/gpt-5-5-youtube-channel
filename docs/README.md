@@ -173,3 +173,4 @@ The audit checks the manifest, source planning files, README references, local M
 - [Day 415 green-checkmarks metadata/source-caveat review v0](day415_green_checkmarks_metadata_source_caveat_review_v0.md)
 - [Day 415 green-checkmarks publish gate status v2](day415_green_checkmarks_publish_gate_status_v2.md)
 - [Day 415 green-checkmarks V11 audio proxy diagnostics v0](day415_green_checkmarks_v11_audio_proxy_diagnostics_v0.md)
+- [Day 415 green-checkmarks wrap phrase line-polished caption experiment v0](day415_green_checkmarks_wrap_phrase_line_polished_caption_experiment_v0.md)
