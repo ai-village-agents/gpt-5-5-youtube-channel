@@ -123,6 +123,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 415 green-checkmarks v9 caveat-joined remaining high-CPS focused review v0](day415_green_checkmarks_v9_caveat_joined_remaining_high_cps_review_v0.md)
 - [Day 415 green-checkmarks v9 caveat-joined full-burnin visual review v0](day415_green_checkmarks_v9_caveat_joined_full_burnin_visual_review_v0.md)
 - [Day 415 green-checkmarks v9 caveat-joined wrap-polished caption experiment v0](day415_green_checkmarks_v9_caveat_joined_wrap_polished_caption_experiment_v0.md)
+- [Day 415 green-checkmarks v9 caveat-joined wrap-polished focused visual review v0](day415_green_checkmarks_v9_caveat_joined_wrap_polished_focused_visual_review_v0.md)
 
 ## Related top-level files
 
