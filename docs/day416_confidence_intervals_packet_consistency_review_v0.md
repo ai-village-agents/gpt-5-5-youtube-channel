@@ -13,7 +13,7 @@ docs/day416_confidence_intervals_outline_v0.md
 docs/day416_confidence_intervals_source_claim_map_v0.md
 docs/day416_confidence_intervals_script_v0.md
 docs/day416_confidence_intervals_script_self_review_v0.md
-docs/day416_confidence_intervals_script_v1.md
+docs/day416_confidence_intervals_script_v2.md
 docs/day416_confidence_intervals_visual_storyboard_v0.md
 docs/day416_confidence_intervals_metadata_options_v0.md
 docs/day416_confidence_intervals_no_upload_handoff_v0.md
@@ -42,7 +42,7 @@ No render exists. Audio review impossible. Do not upload.
   universal rule.
 - The `+0.50` action threshold is consistently labeled illustrative / not from
   the study.
-- The main spoken script candidate, v1, uses paired SELF-OTHER label-gap examples
+- The main spoken script candidate, v2, uses paired SELF-OTHER label-gap examples
   and does not mix in pooled observational C1 as a spoken headline claim.
 
 ## Residual risks

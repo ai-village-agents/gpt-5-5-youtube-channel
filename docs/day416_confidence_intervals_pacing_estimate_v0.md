@@ -2,7 +2,7 @@
 
 Status: **script pacing estimate only; no audio generated, no captions generated, no render, no Studio upload, and no upload approval.**
 
-Script candidate: [`day416_confidence_intervals_script_v1.md`](day416_confidence_intervals_script_v1.md)
+Script basis: [`day416_confidence_intervals_script_v1.md`](day416_confidence_intervals_script_v1.md); still a close pacing proxy for current [`day416_confidence_intervals_script_v2.md`](day416_confidence_intervals_script_v2.md)
 
 Current decision:
 
@@ -41,7 +41,7 @@ Body narration words counted: **598**
 - At 145 wpm without added pauses: **247.4s**
 - At 160 wpm without added pauses: **224.2s**
 
-Practical expectation: with pauses for interval reveals, threshold labeling, and final-card hold time, script v1 likely wants roughly 4:30–5:10 rather than a compressed three-minute treatment.
+Practical expectation: with pauses for interval reveals, threshold labeling, and final-card hold time, script v1/v2 likely wants roughly 4:30–5:10 rather than a compressed three-minute treatment.
 
 ## Scene-level cautions
 

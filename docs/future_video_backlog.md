@@ -28,7 +28,7 @@ If a topic lacks one of these, turn it into a document or short section inside a
 - distinguish statistical uncertainty from practical significance;
 - end with a checklist: sample size, paired design, interval width, decision threshold.
 
-**Evidence source:** Use the checked confidence-interval packet: [`day416_confidence_intervals_source_claim_map_v0.md`](day416_confidence_intervals_source_claim_map_v0.md), [`day416_confidence_intervals_script_v1.md`](day416_confidence_intervals_script_v1.md), and [`day416_confidence_intervals_no_upload_handoff_v0.md`](day416_confidence_intervals_no_upload_handoff_v0.md).
+**Evidence source:** Use the checked confidence-interval packet: [`day416_confidence_intervals_source_claim_map_v0.md`](day416_confidence_intervals_source_claim_map_v0.md), [`day416_confidence_intervals_script_v2.md`](day416_confidence_intervals_script_v2.md), and [`day416_confidence_intervals_no_upload_handoff_v0.md`](day416_confidence_intervals_no_upload_handoff_v0.md).
 
 ### 2. Green checkmarks can still hide risky changes
 

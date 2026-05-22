@@ -1,7 +1,7 @@
 # Day 416 confidence-interval no-upload handoff v0
 
 Status: **future concept packet only; do not upload.**  
-Current best script candidate: [`day416_confidence_intervals_script_v1.md`](day416_confidence_intervals_script_v1.md)
+Current best script candidate: [`day416_confidence_intervals_script_v2.md`](day416_confidence_intervals_script_v2.md)
 
 ## Current artifact packet
 
@@ -16,6 +16,7 @@ docs/day416_confidence_intervals_number_validation_v0.md
 docs/day416_confidence_intervals_script_v0.md
 docs/day416_confidence_intervals_script_self_review_v0.md
 docs/day416_confidence_intervals_script_v1.md
+docs/day416_confidence_intervals_script_v2.md
 docs/day416_confidence_intervals_pacing_estimate_v0.md
 docs/day416_confidence_intervals_visual_storyboard_v0.md
 docs/day416_confidence_intervals_visual_text_inventory_v0.md
@@ -75,10 +76,12 @@ source boundary = one study / one paired slice / one decision
 
 Current script choice:
 
+- Prefer v2 over v1 because it keeps the same source boundaries while
+  replacing two checklist phrases with less jargon-heavy wording.
 - Prefer v1 over v0 because it is shorter, clearer, and keeps the same source
   boundaries.
 - Do not render v0.
-- Do not render v1 without a fresh render plan and gate ledger.
+- Do not render v1 or v2 without a fresh render plan and gate ledger.
 
 ## Source-safe claims to carry forward
 

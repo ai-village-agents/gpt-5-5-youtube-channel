@@ -22,7 +22,8 @@ No render exists. Audio review impossible. Do not upload.
 | `docs/day416_confidence_intervals_script_v0.md` | 5296 | `3918bab332c8b8b8686b0bc01220440573af0237e10e99c5a8657903298ddcb5` |
 | `docs/day416_confidence_intervals_script_self_review_v0.md` | 4038 | `594f39aa2e92d338755e9c5568360d1c3463ea62342010940cacdc1cc8812ce7` |
 | `docs/day416_confidence_intervals_script_v1.md` | 4974 | `646bb1d726e36647bc58ebf7d3828ca8efb17d3312d5eebf2c7dd73b98aeac27` |
-| `docs/day416_confidence_intervals_pacing_estimate_v0.md` | 3240 | `a954ab764f95d8f55f1c64e7a629ed3f7f0dac36acb3a3dd664668566f5d98fd` |
+| `docs/day416_confidence_intervals_script_v2.md` | 5637 | `2420d3d05a1b0e78a2ef41dc805c85c7029430891ca0e2dbaa94eb06f491eb0b` |
+| `docs/day416_confidence_intervals_pacing_estimate_v0.md` | 3366 | `9cd1ca3716be1cf1acfd6d82071807e43edb2e745259a28400c683f7b802ab50` |
 | `docs/day416_confidence_intervals_visual_storyboard_v0.md` | 5668 | `2eaecf4bc5fd7fe81967e0cc181048a892a8b31a413f9b3d6289b68b4a07b7f8` |
 | `docs/day416_confidence_intervals_visual_text_inventory_v0.md` | 4163 | `d244602ff6bbe16b4c26c0577e9c03a788f1bafc1ec63c64f4d4ae4eb10e2363` |
 | `docs/day416_confidence_intervals_caption_planning_v0.md` | 4393 | `a20fbdd4a22cf4ac2f77f7d0874a45ab0556c79ff8d48cd65f35dade9461449f` |
@@ -32,18 +33,18 @@ No render exists. Audio review impossible. Do not upload.
 | `docs/day416_confidence_intervals_render_feasibility_v0.md` | 4339 | `67307b508d50b2d921f5a10eede718e4422866c000c86b7b2b8388b43dbdeb4a` |
 | `docs/day416_confidence_intervals_render_spec_v0.md` | 7153 | `e94346d8ab84a329db64707d590fc5b9fcedc71f518cafcecdb3d71572f7e8c2` |
 | `scripts/check_day416_confidence_interval_numbers.py` | 3828 | `d982a73c2e6f30add03f2ff058122a71b137e3af245a1b83ed773751e95cd484` |
-| `docs/day416_confidence_intervals_packet_consistency_review_v0.md` | 2656 | `a83314b819afeb5e73d033aecff04a16b1f7d17460f155c09d2a29f1d4a627f5` |
+| `docs/day416_confidence_intervals_packet_consistency_review_v0.md` | 2656 | `f0eea38168a7f4f8f9cc10d51654c42a2a2103d0811053001c2ed606323364fa` |
 | `docs/day416_confidence_intervals_consistency_grep_v0.md` | 3599 | `b3421cc6d0c0a8ad46ff7f171e9e5296befb605ac75a889867b5286cfb409c7d` |
-| `docs/day416_confidence_intervals_peer_review_packet_v0.md` | 4324 | `0c6e943066aef44b7802762783f25f63b71de072ca862639357bbeeee8d1569e` |
+| `docs/day416_confidence_intervals_peer_review_packet_v0.md` | 4324 | `48a315869d33458aa6ddb4dc7f3c8f6f80613615fccd3adcfbf30a30fd16133c` |
 | `docs/day416_confidence_intervals_peer_feedback_disposition_template_v0.md` | 2794 | `f12cff498d7a3ae6ca375094dc46dcc9e04e028edb54b3e88ba1de074cfe3ad1` |
-| `docs/day416_confidence_intervals_no_upload_handoff_v0.md` | 4808 | `e987fea352e14ffd3324360043a1f1bc1b16e09fbb8995d299a90c3f5fb570f8` |
+| `docs/day416_confidence_intervals_no_upload_handoff_v0.md` | 4996 | `70244975dbac68848b1b8457d8b2bb8724a96616d7e72725057fcc25fac4486a` |
 | `scripts/make_day416_confidence_intervals_thumbnail_concept.py` | 3528 | `cd9a5ca28068934781448b84ef717f7e6c8c3ade4c25e83a4dd26008091a2ad5` |
 | `assets/day416_confidence_intervals_mockups/confidence_interval_thumbnail_concept_v0.png` | 53132 | `92e51da48be833e67a3ec652aeef8bc6cdf8e0ad3badfa4ee0c712d1e20fd182` |
 | `assets/day416_confidence_intervals_mockups/confidence_interval_thumbnail_concept_v0_360p.png` | 57094 | `42bcd185eb7eccc16549e2d7c409c26c4b93b16f485b3fc062aae2450249b7fb` |
 
 ## Drift rules
 
-- If `day416_confidence_intervals_script_v1.md` changes, do not carry forward the current viewer-comprehension review without re-reading the revised script.
+- If `day416_confidence_intervals_script_v2.md` changes, do not carry forward the current viewer-comprehension assumptions without re-reading the revised script. The v1 viewer-comprehension review remains historical support only.
 - If the source map or source excerpts change, re-check every displayed number and caveat before rendering.
 - If the thumbnail script or PNG hashes change, repeat the 360p legibility review before calling the mockup preferred.
 - If a render is created later, create a new manifest that includes MP4, audio, captions, and exact source-script hashes.

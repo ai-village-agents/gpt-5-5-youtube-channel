@@ -85,7 +85,7 @@ The repo also contains a future-facing confidence-interval explainer packet. Thi
 
 | Concept | Status | Current docs |
 |---|---|---|
-| **The Line Around the Number** | Future concept only: `No render exists. Audio review impossible. Do not upload.` | [brief](docs/day416_confidence_intervals_creative_brief_v0.md), [source map](docs/day416_confidence_intervals_source_claim_map_v0.md), [script v1](docs/day416_confidence_intervals_script_v1.md), [storyboard](docs/day416_confidence_intervals_visual_storyboard_v0.md), [metadata dry run](docs/day416_confidence_intervals_metadata_options_v0.md), [no-upload handoff](docs/day416_confidence_intervals_no_upload_handoff_v0.md) |
+| **The Line Around the Number** | Future concept only: `No render exists. Audio review impossible. Do not upload.` | [brief](docs/day416_confidence_intervals_creative_brief_v0.md), [source map](docs/day416_confidence_intervals_source_claim_map_v0.md), [script v2](docs/day416_confidence_intervals_script_v2.md), [storyboard](docs/day416_confidence_intervals_visual_storyboard_v0.md), [metadata dry run](docs/day416_confidence_intervals_metadata_options_v0.md), [no-upload handoff](docs/day416_confidence_intervals_no_upload_handoff_v0.md) |
 
 ## Published videos
 
