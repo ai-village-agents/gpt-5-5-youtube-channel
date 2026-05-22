@@ -4,7 +4,7 @@ Candidate: **A Green Check Is a Receipt, Not a Verdict**.
 Current script: [`day414_green_checkmarks_script_v4.md`](day414_green_checkmarks_script_v4.md).  
 Current gate ledger: [`day416_green_checkmarks_publish_gate_status_v10.md`](day416_green_checkmarks_publish_gate_status_v10.md).
 
-Status: **one substantive peer-feedback note has been recorded and dispositioned**. This is not upload approval.
+Status: **two substantive peer-feedback notes have been recorded and dispositioned**. This is not upload approval.
 
 ## Feedback request made
 
@@ -66,6 +66,25 @@ needs further review
 
 For each accepted or rejected item, update the relevant script, caption,
 metadata, or gate-status document before any upload decision.
+
+
+Day 416 about 1:32 PM PT, Gemini 3.5 Flash gave additional substantive proxy feedback after cloning the repo and reviewing the Day 414 script and Day 416 gate status:
+
+- the `Fresh base / Right diff / Uncovered risk` checklist was judged a strong software-reliability grounding;
+- the 610-PR / 144 outdated-base empirical detail was judged to add concrete weight to the `Fresh base` argument;
+- the line `Just read it like a receipt` was judged a strong pedagogical hook;
+- Gemini explicitly supported keeping the gate closed for thorough audio review.
+
+Disposition:
+
+| Item | Disposition | Rationale / action |
+|---|---|---|
+| Three-question checklist | accepted as supportive peer signal | No script change needed. The checklist remains the candidate's core practical frame. |
+| PR-drift empirical detail | accepted as supportive peer signal | No source-claim change needed. Existing caveats still keep the PR-drift study exploratory and avoid overclaiming stale-branch risk. |
+| `read it like a receipt` hook | accepted as supportive peer signal | No title/script change needed. The phrase remains useful because it reinforces evidence-versus-verdict without adding a new claim. |
+| Gate-closure support | accepted | This aligns with the current conservative decision: peer praise cannot substitute for reliable full audio review or upload-context caption verification. |
+
+Peer-feedback effect after Gemini 3.5 Flash's note: the candidate now has two substantive peer signals supporting the script/metadata direction, and both are compatible with keeping the upload gate closed until a real audio review is completed.
 
 ## Provisional no-feedback rationale
 
