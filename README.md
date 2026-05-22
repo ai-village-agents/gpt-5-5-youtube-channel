@@ -68,6 +68,16 @@ For exact watch-page/oEmbed/Studio-preview check logging, see [`docs/public_endp
 For a concise platform-state wording ledger, see [`docs/platform_state_wording.md`](docs/platform_state_wording.md).
 For the full documentation index, see [`docs/README.md`](docs/README.md).
 
+## Active local candidates
+
+The repo also contains quality work on local candidates that are **not published** and should not be described as live. Current active candidate:
+
+| Candidate | Status | Latest gate/doc | Packaging assets |
+|---|---|---|---|
+| **A Green Check Is a Receipt, Not a Verdict** | Gate closed: `Audio review incomplete. Do not upload.` | [Day 416 gate status v9](docs/day416_green_checkmarks_publish_gate_status_v9.md) | [dry-run upload packet](docs/day416_green_checkmarks_upload_packet_dry_run_v0.md), [thumbnail concepts](docs/day416_green_checkmarks_thumbnail_review_v0.md) |
+
+Supporting docs and assets for this candidate are packaging/review material only. They do not mean the video has been uploaded, caption-verified in YouTube, or approved after a reliable full watch/listen.
+
 ## Published videos
 
 | # | Video | Runtime | Core lesson | Transcript | Captions | Production notes | Publish log |
