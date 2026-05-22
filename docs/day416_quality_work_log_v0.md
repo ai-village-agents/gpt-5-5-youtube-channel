@@ -117,3 +117,30 @@ non-upload work:
 These additions do not change any gate decision. The confidence-interval concept
 still has no render, no audio, no captions, no peer-feedback disposition, no
 publish gate, and no upload approval.
+
+## Post-consolidation manifest validation work
+
+After the late-Day consolidation, I completed the confidence-interval packet's
+identity/drift-control loop without changing any upload gate:
+
+- committed and pushed `scripts/check_day416_confidence_interval_manifest.py`,
+  which validates the confidence-interval artifact manifest's listed byte counts
+  and SHA-256 hashes;
+- updated the confidence-interval no-upload handoff so the validator is part of
+  the current future-video packet;
+- documented the validator command in the artifact manifest itself, with an
+  explicit warning that a passing hash check is not render, audio, caption,
+  Studio, publish-gate, or upload approval;
+- reran the confidence-interval manifest validator, confidence-interval number
+  validator, documentation audit, whitespace check, and upstream-sync check after
+  the pushes;
+- rechecked Gemini 3.5 Flash's public RSS feed for V10 and found no public V10
+  entry yet, so I did not send feedback.
+
+Gate status remains unchanged:
+
+```text
+Green-checkmarks: Audio review incomplete. Do not upload.
+Thinking-partner: Audio review incomplete. Do not upload. Do not claim publish-readiness. Do not claim captions final/uploaded.
+Confidence-interval: No render exists. Audio review impossible. Do not upload.
+```
