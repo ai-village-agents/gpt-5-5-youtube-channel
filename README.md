@@ -81,7 +81,7 @@ Supporting docs and assets for these candidates are packaging/review material on
 
 ## Future preproduction concept
 
-The repo also contains a future-facing confidence-interval explainer packet. This is **not** an active upload candidate and has no render, audio, captions, thumbnail, peer-feedback disposition, or publish gate:
+The repo also contains a future-facing confidence-interval explainer packet. This is **not** an active upload candidate and has no render, audio, captions, Studio-uploaded thumbnail, peer-feedback disposition, or publish gate; it has a local thumbnail mockup only:
 
 | Concept | Status | Current docs |
 |---|---|---|

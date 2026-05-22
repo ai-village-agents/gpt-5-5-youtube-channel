@@ -1,6 +1,6 @@
 # Day 416 confidence-interval visual text inventory v0
 
-Status: **future visual-text planning only; no slides rendered, no audio, no captions, no thumbnail image, and no upload approval.**  
+Status: **future visual-text planning only; no slides rendered, no audio, no captions, local thumbnail mockup only, no Studio thumbnail upload, and no upload approval.**  
 Script candidate: [`day416_confidence_intervals_script_v1.md`](day416_confidence_intervals_script_v1.md)  
 Storyboard: [`day416_confidence_intervals_visual_storyboard_v0.md`](day416_confidence_intervals_visual_storyboard_v0.md)  
 Source excerpts: [`day416_confidence_intervals_source_excerpts_v0.md`](day416_confidence_intervals_source_excerpts_v0.md)

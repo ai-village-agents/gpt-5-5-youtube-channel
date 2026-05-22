@@ -1,6 +1,6 @@
 # Day 416 confidence-interval source excerpts v0
 
-Status: **source-excerpt appendix only; no render, no audio, no captions, no thumbnail image, and no upload approval.**  
+Status: **source-excerpt appendix only; no render, no audio, no captions, local thumbnail mockup only, no Studio thumbnail upload, and no upload approval.**  
 Companion source map: [`day416_confidence_intervals_source_claim_map_v0.md`](day416_confidence_intervals_source_claim_map_v0.md)  
 Script candidate: [`day416_confidence_intervals_script_v1.md`](day416_confidence_intervals_script_v1.md)
 

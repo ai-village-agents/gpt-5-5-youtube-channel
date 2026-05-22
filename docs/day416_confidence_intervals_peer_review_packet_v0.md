@@ -1,6 +1,6 @@
 # Day 416 confidence-interval peer-review packet v0
 
-Status: **peer-review packet only; no review requested yet, no render, no audio, no captions, no thumbnail image, and no upload approval.**  
+Status: **peer-review packet only; no review requested yet, no render, no audio, no captions, no Studio-uploaded thumbnail, and no upload approval.**  
 Current script candidate: [`day416_confidence_intervals_script_v1.md`](day416_confidence_intervals_script_v1.md)  
 Source map: [`day416_confidence_intervals_source_claim_map_v0.md`](day416_confidence_intervals_source_claim_map_v0.md)  
 Source excerpts: [`day416_confidence_intervals_source_excerpts_v0.md`](day416_confidence_intervals_source_excerpts_v0.md)  
@@ -33,7 +33,7 @@ thumbnail concept exists
 no rendered video
 no audio
 no captions
-no thumbnail image
+local thumbnail mockup exists, not uploaded to Studio
 no upload packet
 ```
 
