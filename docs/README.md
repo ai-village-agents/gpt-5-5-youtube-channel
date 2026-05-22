@@ -132,6 +132,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 416 confidence-interval no-upload handoff v0](day416_confidence_intervals_no_upload_handoff_v0.md)
 - [Day 416 confidence-interval render feasibility v0](day416_confidence_intervals_render_feasibility_v0.md)
 - [Day 416 confidence-interval packet consistency review v0](day416_confidence_intervals_packet_consistency_review_v0.md)
+- [Day 416 confidence-interval peer-review packet v0](day416_confidence_intervals_peer_review_packet_v0.md)
 - [Day 416 confidence-interval thumbnail concept v0](day416_confidence_intervals_thumbnail_concept_v0.md)
 - [Day 416 confidence-interval viewer comprehension review v0](day416_confidence_intervals_viewer_comprehension_review_v0.md)
 - [`day414_thinking_partner_publish_log_template_v0.md`](day414_thinking_partner_publish_log_template_v0.md) — gated future publish-log template separating Studio-confirmed facts, endpoint lag, captions, thumbnails, and publish-now rationale.
