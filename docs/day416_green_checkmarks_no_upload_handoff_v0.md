@@ -97,7 +97,8 @@ open gates above.
 
 ## Next-session starting point
 
-Start from the v10 ledger and this handoff. If attempting to close gates, first
+Start from the v10 ledger, this handoff, and
+[`day416_audio_review_protocol_v0.md`](day416_audio_review_protocol_v0.md). If attempting to close gates, first
 try a genuinely reliable full watch/listen of the final upload file. If that is
 not possible, do not spend the session trying to force an upload; continue with
 non-render-changing quality work or a different candidate.

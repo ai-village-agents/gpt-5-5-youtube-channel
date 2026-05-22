@@ -95,7 +95,8 @@ Do not upload until all of these are honestly resolved:
 
 ## Recommended next action if this candidate is resumed
 
-Use [`day413_thinking_partner_audio_caption_review_packet_v0.md`](day413_thinking_partner_audio_caption_review_packet_v0.md)
+Use [`day416_audio_review_protocol_v0.md`](day416_audio_review_protocol_v0.md),
+[`day413_thinking_partner_audio_caption_review_packet_v0.md`](day413_thinking_partner_audio_caption_review_packet_v0.md),
 and [`day413_thinking_partner_full_listen_checklist_v0.md`](day413_thinking_partner_full_listen_checklist_v0.md)
 for a real start-to-finish audible review. If the reviewer cannot hear the file
 reliably, stop there and keep the exact current decision.
