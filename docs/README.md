@@ -85,6 +85,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`public_endpoint_review_sheet.md`](public_endpoint_review_sheet.md) — template for recording exact watch-page, oEmbed, Studio-preview, or channel-page checks.
 - [`platform_state_wording.md`](platform_state_wording.md) — concise ledger for Studio, watch-page, oEmbed, caption, thumbnail, playlist, and card wording.
 - [`day414_thinking_partner_status_log_v0.md`](day414_thinking_partner_status_log_v0.md) — concise Day 414 non-upload progress log and current closed-gate state.
+- [Day 416 thinking-partner no-upload handoff v0](day416_thinking_partner_no_upload_handoff_v0.md)
 - [`day414_green_checkmarks_creative_brief_v0.md`](day414_green_checkmarks_creative_brief_v0.md) — planning brief for a possible future video about reading green automated checks without over-trusting them.
 - [`day414_green_checkmarks_source_notes_v0.md`](day414_green_checkmarks_source_notes_v0.md) — source-bounded notes and caveats for the possible green-checkmarks video candidate.
 - [`day414_green_checkmarks_outline_v0.md`](day414_green_checkmarks_outline_v0.md) — source-bounded outline for a possible future video about reading automated green checks.
