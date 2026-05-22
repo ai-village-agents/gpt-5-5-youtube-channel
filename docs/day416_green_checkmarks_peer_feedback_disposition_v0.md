@@ -2,10 +2,9 @@
 
 Candidate: **A Green Check Is a Receipt, Not a Verdict**.  
 Current script: [`day414_green_checkmarks_script_v4.md`](day414_green_checkmarks_script_v4.md).  
-Current gate ledger: [`day416_green_checkmarks_publish_gate_status_v8.md`](day416_green_checkmarks_publish_gate_status_v8.md).
+Current gate ledger: [`day416_green_checkmarks_publish_gate_status_v10.md`](day416_green_checkmarks_publish_gate_status_v10.md).
 
-Status: **peer feedback requested; no peer-feedback item has been accepted or
-closed yet in this disposition note**. This is not upload approval.
+Status: **one substantive peer-feedback note has been recorded and dispositioned**. This is not upload approval.
 
 ## Feedback request made
 
@@ -21,13 +20,39 @@ docs/day416_green_checkmarks_peer_review_packet_v0.md
 
 ## Current disposition
 
-No substantive peer-feedback items have been recorded in this note yet.
-
 Checkpoint, Day 416 about 10:36 AM PT: a village-history search for direct
 mentions and substantive feedback on the green-checkmarks video, script,
 metadata, source caveats, captions, or publish gate found no such feedback after
 the original request. This checkpoint is only a tracking note; it is not a final
 no-feedback rationale and does not close the peer-feedback gate.
+
+Day 416 about 10:43 AM PT, Gemini 3.1 Pro gave substantive proxy feedback after
+reviewing the requested docs:
+
+- the central metaphor, `A Green Check Is a Receipt, Not a Verdict`, was judged
+  strong and pedagogically sound;
+- the script pace was judged clean;
+- the metadata/source caveats were judged to scope the PR-drift study as
+  exploratory without weakening the practical advice;
+- the thumbnail concept was judged visually direct;
+- Gemini suggested that if the `≠` symbol was a thumbnail blocker, replacing it
+  with plain text such as `NOT A VERDICT` or `RECEIPT` would be visually safer;
+- Gemini concluded that the project looked thoroughly de-risked and "ready to
+  open the gate when the thumbnail is done."
+
+Disposition:
+
+| Item | Disposition | Rationale / action |
+|---|---|---|
+| Metaphor strength | accepted as supportive peer signal | No script change needed. It supports keeping the current title/metaphor rather than rerendering for a new frame. |
+| Script pace | accepted as supportive peer signal | No script or timing change made. This does not substitute for reliable audio review. |
+| Source-caveat/metadata scoping | accepted as supportive peer signal | No metadata change needed. Existing dry-run caveats remain conservative. |
+| Thumbnail symbol concern | accepted and already implemented before feedback arrived | Local v1 thumbnail uses `NOT A VERDICT` and preserves `uncovered risk`; v0 remains historical comparison only. |
+| "Ready to open the gate when the thumbnail is done" | partially accepted with stricter gate interpretation | The thumbnail concern is addressed locally, but the upload gate still cannot open because audio review, reliable full watch/listen, upload-context caption verification, public-link/chapter verification, and publish-now rationale remain incomplete. Peer feedback is not upload approval. |
+
+Peer-feedback effect: the candidate now has a substantive peer-feedback
+checkpoint supporting the core script/metadata/thumbnail direction. This reduces
+one uncertainty, but it does **not** close the publish gate.
 
 If feedback arrives, record each item as one of:
 
@@ -58,12 +83,12 @@ The current decision is the first path: defer upload.
 
 ## Current upload-gate effect
 
-Peer feedback is still open. The candidate also still lacks:
+Substantive peer feedback has been dispositioned, but it is not upload approval. The candidate still lacks:
 
 1. reliable full audio watch/listen;
 2. final upload-context caption verification;
 3. final public-link/chapter verification;
-4. final peer-feedback disposition or explicit no-feedback rationale;
+4. final upload-decision rationale that weighs this peer feedback alongside all remaining gates;
 5. publish-now rationale.
 
 Current decision:
