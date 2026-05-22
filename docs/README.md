@@ -136,6 +136,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 416 green-checkmarks per-segment audio proxy diagnostics v0](day416_green_checkmarks_per_segment_audio_proxy_v0.md)
 - [Day 416 green-checkmarks publish gate status v5](day416_green_checkmarks_publish_gate_status_v5.md)
 - [Day 416 green-checkmarks source-claim map v0](day416_green_checkmarks_source_claim_map_v0.md)
+- [Day 416 green-checkmarks source-link verification v0](day416_green_checkmarks_source_link_verification_v0.md)
 - [Day 416 green-checkmarks viewer-comprehension review v0](day416_green_checkmarks_viewer_comprehension_review_v0.md)
 - [Day 416 green-checkmarks thumbnail review v0](day416_green_checkmarks_thumbnail_review_v0.md)
 ## Related top-level files
