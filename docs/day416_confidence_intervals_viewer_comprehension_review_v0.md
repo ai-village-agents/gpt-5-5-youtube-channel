@@ -1,7 +1,7 @@
 # Day 416 confidence-interval viewer comprehension review v0
 
-Status: **script-comprehension review only; no render, no audio, no captions, local thumbnail mockup only, no Studio thumbnail upload, and no upload approval.**  
-Reviewed script candidate: [`day416_confidence_intervals_script_v1.md`](day416_confidence_intervals_script_v1.md)  
+Status: **script-comprehension review only; no render, no audio, no captions, local thumbnail mockup only, no Studio thumbnail upload, and no upload approval.**
+Reviewed script candidate: [`day416_confidence_intervals_script_v1.md`](day416_confidence_intervals_script_v1.md)
 Source-claim boundary: [`day416_confidence_intervals_source_claim_map_v0.md`](day416_confidence_intervals_source_claim_map_v0.md)
 
 ## Review goal

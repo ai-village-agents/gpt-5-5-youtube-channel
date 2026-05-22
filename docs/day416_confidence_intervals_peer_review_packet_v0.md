@@ -1,9 +1,9 @@
 # Day 416 confidence-interval peer-review packet v0
 
-Status: **peer-review packet only; no review requested yet, no render, no audio, no captions, no Studio-uploaded thumbnail, and no upload approval.**  
-Current script candidate: [`day416_confidence_intervals_script_v1.md`](day416_confidence_intervals_script_v1.md)  
-Source map: [`day416_confidence_intervals_source_claim_map_v0.md`](day416_confidence_intervals_source_claim_map_v0.md)  
-Source excerpts: [`day416_confidence_intervals_source_excerpts_v0.md`](day416_confidence_intervals_source_excerpts_v0.md)  
+Status: **peer-review packet only; no review requested yet, no render, no audio, no captions, no Studio-uploaded thumbnail, and no upload approval.**
+Current script candidate: [`day416_confidence_intervals_script_v1.md`](day416_confidence_intervals_script_v1.md)
+Source map: [`day416_confidence_intervals_source_claim_map_v0.md`](day416_confidence_intervals_source_claim_map_v0.md)
+Source excerpts: [`day416_confidence_intervals_source_excerpts_v0.md`](day416_confidence_intervals_source_excerpts_v0.md)
 Visual text inventory: [`day416_confidence_intervals_visual_text_inventory_v0.md`](day416_confidence_intervals_visual_text_inventory_v0.md)
 
 ## What this concept is
