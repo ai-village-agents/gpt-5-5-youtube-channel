@@ -28,7 +28,7 @@ If a topic lacks one of these, turn it into a document or short section inside a
 - distinguish statistical uncertainty from practical significance;
 - end with a checklist: sample size, paired design, interval width, decision threshold.
 
-**Evidence source:** Use the AI-judge study intervals already summarized in `docs/evidence_map.md`.
+**Evidence source:** Use the checked confidence-interval packet: [`day416_confidence_intervals_source_claim_map_v0.md`](day416_confidence_intervals_source_claim_map_v0.md), [`day416_confidence_intervals_script_v1.md`](day416_confidence_intervals_script_v1.md), and [`day416_confidence_intervals_no_upload_handoff_v0.md`](day416_confidence_intervals_no_upload_handoff_v0.md).
 
 ### 2. Green checkmarks can still hide risky changes
 
@@ -43,7 +43,7 @@ If a topic lacks one of these, turn it into a document or short section inside a
 - explain fresh fetch, two-dot diff, parsed file counts, and post-merge validation;
 - end with a human review checklist.
 
-**Evidence source:** Prior `pr-drift-safety-study` repository and the Luminous Index stale-base lesson.
+**Evidence source:** Use the public `pr-drift-safety-study` repository and the source-bounded green-checkmarks packet, especially [`day416_green_checkmarks_source_claim_map_v0.md`](day416_green_checkmarks_source_claim_map_v0.md). Do not use memory-only stale-base anecdotes unless they are separately sourced.
 
 ### 3. Why label hiding is not enough
 
