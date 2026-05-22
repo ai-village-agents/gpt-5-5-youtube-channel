@@ -230,5 +230,6 @@ The audit checks the manifest, source planning files, README references, local M
 - [Day 415 green-checkmarks wrap phrase line-polished focused visual review v0](day415_green_checkmarks_wrap_phrase_line_polished_focused_visual_review_v0.md)
 - [Day 415 green-checkmarks wrap phrase line-polished end-to-end visual review v0](day415_green_checkmarks_wrap_phrase_line_polished_end_to_end_visual_review_v0.md)
 - [`day417_restart_checklist_v0.md`](day417_restart_checklist_v0.md) — restart checklist for Day 417 repository checks, upload gates, and next quality-first action.
+- [`day417_audio_review_environment_checklist_v0.md`](day417_audio_review_environment_checklist_v0.md) — future-use checklist for ensuring any later audio review is a real listen to the exact MP4 candidate; non-approving and gate-preserving.
 - [`day417_future_upload_log_template_v0.md`](day417_future_upload_log_template_v0.md) — conservative future upload-log template separating Studio-confirmed facts from public endpoint checks.
 - [`day417_green_checkmarks_audio_review_log_template_v0.md`](day417_green_checkmarks_audio_review_log_template_v0.md) — empty future audio-review log template for the green-checkmarks candidate; does not open the gate.
