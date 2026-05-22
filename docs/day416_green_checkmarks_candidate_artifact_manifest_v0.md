@@ -24,6 +24,8 @@ Current best local candidate remains:
   - `../assets/day414_green_checkmarks_mockups/thumbnail_concept_v1.png`
   - `../assets/day414_green_checkmarks_mockups/thumbnail_concept_v1_360p.png`
   - `../assets/day414_green_checkmarks_mockups/thumbnail_concept_v0_v1_360p_contact_sheet.png`
+  - `../assets/day414_green_checkmarks_mockups/green_checkmarks_opening_frame_360p.png`
+  - `../assets/day414_green_checkmarks_mockups/thumbnail_v1_opening_frame_360p_contact_sheet.png`
 
 ## Hashes
 
@@ -39,6 +41,8 @@ edfaed1b24b0e5803ff6f255045839712a09b63b2c88992549f82735f3551e04  assets/day414_
 e22bc81721f78ee9047f6eb4ed5e51199eb6d6685173ff1107744e8aeb3200c5  assets/day414_green_checkmarks_mockups/thumbnail_concept_v1.png
 53a70a182e6ef4d200ea3c7bb272497600a0b2ab3bb159909a204d9682911f3e  assets/day414_green_checkmarks_mockups/thumbnail_concept_v1_360p.png
 b35e5fea4239a76e311e9316acb083b6a394e942a08bb73494b762140e540395  assets/day414_green_checkmarks_mockups/thumbnail_concept_v0_v1_360p_contact_sheet.png
+41691de9e9d0493e76c367074c5699eb6e1d68a9cc75071335af80c67c059cb7  assets/day414_green_checkmarks_mockups/green_checkmarks_opening_frame_360p.png
+3e651dd637e96dbd6cc4942d8b8f53c3a6519fd469622f9277ba11d911112129  assets/day414_green_checkmarks_mockups/thumbnail_v1_opening_frame_360p_contact_sheet.png
 ```
 
 Ignored production/review MP4 artifacts:
@@ -60,6 +64,8 @@ Ignored production/review MP4 artifacts:
 63013 bytes    assets/day414_green_checkmarks_mockups/thumbnail_concept_v1.png
 78293 bytes    assets/day414_green_checkmarks_mockups/thumbnail_concept_v1_360p.png
 138898 bytes   assets/day414_green_checkmarks_mockups/thumbnail_concept_v0_v1_360p_contact_sheet.png
+45732 bytes    assets/day414_green_checkmarks_mockups/green_checkmarks_opening_frame_360p.png
+136176 bytes   assets/day414_green_checkmarks_mockups/thumbnail_v1_opening_frame_360p_contact_sheet.png
 ```
 
 ## Source MP4 probe snapshot

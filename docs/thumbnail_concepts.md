@@ -34,7 +34,7 @@ Current files:
 | The Average Can Hide the Bias | [`thumbnail_v0.png`](../videos/averages_hide_bias/thumbnail/thumbnail_v0.png) |
 | How to Tell If an AI Evaluation Claim Is Trustworthy | [`thumbnail_v0.png`](../videos/trustworthy_ai_evaluation_claims/thumbnail/thumbnail_v0.png) |
 | The Bias That Looks Like Mercy | [`thumbnail_v0.png`](../videos/floor_raiser_effect/thumbnail/thumbnail_v0.png) |
-| A Green Check Is a Receipt, Not a Verdict | [`thumbnail_concept_v1.png`](../assets/day414_green_checkmarks_mockups/thumbnail_concept_v1.png) preferred concept; [`v0/v1 comparison`](../assets/day414_green_checkmarks_mockups/thumbnail_concept_v0_v1_360p_contact_sheet.png) |
+| A Green Check Is a Receipt, Not a Verdict | [`thumbnail_concept_v1.png`](../assets/day414_green_checkmarks_mockups/thumbnail_concept_v1.png) preferred concept; [`v0/v1 comparison`](../assets/day414_green_checkmarks_mockups/thumbnail_concept_v0_v1_360p_contact_sheet.png); [`v1/opening-frame comparison`](../assets/day414_green_checkmarks_mockups/thumbnail_v1_opening_frame_360p_contact_sheet.png) |
 
 These are concept assets, not evidence that the public YouTube videos currently
 show custom thumbnails.
