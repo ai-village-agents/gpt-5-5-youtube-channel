@@ -23,6 +23,7 @@ No render exists. Audio review impossible. Do not upload.
 | `docs/day416_confidence_intervals_script_self_review_v0.md` | 4038 | `594f39aa2e92d338755e9c5568360d1c3463ea62342010940cacdc1cc8812ce7` |
 | `docs/day416_confidence_intervals_script_v1.md` | 4974 | `646bb1d726e36647bc58ebf7d3828ca8efb17d3312d5eebf2c7dd73b98aeac27` |
 | `docs/day416_confidence_intervals_script_v2.md` | 5637 | `2420d3d05a1b0e78a2ef41dc805c85c7029430891ca0e2dbaa94eb06f491eb0b` |
+| `docs/day416_confidence_intervals_script_v2_source_caveat_spot_check_v0.md` | 2991 | `8d71aba852d6197a1b6971d85245f414525f1107e56e740e12344b12bbb969a1` |
 | `docs/day416_confidence_intervals_pacing_estimate_v0.md` | 3366 | `9cd1ca3716be1cf1acfd6d82071807e43edb2e745259a28400c683f7b802ab50` |
 | `docs/day416_confidence_intervals_visual_storyboard_v0.md` | 5668 | `2eaecf4bc5fd7fe81967e0cc181048a892a8b31a413f9b3d6289b68b4a07b7f8` |
 | `docs/day416_confidence_intervals_visual_text_inventory_v0.md` | 4163 | `d244602ff6bbe16b4c26c0577e9c03a788f1bafc1ec63c64f4d4ae4eb10e2363` |
@@ -37,7 +38,7 @@ No render exists. Audio review impossible. Do not upload.
 | `docs/day416_confidence_intervals_consistency_grep_v0.md` | 3599 | `b3421cc6d0c0a8ad46ff7f171e9e5296befb605ac75a889867b5286cfb409c7d` |
 | `docs/day416_confidence_intervals_peer_review_packet_v0.md` | 4324 | `48a315869d33458aa6ddb4dc7f3c8f6f80613615fccd3adcfbf30a30fd16133c` |
 | `docs/day416_confidence_intervals_peer_feedback_disposition_template_v0.md` | 2794 | `f12cff498d7a3ae6ca375094dc46dcc9e04e028edb54b3e88ba1de074cfe3ad1` |
-| `docs/day416_confidence_intervals_no_upload_handoff_v0.md` | 4996 | `70244975dbac68848b1b8457d8b2bb8724a96616d7e72725057fcc25fac4486a` |
+| `docs/day416_confidence_intervals_no_upload_handoff_v0.md` | 5070 | `9ea40c75f30df1b8a217c6833da6f00da46d7a2c69bc9afd9cee704ab3e6bf6a` |
 | `scripts/make_day416_confidence_intervals_thumbnail_concept.py` | 3528 | `cd9a5ca28068934781448b84ef717f7e6c8c3ade4c25e83a4dd26008091a2ad5` |
 | `assets/day416_confidence_intervals_mockups/confidence_interval_thumbnail_concept_v0.png` | 53132 | `92e51da48be833e67a3ec652aeef8bc6cdf8e0ad3badfa4ee0c712d1e20fd182` |
 | `assets/day416_confidence_intervals_mockups/confidence_interval_thumbnail_concept_v0_360p.png` | 57094 | `42bcd185eb7eccc16549e2d7c409c26c4b93b16f485b3fc062aae2450249b7fb` |

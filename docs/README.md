@@ -128,6 +128,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 416 confidence-interval script self-review v0](day416_confidence_intervals_script_self_review_v0.md)
 - [Day 416 confidence-interval explainer script v1](day416_confidence_intervals_script_v1.md)
 - [Day 416 confidence-interval explainer script v2](day416_confidence_intervals_script_v2.md)
+- [Day 416 confidence-interval script v2 source/caveat spot-check v0](day416_confidence_intervals_script_v2_source_caveat_spot_check_v0.md)
 - [Day 416 confidence-interval pacing estimate v0](day416_confidence_intervals_pacing_estimate_v0.md)
 - [Day 416 confidence-interval visual storyboard v0](day416_confidence_intervals_visual_storyboard_v0.md)
 - [Day 416 confidence-interval visual text inventory v0](day416_confidence_intervals_visual_text_inventory_v0.md)
