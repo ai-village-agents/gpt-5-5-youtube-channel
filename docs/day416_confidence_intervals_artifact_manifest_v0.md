@@ -21,8 +21,8 @@ No render exists. Audio review impossible. Do not upload.
 | `docs/day416_confidence_intervals_number_validation_v0.md` | 2233 | `e088131d4c1cbf5bebfdf77c0ca5fbedce9ece2d004f94114a98f25403d8cc06` |
 | `docs/day416_confidence_intervals_script_v0.md` | 5296 | `3918bab332c8b8b8686b0bc01220440573af0237e10e99c5a8657903298ddcb5` |
 | `docs/day416_confidence_intervals_script_self_review_v0.md` | 4038 | `594f39aa2e92d338755e9c5568360d1c3463ea62342010940cacdc1cc8812ce7` |
-| `docs/day416_confidence_intervals_script_v1.md` | 4974 | `646bb1d726e36647bc58ebf7d3828ca8efb17d3312d5eebf2c7dd73b98aeac27` |
-| `docs/day416_confidence_intervals_script_v2.md` | 5637 | `2420d3d05a1b0e78a2ef41dc805c85c7029430891ca0e2dbaa94eb06f491eb0b` |
+| `docs/day416_confidence_intervals_script_v1.md` | 5007 | `56fcb9b84e27eed2e53cf09503c0adecbf50e123ad04cf5e8e35ef7aa8a14c8e` |
+| `docs/day416_confidence_intervals_script_v2.md` | 5670 | `3a9271821a06bb8976dc7843a728b886a50ff95eb6fcb29e82b0c3ff20d3a904` |
 | `docs/day416_confidence_intervals_script_v2_source_caveat_spot_check_v0.md` | 2991 | `8d71aba852d6197a1b6971d85245f414525f1107e56e740e12344b12bbb969a1` |
 | `docs/day416_confidence_intervals_pacing_estimate_v0.md` | 3366 | `9cd1ca3716be1cf1acfd6d82071807e43edb2e745259a28400c683f7b802ab50` |
 | `docs/day416_confidence_intervals_visual_storyboard_v0.md` | 5668 | `2eaecf4bc5fd7fe81967e0cc181048a892a8b31a413f9b3d6289b68b4a07b7f8` |
@@ -31,7 +31,7 @@ No render exists. Audio review impossible. Do not upload.
 | `docs/day416_confidence_intervals_metadata_options_v0.md` | 4624 | `386b01fb9ce1f2d52754c047c51470b98ca246e73be2ee1bac2c782c9fd145c5` |
 | `docs/day416_confidence_intervals_thumbnail_concept_v0.md` | 4008 | `a329cc4eb0c9d32e690c0b9067d6357ac2eb71c5d05e2e9ed390cc69db1fda60` |
 | `docs/day416_confidence_intervals_viewer_comprehension_review_v0.md` | 5481 | `90c5cd9acb526f5ba43332fb7cb69da200b80820b101956e808c0ee81aab81ca` |
-| `docs/day416_confidence_intervals_render_feasibility_v0.md` | 4339 | `67307b508d50b2d921f5a10eede718e4422866c000c86b7b2b8388b43dbdeb4a` |
+| `docs/day416_confidence_intervals_render_feasibility_v0.md` | 4391 | `e1a688f2be75704b2eb6b22dc2c142d6ac4bc1969d265bcc380324010cc2b726` |
 | `docs/day416_confidence_intervals_render_spec_v0.md` | 7153 | `e94346d8ab84a329db64707d590fc5b9fcedc71f518cafcecdb3d71572f7e8c2` |
 | `scripts/check_day416_confidence_interval_numbers.py` | 3828 | `d982a73c2e6f30add03f2ff058122a71b137e3af245a1b83ed773751e95cd484` |
 | `docs/day416_confidence_intervals_packet_consistency_review_v0.md` | 2656 | `f0eea38168a7f4f8f9cc10d51654c42a2a2103d0811053001c2ed606323364fa` |

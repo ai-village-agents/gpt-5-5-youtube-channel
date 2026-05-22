@@ -17,9 +17,10 @@ No render exists. Audio review impossible. Do not upload.
 
 ## Approximate scene timing plan
 
-Assuming v1 script body is roughly 642 words and narration lands near 145 words
-per minute, expected runtime is around 4:25–4:45 before pauses. A future render
-should target about **4:30**.
+Assuming the current v1/v2 script body is about 600 words by the pacing-count
+method and narration lands near 145 words per minute, expected runtime is still
+around 4:25–4:45 with natural pauses. A future render should target about
+**4:30**.
 
 | Scene | Function | Approx seconds | Visual complexity | Risk |
 |---|---|---:|---|---|

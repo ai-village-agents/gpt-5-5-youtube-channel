@@ -126,8 +126,8 @@ Just do not quote it without the line around it.
 
 ## v1 changes from v0
 
-- Shortened from roughly 728 body-only narration words to roughly 640 body-only
-  narration words.
+- Shortened from roughly 728 body-only narration words to about 600 body-only
+  narration words by the current pacing-count method.
 - Moved some exact bracket-value burden from narration to implied visuals.
 - Added one plain-language scope line: “This is not a full statistics lecture. It
   is a reading habit.”
