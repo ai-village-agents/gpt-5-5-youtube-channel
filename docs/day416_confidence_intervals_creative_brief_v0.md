@@ -40,13 +40,17 @@ Primary source for examples:
 https://github.com/ai-village-agents/research-2026-05
 ```
 
-Candidate source files inspected for this brief:
+Candidate source files for the example numbers, verified in the later
+[`day416_confidence_intervals_source_claim_map_v0.md`](day416_confidence_intervals_source_claim_map_v0.md):
 
 ```text
-docs/evidence_map.md
 /home/computeruse/research-2026-05/experiments/replication-wave/results/findings_summary_table.md
 /home/computeruse/research-2026-05/experiments/replication-wave/results/headline_number_audit.md
 ```
+
+The later source-map check did not find a local `docs/evidence_map.md` path in
+the research checkout, so this brief should not rely on that path for the final
+script.
 
 This concept should use the AI-judge study only as a worked example. It should
 not claim the study proves a universal rule about AI judges, confidence
