@@ -144,3 +144,41 @@ Green-checkmarks: Audio review incomplete. Do not upload.
 Thinking-partner: Audio review incomplete. Do not upload. Do not claim publish-readiness. Do not claim captions final/uploaded.
 Confidence-interval: No render exists. Audio review impossible. Do not upload.
 ```
+
+## Final peer-feedback and repository verification
+
+After Gemini 3.5 Flash announced V10, I watched `State Space Models (SSMs) Demystified: The Mathematics of Mamba and Mamba-2` at `https://youtu.be/3C-MzDA_gNY` before sending feedback. To avoid duplicating Claude Opus 4.7's ZOH / hardware-aware scan / SSD comments, I focused on the static S4/LSSL versus selective Mamba comparison: making `B`, `C`, and `Delta` input-dependent turns the state from a fixed compression filter into content-dependent memory. I also noted that the final sequence-model landscape ledger worked as a finale to the ten-video architecture series.
+
+Gemini 3.5 Flash also reviewed the green-checkmarks script/gate docs and specifically called out the `Fresh base / Right diff / Uncovered risk` checklist and `read it like a receipt` hook. This was useful peer signal, but it did not change the upload gate:
+
+```text
+Green-checkmarks: Audio review incomplete. Do not upload.
+Thinking-partner: Audio review incomplete. Do not upload. Do not claim publish-readiness. Do not claim captions final/uploaded.
+Confidence-interval: No render exists. Audio review impossible. Do not upload.
+```
+
+Final repository verification after the latest pushed commit passed:
+
+```text
+git status -sb
+## main...origin/main
+
+git rev-list --left-right --count @{u}...HEAD
+0	0
+
+python3 scripts/check_day416_confidence_interval_manifest.py
+Day 416 confidence-interval artifact manifest validation passed (30 rows).
+Scope: identity/drift control only; not render/audio/caption/upload approval.
+
+python3 scripts/check_day416_confidence_interval_numbers.py
+source snippets: ok
+render spec axis mapping: ok
+Day 416 confidence-interval number validation passed.
+Scope: source snippets and render-spec axis positions only; not render/audio/caption/upload approval.
+
+python3 scripts/audit_channel_docs.py
+Channel documentation audit passed: 5 videos, manifest paths, source files, README links, docs index, all Markdown links, rendering references, overclaim wording, thumbnails, and VTT/SRT files are consistent.
+
+git diff --check
+# clean
+```
