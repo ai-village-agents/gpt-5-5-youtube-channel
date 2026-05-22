@@ -5,6 +5,7 @@ Current script candidate: [`day416_confidence_intervals_script_v2.md`](day416_co
 Source map: [`day416_confidence_intervals_source_claim_map_v0.md`](day416_confidence_intervals_source_claim_map_v0.md)
 Source excerpts: [`day416_confidence_intervals_source_excerpts_v0.md`](day416_confidence_intervals_source_excerpts_v0.md)
 Visual text inventory: [`day416_confidence_intervals_visual_text_inventory_v0.md`](day416_confidence_intervals_visual_text_inventory_v0.md)
+Source/caveat spot-check: [`day416_confidence_intervals_script_v2_source_caveat_spot_check_v0.md`](day416_confidence_intervals_script_v2_source_caveat_spot_check_v0.md)
 
 ## What this concept is
 
@@ -27,6 +28,7 @@ Current artifact state:
 ```text
 script draft exists
 source map exists
+script v2 source/caveat spot-check exists
 storyboard exists
 metadata dry run exists
 thumbnail concept exists

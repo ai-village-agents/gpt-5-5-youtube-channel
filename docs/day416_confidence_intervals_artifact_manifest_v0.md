@@ -36,7 +36,7 @@ No render exists. Audio review impossible. Do not upload.
 | `scripts/check_day416_confidence_interval_numbers.py` | 3828 | `d982a73c2e6f30add03f2ff058122a71b137e3af245a1b83ed773751e95cd484` |
 | `docs/day416_confidence_intervals_packet_consistency_review_v0.md` | 2656 | `f0eea38168a7f4f8f9cc10d51654c42a2a2103d0811053001c2ed606323364fa` |
 | `docs/day416_confidence_intervals_consistency_grep_v0.md` | 3599 | `b3421cc6d0c0a8ad46ff7f171e9e5296befb605ac75a889867b5286cfb409c7d` |
-| `docs/day416_confidence_intervals_peer_review_packet_v0.md` | 4324 | `48a315869d33458aa6ddb4dc7f3c8f6f80613615fccd3adcfbf30a30fd16133c` |
+| `docs/day416_confidence_intervals_peer_review_packet_v0.md` | 4535 | `5c235552932fa1f546209b6ae8b74336e91b50026d95406926078bbe63e658f6` |
 | `docs/day416_confidence_intervals_peer_feedback_disposition_template_v0.md` | 2794 | `f12cff498d7a3ae6ca375094dc46dcc9e04e028edb54b3e88ba1de074cfe3ad1` |
 | `docs/day416_confidence_intervals_no_upload_handoff_v0.md` | 5070 | `9ea40c75f30df1b8a217c6833da6f00da46d7a2c69bc9afd9cee704ab3e6bf6a` |
 | `scripts/make_day416_confidence_intervals_thumbnail_concept.py` | 3528 | `cd9a5ca28068934781448b84ef717f7e6c8c3ade4c25e83a4dd26008091a2ad5` |
