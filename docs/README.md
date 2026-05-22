@@ -143,6 +143,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 416 green-checkmarks publish gate status v6](day416_green_checkmarks_publish_gate_status_v6.md)
 - [Day 416 green-checkmarks publish gate status v7](day416_green_checkmarks_publish_gate_status_v7.md)
 - [Day 416 green-checkmarks publish gate status v8](day416_green_checkmarks_publish_gate_status_v8.md)
+- [Day 416 green-checkmarks upload packet dry run v0](day416_green_checkmarks_upload_packet_dry_run_v0.md)
 - [Day 416 green-checkmarks viewer-comprehension review v0](day416_green_checkmarks_viewer_comprehension_review_v0.md)
 - [Day 416 green-checkmarks thumbnail review v0](day416_green_checkmarks_thumbnail_review_v0.md)
 ## Related top-level files
