@@ -32,6 +32,7 @@ scripts/check_day416_confidence_interval_numbers.py
 docs/day416_confidence_intervals_packet_consistency_review_v0.md
 docs/day416_confidence_intervals_consistency_grep_v0.md
 docs/day416_confidence_intervals_peer_review_packet_v0.md
+docs/day416_confidence_intervals_peer_feedback_disposition_template_v0.md
 ```
 
 No production files exist for this concept yet:
@@ -42,7 +43,7 @@ no generated audio
 no caption files
 local thumbnail mockup exists, not uploaded to Studio
 no upload packet
-no peer-feedback disposition
+no completed peer-feedback disposition; template only
 no publish gate ledger
 ```
 
