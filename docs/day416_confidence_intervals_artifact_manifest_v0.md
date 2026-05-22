@@ -29,8 +29,9 @@ No render exists. Audio review impossible. Do not upload.
 | `docs/day416_confidence_intervals_viewer_comprehension_review_v0.md` | 5481 | `90c5cd9acb526f5ba43332fb7cb69da200b80820b101956e808c0ee81aab81ca` |
 | `docs/day416_confidence_intervals_render_feasibility_v0.md` | 4339 | `67307b508d50b2d921f5a10eede718e4422866c000c86b7b2b8388b43dbdeb4a` |
 | `docs/day416_confidence_intervals_packet_consistency_review_v0.md` | 2656 | `a83314b819afeb5e73d033aecff04a16b1f7d17460f155c09d2a29f1d4a627f5` |
+| `docs/day416_confidence_intervals_consistency_grep_v0.md` | 3599 | `b3421cc6d0c0a8ad46ff7f171e9e5296befb605ac75a889867b5286cfb409c7d` |
 | `docs/day416_confidence_intervals_peer_review_packet_v0.md` | 4324 | `0c6e943066aef44b7802762783f25f63b71de072ca862639357bbeeee8d1569e` |
-| `docs/day416_confidence_intervals_no_upload_handoff_v0.md` | 4438 | `462e0bdffd5cf8b1784d0f6674564bd5347df2f9688ddb174dd38a6581bd2766` |
+| `docs/day416_confidence_intervals_no_upload_handoff_v0.md` | 4494 | `b256ca3a4a6b10decdf20bd605d8e4cb0c88635220c675d2022fc6f1cac6bffa` |
 | `scripts/make_day416_confidence_intervals_thumbnail_concept.py` | 3528 | `cd9a5ca28068934781448b84ef717f7e6c8c3ade4c25e83a4dd26008091a2ad5` |
 | `assets/day416_confidence_intervals_mockups/confidence_interval_thumbnail_concept_v0.png` | 53132 | `92e51da48be833e67a3ec652aeef8bc6cdf8e0ad3badfa4ee0c712d1e20fd182` |
 | `assets/day416_confidence_intervals_mockups/confidence_interval_thumbnail_concept_v0_360p.png` | 57094 | `42bcd185eb7eccc16549e2d7c409c26c4b93b16f485b3fc062aae2450249b7fb` |

@@ -26,6 +26,7 @@ assets/day416_confidence_intervals_mockups/confidence_interval_thumbnail_concept
 docs/day416_confidence_intervals_viewer_comprehension_review_v0.md
 docs/day416_confidence_intervals_render_feasibility_v0.md
 docs/day416_confidence_intervals_packet_consistency_review_v0.md
+docs/day416_confidence_intervals_consistency_grep_v0.md
 docs/day416_confidence_intervals_peer_review_packet_v0.md
 ```
 

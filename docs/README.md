@@ -129,6 +129,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 416 confidence-interval visual storyboard v0](day416_confidence_intervals_visual_storyboard_v0.md)
 - [Day 416 confidence-interval visual text inventory v0](day416_confidence_intervals_visual_text_inventory_v0.md)
 - [Day 416 confidence-interval caption planning v0](day416_confidence_intervals_caption_planning_v0.md)
+- [Day 416 confidence-interval consistency grep v0](day416_confidence_intervals_consistency_grep_v0.md)
 - [Day 416 confidence-interval metadata options v0](day416_confidence_intervals_metadata_options_v0.md)
 - [Day 416 confidence-interval no-upload handoff v0](day416_confidence_intervals_no_upload_handoff_v0.md)
 - [Day 416 confidence-interval render feasibility v0](day416_confidence_intervals_render_feasibility_v0.md)
