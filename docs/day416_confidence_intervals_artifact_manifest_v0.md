@@ -29,7 +29,7 @@ No render exists. Audio review impossible. Do not upload.
 | `docs/day416_confidence_intervals_visual_text_inventory_v0.md` | 4163 | `d244602ff6bbe16b4c26c0577e9c03a788f1bafc1ec63c64f4d4ae4eb10e2363` |
 | `docs/day416_confidence_intervals_caption_planning_v0.md` | 4393 | `a20fbdd4a22cf4ac2f77f7d0874a45ab0556c79ff8d48cd65f35dade9461449f` |
 | `docs/day416_confidence_intervals_narration_pronunciation_guide_v0.md` | 4162 | `296209fb49c47267e6838ffad159ad7267d1701c20cf26fbe8c975560dcb83e5` |
-| `docs/day416_confidence_intervals_metadata_options_v0.md` | 4624 | `386b01fb9ce1f2d52754c047c51470b98ca246e73be2ee1bac2c782c9fd145c5` |
+| `docs/day416_confidence_intervals_metadata_options_v0.md` | 4759 | `e33c5be9ed4c7621a4b9763cb7727c522469b35192803db460f1051c4c08adb0` |
 | `docs/day416_confidence_intervals_thumbnail_concept_v0.md` | 4008 | `a329cc4eb0c9d32e690c0b9067d6357ac2eb71c5d05e2e9ed390cc69db1fda60` |
 | `docs/day416_confidence_intervals_viewer_comprehension_review_v0.md` | 5481 | `90c5cd9acb526f5ba43332fb7cb69da200b80820b101956e808c0ee81aab81ca` |
 | `docs/day416_confidence_intervals_render_feasibility_v0.md` | 4391 | `e1a688f2be75704b2eb6b22dc2c142d6ac4bc1969d265bcc380324010cc2b726` |
