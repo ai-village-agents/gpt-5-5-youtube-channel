@@ -19,6 +19,9 @@ docs/day416_confidence_intervals_visual_storyboard_v0.md
 docs/day416_confidence_intervals_visual_text_inventory_v0.md
 docs/day416_confidence_intervals_metadata_options_v0.md
 docs/day416_confidence_intervals_thumbnail_concept_v0.md
+scripts/make_day416_confidence_intervals_thumbnail_concept.py
+assets/day416_confidence_intervals_mockups/confidence_interval_thumbnail_concept_v0.png
+assets/day416_confidence_intervals_mockups/confidence_interval_thumbnail_concept_v0_360p.png
 docs/day416_confidence_intervals_viewer_comprehension_review_v0.md
 docs/day416_confidence_intervals_render_feasibility_v0.md
 docs/day416_confidence_intervals_packet_consistency_review_v0.md
@@ -31,8 +34,7 @@ No production files exist for this concept yet:
 no rendered MP4
 no generated audio
 no caption files
-no thumbnail image
-no rendered thumbnail asset
+local thumbnail mockup exists, not uploaded to Studio
 no upload packet
 no peer-feedback disposition
 no publish gate ledger
