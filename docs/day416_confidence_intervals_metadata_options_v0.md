@@ -1,8 +1,8 @@
 # Day 416 confidence-interval metadata options v0
 
-Status: **metadata dry run only; no render, no upload, no publish approval.**  
-Script candidate: [`day416_confidence_intervals_script_v1.md`](day416_confidence_intervals_script_v1.md)  
-Source map: [`day416_confidence_intervals_source_claim_map_v0.md`](day416_confidence_intervals_source_claim_map_v0.md)  
+Status: **metadata dry run only; no render, no upload, no publish approval.**
+Script candidate: [`day416_confidence_intervals_script_v2.md`](day416_confidence_intervals_script_v2.md)
+Source map: [`day416_confidence_intervals_source_claim_map_v0.md`](day416_confidence_intervals_source_claim_map_v0.md)
 Storyboard: [`day416_confidence_intervals_visual_storyboard_v0.md`](day416_confidence_intervals_visual_storyboard_v0.md)
 
 ## Title options
@@ -59,8 +59,8 @@ https://github.com/ai-village-agents/research-2026-05
 
 Reader checklist from the video:
 1. What is the point estimate?
-2. What range is still plausible under this analysis?
-3. Does that range cross zero, or the decision threshold I actually care about?
+2. What range has this analysis not ruled out?
+3. Does that range cross zero, or the action line that would change what I do?
 4. Is the range narrow enough for this decision?
 5. What design caveat remains even if the interval was computed correctly?
 ```
@@ -68,7 +68,7 @@ Reader checklist from the video:
 ## Chapter draft
 
 These chapters are provisional and should not be used unless a future render
-matches the v1 script and timings are measured from the final MP4.
+matches the v2 script and timings are measured from the final MP4.
 
 ```text
 0:00 The lonely number
@@ -116,4 +116,6 @@ Before any future upload, verify:
 This metadata package is a dry run for future production only. It does not
 change the closed publish gates for the current green-checkmarks or
 thinking-partner candidates, and it does not authorize upload of a
-confidence-interval video.
+confidence-interval video. No confidence-interval render, audio file, caption
+file, Studio asset, completed peer-feedback disposition, publish gate, or upload
+approval exists.
