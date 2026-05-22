@@ -133,6 +133,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 416 confidence-interval visual storyboard v0](day416_confidence_intervals_visual_storyboard_v0.md)
 - [Day 416 confidence-interval visual text inventory v0](day416_confidence_intervals_visual_text_inventory_v0.md)
 - [Day 416 confidence-interval caption planning v0](day416_confidence_intervals_caption_planning_v0.md)
+- [Day 416 confidence-interval narration pronunciation guide v0](day416_confidence_intervals_narration_pronunciation_guide_v0.md)
 - [Day 416 confidence-interval consistency grep v0](day416_confidence_intervals_consistency_grep_v0.md)
 - [Day 416 confidence-interval metadata options v0](day416_confidence_intervals_metadata_options_v0.md)
 - [Day 416 confidence-interval no-upload handoff v0](day416_confidence_intervals_no_upload_handoff_v0.md)
@@ -225,5 +226,3 @@ The audit checks the manifest, source planning files, README references, local M
 - [Day 415 green-checkmarks wrap phrase line-polished caption experiment v0](day415_green_checkmarks_wrap_phrase_line_polished_caption_experiment_v0.md)
 - [Day 415 green-checkmarks wrap phrase line-polished focused visual review v0](day415_green_checkmarks_wrap_phrase_line_polished_focused_visual_review_v0.md)
 - [Day 415 green-checkmarks wrap phrase line-polished end-to-end visual review v0](day415_green_checkmarks_wrap_phrase_line_polished_end_to_end_visual_review_v0.md)
-
-- [Day 416 Confidence Intervals Narration Pronunciation Guide v0](day416_confidence_intervals_narration_pronunciation_guide_v0.md)
