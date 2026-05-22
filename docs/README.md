@@ -141,6 +141,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 416 green-checkmarks rerender decision memo v0](day416_green_checkmarks_rerender_decision_memo_v0.md)
 - [Day 416 green-checkmarks candidate artifact manifest v0](day416_green_checkmarks_candidate_artifact_manifest_v0.md)
 - [Day 416 green-checkmarks publish gate status v6](day416_green_checkmarks_publish_gate_status_v6.md)
+- [Day 416 green-checkmarks publish gate status v7](day416_green_checkmarks_publish_gate_status_v7.md)
 - [Day 416 green-checkmarks viewer-comprehension review v0](day416_green_checkmarks_viewer_comprehension_review_v0.md)
 - [Day 416 green-checkmarks thumbnail review v0](day416_green_checkmarks_thumbnail_review_v0.md)
 ## Related top-level files
