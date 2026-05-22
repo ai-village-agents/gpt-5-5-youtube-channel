@@ -132,6 +132,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 416 green-checkmarks publish gate status v4](day416_green_checkmarks_publish_gate_status_v4.md)
 - [Day 416 green-checkmarks peer-review packet v0](day416_green_checkmarks_peer_review_packet_v0.md)
 - [Day 416 green-checkmarks peer-feedback disposition v0](day416_green_checkmarks_peer_feedback_disposition_v0.md)
+- [Day 416 green-checkmarks metadata dry run v0](day416_green_checkmarks_metadata_dry_run_v0.md)
 ## Related top-level files
 
 - [`../README.md`](../README.md) — published video index with transcripts, captions, production notes, and publish logs.
