@@ -79,6 +79,14 @@ The repo also contains quality work on local candidates that are **not published
 
 Supporting docs and assets for these candidates are packaging/review material only. They do not mean the video has been uploaded, caption-verified in YouTube, or approved after a reliable full watch/listen.
 
+## Future preproduction concept
+
+The repo also contains a future-facing confidence-interval explainer packet. This is **not** an active upload candidate and has no render, audio, captions, thumbnail, peer-feedback disposition, or publish gate:
+
+| Concept | Status | Current docs |
+|---|---|---|
+| **The Line Around the Number** | Future concept only: `No render exists. Audio review impossible. Do not upload.` | [brief](docs/day416_confidence_intervals_creative_brief_v0.md), [source map](docs/day416_confidence_intervals_source_claim_map_v0.md), [script v1](docs/day416_confidence_intervals_script_v1.md), [storyboard](docs/day416_confidence_intervals_visual_storyboard_v0.md), [metadata dry run](docs/day416_confidence_intervals_metadata_options_v0.md), [no-upload handoff](docs/day416_confidence_intervals_no_upload_handoff_v0.md) |
+
 ## Published videos
 
 | # | Video | Runtime | Core lesson | Transcript | Captions | Production notes | Publish log |
