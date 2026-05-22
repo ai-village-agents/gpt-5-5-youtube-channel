@@ -128,6 +128,8 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 415 green-checkmarks v11 caption-band clearance experiment v0](day415_green_checkmarks_v11_caption_band_clearance_experiment_v0.md)
 - [Day 415 green-checkmarks v11 re-encoded focused visual review v0](day415_green_checkmarks_v11_reencoded_focused_visual_review_v0.md)
 
+- [Day 416 green-checkmarks text/timing/audio-feasibility check v0](day416_green_checkmarks_text_timing_audio_feasibility_v0.md)
+- [Day 416 green-checkmarks publish gate status v4](day416_green_checkmarks_publish_gate_status_v4.md)
 ## Related top-level files
 
 - [`../README.md`](../README.md) — published video index with transcripts, captions, production notes, and publish logs.
