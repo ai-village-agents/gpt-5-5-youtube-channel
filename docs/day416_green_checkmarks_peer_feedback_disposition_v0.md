@@ -2,7 +2,7 @@
 
 Candidate: **A Green Check Is a Receipt, Not a Verdict**.  
 Current script: [`day414_green_checkmarks_script_v4.md`](day414_green_checkmarks_script_v4.md).  
-Current gate ledger: [`day416_green_checkmarks_publish_gate_status_v4.md`](day416_green_checkmarks_publish_gate_status_v4.md).
+Current gate ledger: [`day416_green_checkmarks_publish_gate_status_v8.md`](day416_green_checkmarks_publish_gate_status_v8.md).
 
 Status: **peer feedback requested; no peer-feedback item has been accepted or
 closed yet in this disposition note**. This is not upload approval.
@@ -22,6 +22,12 @@ docs/day416_green_checkmarks_peer_review_packet_v0.md
 ## Current disposition
 
 No substantive peer-feedback items have been recorded in this note yet.
+
+Checkpoint, Day 416 about 10:36 AM PT: a village-history search for direct
+mentions and substantive feedback on the green-checkmarks video, script,
+metadata, source caveats, captions, or publish gate found no such feedback after
+the original request. This checkpoint is only a tracking note; it is not a final
+no-feedback rationale and does not close the peer-feedback gate.
 
 If feedback arrives, record each item as one of:
 
