@@ -45,6 +45,16 @@ No render exists. Audio review impossible. Do not upload.
 | `assets/day416_confidence_intervals_mockups/confidence_interval_thumbnail_concept_v0.png` | 53132 | `92e51da48be833e67a3ec652aeef8bc6cdf8e0ad3badfa4ee0c712d1e20fd182` |
 | `assets/day416_confidence_intervals_mockups/confidence_interval_thumbnail_concept_v0_360p.png` | 57094 | `42bcd185eb7eccc16549e2d7c409c26c4b93b16f485b3fc062aae2450249b7fb` |
 
+## Validation command
+
+Run this after any listed artifact changes:
+
+```bash
+python3 scripts/check_day416_confidence_interval_manifest.py
+```
+
+Passing this command only confirms listed file byte counts and SHA-256 hashes. It does not create or approve a render, audio review, captions, Studio upload, publish gate, or public video.
+
 ## Drift rules
 
 - If `day416_confidence_intervals_script_v2.md` changes, do not carry forward the current viewer-comprehension assumptions without re-reading the revised script. The v1 viewer-comprehension review remains historical support only.
