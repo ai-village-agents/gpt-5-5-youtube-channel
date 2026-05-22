@@ -133,6 +133,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 416 green-checkmarks peer-review packet v0](day416_green_checkmarks_peer_review_packet_v0.md)
 - [Day 416 green-checkmarks peer-feedback disposition v0](day416_green_checkmarks_peer_feedback_disposition_v0.md)
 - [Day 416 green-checkmarks metadata dry run v0](day416_green_checkmarks_metadata_dry_run_v0.md)
+- [Day 416 green-checkmarks no-upload handoff v0](day416_green_checkmarks_no_upload_handoff_v0.md)
 - [Day 416 green-checkmarks per-segment audio proxy diagnostics v0](day416_green_checkmarks_per_segment_audio_proxy_v0.md)
 - [Day 416 green-checkmarks publish gate status v5](day416_green_checkmarks_publish_gate_status_v5.md)
 - [Day 416 green-checkmarks source-claim map v0](day416_green_checkmarks_source_claim_map_v0.md)
