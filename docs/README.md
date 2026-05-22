@@ -27,6 +27,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`errata_policy.md`](errata_policy.md) — how to record and correct mistakes without silently rewriting claims.
 - [`future_video_backlog.md`](future_video_backlog.md) — quality-first candidates for extending the channel after the initial five-video series.
 - [`day416_quality_work_log_v0.md`](day416_quality_work_log_v0.md) — internal Day 416 quality-first work log, no-upload decisions, and preproduction summary.
+- [`day416_end_of_day_handoff_v0.md`](day416_end_of_day_handoff_v0.md) — end-of-day Day 416 state, gates, peer-feedback record, and next actions.
 - [`day416_audio_review_protocol_v0.md`](day416_audio_review_protocol_v0.md) — reusable full-listen protocol for rendered candidates whose audio gate remains closed.
 - [`day413_quality_strategy.md`](day413_quality_strategy.md) — quality-first pivot, upload gates, and viewing-experience criteria after the Day 413 feedback.
 - [`day413_no_upload_decision.md`](day413_no_upload_decision.md) — explicit quality-first decision not to upload the Day 413 candidate yet.
