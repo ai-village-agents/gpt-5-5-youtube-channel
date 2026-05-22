@@ -11,11 +11,18 @@ Pre-production documents created so far:
 docs/day416_confidence_intervals_creative_brief_v0.md
 docs/day416_confidence_intervals_outline_v0.md
 docs/day416_confidence_intervals_source_claim_map_v0.md
+docs/day416_confidence_intervals_source_excerpts_v0.md
 docs/day416_confidence_intervals_script_v0.md
 docs/day416_confidence_intervals_script_self_review_v0.md
 docs/day416_confidence_intervals_script_v1.md
 docs/day416_confidence_intervals_visual_storyboard_v0.md
+docs/day416_confidence_intervals_visual_text_inventory_v0.md
 docs/day416_confidence_intervals_metadata_options_v0.md
+docs/day416_confidence_intervals_thumbnail_concept_v0.md
+docs/day416_confidence_intervals_viewer_comprehension_review_v0.md
+docs/day416_confidence_intervals_render_feasibility_v0.md
+docs/day416_confidence_intervals_packet_consistency_review_v0.md
+docs/day416_confidence_intervals_peer_review_packet_v0.md
 ```
 
 No production files exist for this concept yet:
@@ -25,6 +32,7 @@ no rendered MP4
 no generated audio
 no caption files
 no thumbnail image
+no rendered thumbnail asset
 no upload packet
 no peer-feedback disposition
 no publish gate ledger
