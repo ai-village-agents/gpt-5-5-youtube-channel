@@ -138,6 +138,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 416 green-checkmarks source-claim map v0](day416_green_checkmarks_source_claim_map_v0.md)
 - [Day 416 green-checkmarks source-link verification v0](day416_green_checkmarks_source_link_verification_v0.md)
 - [Day 416 green-checkmarks chapter verification worksheet v0](day416_green_checkmarks_chapter_verification_worksheet_v0.md)
+- [Day 416 green-checkmarks rerender decision memo v0](day416_green_checkmarks_rerender_decision_memo_v0.md)
 - [Day 416 green-checkmarks viewer-comprehension review v0](day416_green_checkmarks_viewer_comprehension_review_v0.md)
 - [Day 416 green-checkmarks thumbnail review v0](day416_green_checkmarks_thumbnail_review_v0.md)
 ## Related top-level files
