@@ -124,6 +124,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 416 confidence-interval explainer script v0](day416_confidence_intervals_script_v0.md)
 - [Day 416 confidence-interval script self-review v0](day416_confidence_intervals_script_self_review_v0.md)
 - [Day 416 confidence-interval explainer script v1](day416_confidence_intervals_script_v1.md)
+- [Day 416 confidence-interval visual storyboard v0](day416_confidence_intervals_visual_storyboard_v0.md)
 - [`day414_thinking_partner_publish_log_template_v0.md`](day414_thinking_partner_publish_log_template_v0.md) — gated future publish-log template separating Studio-confirmed facts, endpoint lag, captions, thumbnails, and publish-now rationale.
 
 - [Day 415 green-checkmarks v9 caveat-joined focused caption review v0](day415_green_checkmarks_v9_caveat_joined_caption_review_v0.md)
