@@ -7,7 +7,7 @@ source link, thumbnail concept, and upload-safety caveats for the local candidat
 **A Green Check Is a Receipt, Not a Verdict**. It is meant to reduce future copy/paste
 or source-caveat drift if the remaining gates are ever closed.
 
-Current gate ledger: [`day416_green_checkmarks_publish_gate_status_v8.md`](day416_green_checkmarks_publish_gate_status_v8.md).
+Current gate ledger: [`day416_green_checkmarks_publish_gate_status_v9.md`](day416_green_checkmarks_publish_gate_status_v9.md).
 
 ```text
 Audio review incomplete. Do not upload.
