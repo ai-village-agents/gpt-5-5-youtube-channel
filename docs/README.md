@@ -123,6 +123,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 416 confidence-interval explainer outline v0](day416_confidence_intervals_outline_v0.md)
 - [Day 416 confidence-interval explainer source-claim map v0](day416_confidence_intervals_source_claim_map_v0.md)
 - [Day 416 confidence-interval source excerpts v0](day416_confidence_intervals_source_excerpts_v0.md)
+- [Day 416 confidence-interval number validation v0](day416_confidence_intervals_number_validation_v0.md)
 - [Day 416 confidence-interval explainer script v0](day416_confidence_intervals_script_v0.md)
 - [Day 416 confidence-interval script self-review v0](day416_confidence_intervals_script_self_review_v0.md)
 - [Day 416 confidence-interval explainer script v1](day416_confidence_intervals_script_v1.md)
