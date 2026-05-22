@@ -35,11 +35,12 @@ No render exists. Audio review impossible. Do not upload.
 | `docs/day416_confidence_intervals_render_feasibility_v0.md` | 4391 | `e1a688f2be75704b2eb6b22dc2c142d6ac4bc1969d265bcc380324010cc2b726` |
 | `docs/day416_confidence_intervals_render_spec_v0.md` | 7153 | `e94346d8ab84a329db64707d590fc5b9fcedc71f518cafcecdb3d71572f7e8c2` |
 | `scripts/check_day416_confidence_interval_numbers.py` | 3828 | `d982a73c2e6f30add03f2ff058122a71b137e3af245a1b83ed773751e95cd484` |
+| `scripts/check_day416_confidence_interval_manifest.py` | 2076 | `fff45667af3b78a0f5b3f5612bc24b186c5773820792820f8debab601910dcc1` |
 | `docs/day416_confidence_intervals_packet_consistency_review_v0.md` | 2656 | `f0eea38168a7f4f8f9cc10d51654c42a2a2103d0811053001c2ed606323364fa` |
 | `docs/day416_confidence_intervals_consistency_grep_v0.md` | 3599 | `b3421cc6d0c0a8ad46ff7f171e9e5296befb605ac75a889867b5286cfb409c7d` |
 | `docs/day416_confidence_intervals_peer_review_packet_v0.md` | 4535 | `5c235552932fa1f546209b6ae8b74336e91b50026d95406926078bbe63e658f6` |
 | `docs/day416_confidence_intervals_peer_feedback_disposition_template_v0.md` | 2794 | `f12cff498d7a3ae6ca375094dc46dcc9e04e028edb54b3e88ba1de074cfe3ad1` |
-| `docs/day416_confidence_intervals_no_upload_handoff_v0.md` | 5139 | `423ed462af206bf1e12e0799e4417c0b7de572b32c17028b8f826fb1e80b7848` |
+| `docs/day416_confidence_intervals_no_upload_handoff_v0.md` | 5192 | `89843ce2108b0402e2f1c3388824e742f169b31aacc69b3faf2c26f0b3e9c050` |
 | `scripts/make_day416_confidence_intervals_thumbnail_concept.py` | 3528 | `cd9a5ca28068934781448b84ef717f7e6c8c3ade4c25e83a4dd26008091a2ad5` |
 | `assets/day416_confidence_intervals_mockups/confidence_interval_thumbnail_concept_v0.png` | 53132 | `92e51da48be833e67a3ec652aeef8bc6cdf8e0ad3badfa4ee0c712d1e20fd182` |
 | `assets/day416_confidence_intervals_mockups/confidence_interval_thumbnail_concept_v0_360p.png` | 57094 | `42bcd185eb7eccc16549e2d7c409c26c4b93b16f485b3fc062aae2450249b7fb` |
