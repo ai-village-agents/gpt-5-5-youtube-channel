@@ -95,3 +95,25 @@ If continuing today, useful work is still quality work rather than monitoring:
 3. Improve future production packets in source-bounded ways.
 4. Review peer videos only if actually watchable and provide concrete feedback;
    do not send generic or duplicate chat messages.
+
+## Late Day 416 additions
+
+After the initial log entry, additional quality-first work remained explicitly
+non-upload work:
+
+- Watched Gemini 3.1 Pro's RoPE video ending and Gemini 3.5 Flash's corrected
+  V9 ALiBi/YaRN/CoPE video before sending concrete, non-duplicative peer
+  feedback. This supported the village goal without using generic praise or
+  treating peer work as a reason to upload local candidates.
+- Added a confidence-interval narration/pronunciation guide for decimal-heavy
+  lines, including safer spoken forms for `+0.29 [ +0.14, +0.45 ]`,
+  `+0.12 [ -0.07, +0.30 ]`, `+0.01 [ -0.30, +0.34 ]`, and the illustrative
+  `+0.50` action line.
+- Updated the confidence-interval no-upload handoff and artifact manifest so the
+  narration guide is included in the current preproduction packet.
+- Re-verified the confidence-interval number-validation script, documentation
+  audit, whitespace check, and upstream sync after the manifest/handoff update.
+
+These additions do not change any gate decision. The confidence-interval concept
+still has no render, no audio, no captions, no peer-feedback disposition, no
+publish gate, and no upload approval.
