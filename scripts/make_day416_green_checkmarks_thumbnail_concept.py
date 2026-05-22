@@ -110,3 +110,75 @@ small = img.resize((640, 360), Image.Resampling.LANCZOS)
 small.save(out_dir / 'thumbnail_concept_v0_360p.png', optimize=True)
 print(out.relative_to(root))
 print((out_dir / 'thumbnail_concept_v0_360p.png').relative_to(root))
+
+
+def make_v1():
+    """Variant: avoids the not-equals symbol and keeps the canonical support phrase."""
+    img = Image.new('RGB', (W, H), BG_TOP)
+    d = ImageDraw.Draw(img)
+    for y in range(H):
+        t = y / (H - 1)
+        fill = tuple(int(BG_TOP[i] * (1 - t) + BG_BOTTOM[i] * t) for i in range(3))
+        d.line([(0, y), (W, y)], fill=fill)
+    for x in range(-240, W, 96):
+        d.line([(x, 0), (x + 360, H)], fill=(24, 31, 48), width=1)
+    for y in range(72, H, 96):
+        d.line([(0, y), (W, y)], fill=(23, 30, 47), width=1)
+
+    rounded(d, (70, 96, 500, 592), 36, PANEL, GREEN, 4)
+    rounded(d, (104, 134, 466, 204), 24, (10, 20, 17), GREEN, 3)
+    centered_text(d, (104, 134, 466, 204), 'CHECK PASSED', font(34, True), GREEN)
+    rounded(d, (144, 252, 292, 400), 30, (12, 31, 24), GREEN, 5)
+    d.line([(178, 326), (218, 362), (262, 288)], fill=GREEN, width=16, joint='curve')
+    for i, (label, color) in enumerate([('version?', BLUE), ('diff?', AMBER), ('risk?', RED)]):
+        y = 458 + i * 42
+        rounded(d, (132, y, 226, y + 24), 10, color)
+        d.text((246, y - 4), label, font=font(26, True), fill=MUTED)
+
+    shadow_text(d, (560, 92), 'GREEN CHECK', font(72, True), GREEN)
+    shadow_text(d, (560, 174), 'NOT A VERDICT', font(68, True), TEXT)
+    d.line((562, 290, 1170, 290), fill=GREEN, width=8)
+
+    rounded(d, (560, 340, 1170, 424), 26, PANEL2, GREEN, 3)
+    d.text((592, 362), 'fresh base • right diff • uncovered risk', font=font(31, True), fill=TEXT)
+
+    rounded(d, (560, 486, 1170, 594), 30, (245, 247, 242), GREEN, 4)
+    d.text((594, 510), 'Read the receipt', font=font(44, True), fill=(15, 23, 35))
+    d.text((594, 560), 'before approval', font=font(30, True), fill=(46, 58, 76))
+
+    rounded(d, (70, 642, 1210, 686), 16, (10, 15, 26), BORDER, 2)
+    d.text((96, 653), 'GPT-5.5 Model • practical software review habits', font=font(24, True), fill=(206, 216, 235))
+
+    mask = Image.new('L', (W, H), 0)
+    md = ImageDraw.Draw(mask)
+    md.rectangle((0, 0, W, H), fill=30)
+    md.ellipse((-180, -140, W + 180, H + 160), fill=0)
+    mask = mask.filter(ImageFilter.GaussianBlur(35))
+    overlay = Image.new('RGB', (W, H), (0, 0, 0))
+    img = Image.composite(overlay, img, mask)
+
+    out = out_dir / 'thumbnail_concept_v1.png'
+    img.save(out, optimize=True)
+    small = img.resize((640, 360), Image.Resampling.LANCZOS)
+    small.save(out_dir / 'thumbnail_concept_v1_360p.png', optimize=True)
+    print(out.relative_to(root))
+    print((out_dir / 'thumbnail_concept_v1_360p.png').relative_to(root))
+
+
+def make_contact_sheet():
+    """Side-by-side 360p comparison sheet for quick phone-size review."""
+    v0 = Image.open(out_dir / 'thumbnail_concept_v0_360p.png').convert('RGB')
+    v1 = Image.open(out_dir / 'thumbnail_concept_v1_360p.png').convert('RGB')
+    sheet = Image.new('RGB', (1280, 414), BG_TOP)
+    sheet.paste(v0, (0, 0))
+    sheet.paste(v1, (640, 0))
+    sd = ImageDraw.Draw(sheet)
+    sd.rectangle((0, 360, 1280, 414), fill=(12, 17, 26))
+    sd.text((18, 378), 'v0: symbol + chips', font=font(26, True), fill=(226, 232, 245))
+    sd.text((658, 378), 'v1: NOT A VERDICT + canonical line', font=font(26, True), fill=(226, 232, 245))
+    out = out_dir / 'thumbnail_concept_v0_v1_360p_contact_sheet.png'
+    sheet.save(out, optimize=True)
+    print(out.relative_to(root))
+
+make_v1()
+make_contact_sheet()

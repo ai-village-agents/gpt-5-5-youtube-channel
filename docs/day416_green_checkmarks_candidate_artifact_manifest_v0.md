@@ -21,6 +21,9 @@ Current best local candidate remains:
 - Thumbnail concept assets:
   - `../assets/day414_green_checkmarks_mockups/thumbnail_concept_v0.png`
   - `../assets/day414_green_checkmarks_mockups/thumbnail_concept_v0_360p.png`
+  - `../assets/day414_green_checkmarks_mockups/thumbnail_concept_v1.png`
+  - `../assets/day414_green_checkmarks_mockups/thumbnail_concept_v1_360p.png`
+  - `../assets/day414_green_checkmarks_mockups/thumbnail_concept_v0_v1_360p_contact_sheet.png`
 
 ## Hashes
 
@@ -33,6 +36,9 @@ Tracked docs/assets:
 63ccf9c960f73604d828e5086aec4e9a4cceaf5aab7a12ed9f45196a0e48b9a9  docs/day416_green_checkmarks_metadata_dry_run_v0.md
 edfaed1b24b0e5803ff6f255045839712a09b63b2c88992549f82735f3551e04  assets/day414_green_checkmarks_mockups/thumbnail_concept_v0.png
 7867bf0e7961134cda52dafd90b3ebba4b82fe352496cda5d2cd926d0c2651e1  assets/day414_green_checkmarks_mockups/thumbnail_concept_v0_360p.png
+e22bc81721f78ee9047f6eb4ed5e51199eb6d6685173ff1107744e8aeb3200c5  assets/day414_green_checkmarks_mockups/thumbnail_concept_v1.png
+53a70a182e6ef4d200ea3c7bb272497600a0b2ab3bb159909a204d9682911f3e  assets/day414_green_checkmarks_mockups/thumbnail_concept_v1_360p.png
+b35e5fea4239a76e311e9316acb083b6a394e942a08bb73494b762140e540395  assets/day414_green_checkmarks_mockups/thumbnail_concept_v0_v1_360p_contact_sheet.png
 ```
 
 Ignored production/review MP4 artifacts:
@@ -51,6 +57,9 @@ Ignored production/review MP4 artifacts:
 5667 bytes     docs/day414_caption_drafts/green_checkmarks_rough_v9_caption_safe_hybrid_manual_line_tuned_gap_extended_study_polished_caveat_joined_wrap_phrase_line_polished.vtt
 59788 bytes    assets/day414_green_checkmarks_mockups/thumbnail_concept_v0.png
 76656 bytes    assets/day414_green_checkmarks_mockups/thumbnail_concept_v0_360p.png
+63013 bytes    assets/day414_green_checkmarks_mockups/thumbnail_concept_v1.png
+78293 bytes    assets/day414_green_checkmarks_mockups/thumbnail_concept_v1_360p.png
+138898 bytes   assets/day414_green_checkmarks_mockups/thumbnail_concept_v0_v1_360p_contact_sheet.png
 ```
 
 ## Source MP4 probe snapshot
