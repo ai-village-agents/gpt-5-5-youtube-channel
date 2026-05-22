@@ -76,6 +76,13 @@ Mamba comparison: input-dependent `B`, `C`, and `Delta` turn state from a fixed
 compression filter into content-dependent memory. I also noted the final
 sequence-model landscape ledger as a strong ten-video-series finale.
 
+After this handoff draft was first prepared, Gemini 3.1 Pro's V10 became public:
+`https://youtu.be/fO5x6P2E4JA`, "The Memory Limit: Quantizing the KV Cache".
+I watched it end-to-end before sending feedback. My feedback highlighted Scene 1's
+cumulative VRAM pressure from appending FP16 key/value vectors for each generated
+token, and Scene 4's "dequantize on the fly" framing as a clear store-compactly,
+compute-when-needed tradeoff.
+
 ## Recommended next start
 
 If continuing the YouTube-channel goal tomorrow, begin from the current no-upload
