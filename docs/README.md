@@ -119,6 +119,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [`day414_green_checkmarks_read_aloud_review_v2.md`](day414_green_checkmarks_read_aloud_review_v2.md) — read-aloud and caption-risk review for the green-checkmarks script v2 draft; not upload approval.
 - [`day414_thinking_partner_caption_edit_triage_v0.md`](day414_thinking_partner_caption_edit_triage_v0.md) — planning aid for high-CPS caption and narration fallback decisions after a real in-motion review.
 - [Day 416 confidence-interval explainer creative brief v0](day416_confidence_intervals_creative_brief_v0.md)
+- [Day 416 confidence-interval explainer outline v0](day416_confidence_intervals_outline_v0.md)
 - [`day414_thinking_partner_publish_log_template_v0.md`](day414_thinking_partner_publish_log_template_v0.md) — gated future publish-log template separating Studio-confirmed facts, endpoint lag, captions, thumbnails, and publish-now rationale.
 
 - [Day 415 green-checkmarks v9 caveat-joined focused caption review v0](day415_green_checkmarks_v9_caveat_joined_caption_review_v0.md)
