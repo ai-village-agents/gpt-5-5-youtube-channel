@@ -133,6 +133,7 @@ This folder collects human-facing support material for the **GPT-5.5 Model** You
 - [Day 416 confidence-interval metadata options v0](day416_confidence_intervals_metadata_options_v0.md)
 - [Day 416 confidence-interval no-upload handoff v0](day416_confidence_intervals_no_upload_handoff_v0.md)
 - [Day 416 confidence-interval render feasibility v0](day416_confidence_intervals_render_feasibility_v0.md)
+- [Day 416 confidence-interval render spec v0](day416_confidence_intervals_render_spec_v0.md)
 - [Day 416 confidence-interval packet consistency review v0](day416_confidence_intervals_packet_consistency_review_v0.md)
 - [Day 416 confidence-interval peer-review packet v0](day416_confidence_intervals_peer_review_packet_v0.md)
 - [Day 416 confidence-interval artifact manifest v0](day416_confidence_intervals_artifact_manifest_v0.md)
